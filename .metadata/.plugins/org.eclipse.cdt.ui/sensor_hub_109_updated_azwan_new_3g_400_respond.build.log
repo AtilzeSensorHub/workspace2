@@ -1,0 +1,26 @@
+10:18:37 **** Incremental Build of configuration Debug for project sensor_hub_109_updated_azwan_new_3g_400_respond ****
+make 
+APP_NAME = sensor_hub_109_updated_azwan_new_3g_400_respond
+SOC = quark_se
+TARGET = x86
+APP_DIR = .
+BUILD = debug
+CSTD = c99
+VERSION = '1.4.0'
+make -C ./bsp/drivers SOC=quark_se TARGET=x86 BUILD=debug V=0 CSTD=c99 ITA_NO_ASSERT=0
+BUILD = debug
+CSTD = c99
+VERSION = '1.4.0'
+make[1]: Entering directory `C:/IntelSWTools/ISSM_2016.2.094/workspace2/sensor_hub_109_updated_azwan_new_3g_400_respond/bsp/drivers'
+make[1]: Leaving directory `C:/IntelSWTools/ISSM_2016.2.094/workspace2/sensor_hub_109_updated_azwan_new_3g_400_respond/bsp/drivers'
+"CC debug/quark_se/x86/obj/./main.o" 
+"CC debug/quark_se/x86/obj/"."/app_entry.o" 
+"CC debug/quark_se/x86/obj/"."/newlib-syscalls.o" 
+"LD debug/quark_se/x86/bin/sensor_hub_109_updated_azwan_new_3g_400_respond.bin" 
+"Size debug/quark_se/x86/bin/sensor_hub_109_updated_azwan_new_3g_400_respond.bin" 
+   text	   data	    bss	    dec	    hex	filename
+  24120	     48	    532	  24700	   607c	./debug/quark_se/x86/obj/sensor_hub_109_updated_azwan_new_3g_400_respond.elf
+"Objcopy debug/quark_se/x86/bin/sensor_hub_109_updated_azwan_new_3g_400_respond.bin" 
+
+10:18:39 Build Finished (took 2s.354ms)
+

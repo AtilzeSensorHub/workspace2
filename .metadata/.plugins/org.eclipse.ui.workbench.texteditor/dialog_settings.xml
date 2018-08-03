@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="MAC_ADDR" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="MAC_ADDR"/>
+			<item value="get_sht10_rh_linear"/>
+			<item value="pump"/>
+			<item value="staging"/>
+			<item value="staging.atilze.com"/>
+			<item value="&quot;find and grab the token from the HTTP response"/>
+			<item value="fabrick"/>
+			<item value="flag="/>
+		</list>
+		<list key="replacehistory">
+			<item value="47.254.197.37"/>
+			<item value="staging"/>
+			<item value="fabrick"/>
+			<item value="QM_UART_1"/>
+			<item value="get_downlink_status_pumpC"/>
+			<item value="RELAY_PUMP_C"/>
+			<item value="_pumpB"/>
+			<item value="_pumpC"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="263" key="DIALOG_WIDTH"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+		<item value="367" key="DIALOG_HEIGHT"/>
+		<item value="1064" key="DIALOG_X_ORIGIN"/>
+		<item value="161" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

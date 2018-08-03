@@ -1,0 +1,43 @@
+10:00:43 **** Incremental Build of configuration Debug for project sensor_hub_3G_new_test ****
+make 
+APP_NAME = sensor_hub_3G_new_test
+SOC = quark_se
+TARGET = x86
+APP_DIR = .
+BUILD = debug
+CSTD = c99
+VERSION = '1.4.0'
+make -C ./bsp/drivers SOC=quark_se TARGET=x86 BUILD=debug V=0 CSTD=c99 ITA_NO_ASSERT=0
+BUILD = debug
+CSTD = c99
+VERSION = '1.4.0'
+make[1]: Entering directory `C:/IntelSWTools/ISSM_2016.2.094/workspace2/sensor_hub_3G_new_test/bsp/drivers'
+make[1]: Leaving directory `C:/IntelSWTools/ISSM_2016.2.094/workspace2/sensor_hub_3G_new_test/bsp/drivers'
+"CC debug/quark_se/x86/obj/./main.o" 
+"CC debug/quark_se/x86/obj/"."/app_entry.o" 
+"CC debug/quark_se/x86/obj/"."/newlib-syscalls.o" 
+"CC debug/quark_se/x86/obj/do_kit103d.o" 
+"CC debug/quark_se/x86/obj/ferti_pump_status.o" 
+"CC debug/quark_se/x86/obj/floatswitch_lv600.o" 
+"CC debug/quark_se/x86/obj/pm25_hpma115.o" 
+"CC debug/quark_se/x86/obj/temp_rh_sht10.o" 
+"CC debug/quark_se/x86/obj/ultrasonic_mb7060.o" 
+"CC debug/quark_se/x86/obj/cellular_3g.o" 
+"CC debug/quark_se/x86/obj/lora.o" 
+"CC debug/quark_se/x86/obj/debug_mode.o" 
+"CC debug/quark_se/x86/obj/gpio.o" 
+"CC debug/quark_se/x86/obj/mailbox.o" 
+"CC debug/quark_se/x86/obj/power.o" 
+"CC debug/quark_se/x86/obj/radio.o" 
+"CC debug/quark_se/x86/obj/sensor.o" 
+"CC debug/quark_se/x86/obj/utilities.o" 
+"CC debug/quark_se/x86/obj/xbee.o" 
+"CC debug/quark_se/x86/obj/usb_device.o" 
+"LD debug/quark_se/x86/bin/sensor_hub_3G_new_test.bin" 
+"Size debug/quark_se/x86/bin/sensor_hub_3G_new_test.bin" 
+   text	   data	    bss	    dec	    hex	filename
+   5228	     28	    320	   5576	   15c8	./debug/quark_se/x86/obj/sensor_hub_3G_new_test.elf
+"Objcopy debug/quark_se/x86/bin/sensor_hub_3G_new_test.bin" 
+
+10:00:46 Build Finished (took 3s.786ms)
+

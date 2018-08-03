@@ -1,0 +1,429 @@
+/*
+ Copyright (c) 2017, Atilze Digital Sdn. Bhd.
+
+ cellular_3g.c
+ This is the library file for cellular 3G.
+
+ Version   : 1.00
+ Author    : Khoo Boon Kien / Tan Han Wei
+ File Name : cellular_3g.c
+
+ History:
+   1.00 BK 27-Nov-17 Initial
+ */
+
+#include "qm_common.h"
+#include "system/utilities.h"
+#include "qm_uart.h"
+#include "../main.h"
+#include "qm_common.h"
+#include "qm_pinmux.h"
+#include "clk.h"
+#include "qm_gpio.h"
+#include "string.h"
+#include "stdlib.h"
+#include "system/gpio.h"
+
+// Initialise the XBee 3G module
+void cellular_3g_init(qm_uart_config_t *cfg)
+{
+    // Enable XBee Vcc
+	qm_gpio_set_pin(QM_GPIO_0, 20);
+
+	qm_pmux_select(QM_PIN_ID_19, QM_PMUX_FN_0);  // UART0 TXD
+	qm_pmux_select(QM_PIN_ID_18, QM_PMUX_FN_0);  // UART0 RXD
+	qm_pmux_select(QM_PIN_ID_41, QM_PMUX_FN_1);  // UART0 RTS
+	qm_pmux_select(QM_PIN_ID_40, QM_PMUX_FN_1);  // UART0 CTS
+	qm_pmux_input_en(QM_PIN_ID_18, true);
+	qm_pmux_input_en(QM_PIN_ID_41, true);
+
+    // Configures UART_0 for 9600 bps
+    cfg->baud_divisor = QM_UART_CFG_BAUD_DL_PACK(0, 208, 5);
+    cfg->line_control = QM_UART_LC_8N1;
+    cfg->hw_fc = false;
+
+    qm_uart_set_config(QM_UART_0, cfg);
+
+    // enable clock for UART_0
+    clk_periph_enable(CLK_PERIPH_CLK | CLK_PERIPH_UARTA_REGISTER);
+
+    clk_sys_udelay(5000000);    // Create 5 sec delay
+
+    // Send +++ (Enter AT command mode)
+    uint8_t at0[] = "+++";
+    qm_uart_write_buffer(QM_UART_0, at0, (sizeof(at0) - 1));
+    clk_sys_udelay(5000000);    // Create 5 sec delay
+
+    // Send ATDE 50
+    uint8_t at1[] = "ATDE 50\r\n";
+    qm_uart_write_buffer(QM_UART_0, at1, (sizeof(at1) - 1));
+    clk_sys_udelay(3000000); 	// Create 3 sec delay
+
+    // Send ATWR
+    uint8_t at2[] = "ATWR\r\n";
+    qm_uart_write_buffer(QM_UART_0, at2, (sizeof(at2) - 1));
+    clk_sys_udelay(3000000); 	// Create 3 sec delay
+
+    // Send ATAC
+    uint8_t at3[] = "ATAC\r\n";
+    qm_uart_write_buffer(QM_UART_0, at3, (sizeof(at3) - 1));
+    clk_sys_udelay(3000000); 	// Create 3 sec delay
+
+    // Send ATCN (Exit AT command mode)
+    uint8_t at4[] = "ATCN\r\n";
+    qm_uart_write_buffer(QM_UART_0, at4, (sizeof(at4) - 1));
+    clk_sys_udelay(5000000); 	// Create 5 sec delay
+
+    // Send +++ (Enter AT command mode)
+    uint8_t at5[] = "+++";
+    qm_uart_write_buffer(QM_UART_0, at5, (sizeof(at5) - 1));
+    clk_sys_udelay(5000000);    // Create 5 sec delay
+
+//  // Send ATDL putsreq.com
+	//uint8_t at6[] = "ATDL staging.atilze.com\r\n";
+    uint8_t at6[] = "ATDL industrial.api.ubidots.com\r\n";
+    qm_uart_write_buffer(QM_UART_0, at6, (sizeof(at6) - 1));
+    clk_sys_udelay(3000000); 	// Create 3 sec delay7
+
+    //azwan add test
+    uint8_t uart_buffer=0;
+	uint8_t uart_rx[16];
+	memset(uart_rx,0,sizeof(uart_rx));
+
+	static qm_uart_status_t uart0_status __attribute__((unused)) = 0;
+    qm_uart_get_status(QM_UART_0, &uart0_status);
+	clk_sys_udelay(10000); 	// Create 10 milisec delay
+
+	if (uart0_status != QM_UART_IDLE)
+	{
+		for(int jj=0; jj<4; jj++)
+		{
+			qm_uart_read(QM_UART_0, &uart_buffer, &uart0_status);
+			uart_rx[jj] = uart_buffer;
+			QM_PRINTF("jj: %d",jj);
+			QM_PRINTF("%s",uart_rx);
+		}
+
+	}
+	//ends
+
+
+
+    // Send ATWR
+    uint8_t at7[] = "ATWR\r\n";
+    qm_uart_write_buffer(QM_UART_0, at7, (sizeof(at7) - 1));
+    clk_sys_udelay(3000000); 	// Create 3 sec delay
+
+    // Send ATAC
+    uint8_t at8[] = "ATAC\r\n";
+    qm_uart_write_buffer(QM_UART_0, at8, (sizeof(at8) - 1));
+    clk_sys_udelay(3000000); 	// Create 3 sec delay
+
+    // Send ATCN (Exit AT command mode)
+    uint8_t at9[] = "ATCN\r\n";
+    qm_uart_write_buffer(QM_UART_0, at9, (sizeof(at9) - 1));
+    clk_sys_udelay(5000000); 	// Create 5 sec delay
+}
+
+// Send data via 3G
+void cellular_3g_send(const qm_uart_t uart)
+{
+	/*
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	// 1st POST command ("POST POST_URL  HTTP/1.1\r\n")            //
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	uint8_t cmd0_a[]  = "POST ";
+	uint8_t cmd0_b[]  = "/api/v1.6/devices/devicex";
+	uint8_t cmd0_c[]  = " HTTP/1.1\r\n";
+	uint8_t cmd0[100];
+
+	memset(cmd0,0,sizeof(cmd0));
+	uint8_t size_of_cmd0 = sizeof(cmd0_a)+sizeof(cmd0_b)+sizeof(cmd0_c)-2;
+
+	concat(cmd0, cmd0_a);
+	concat(cmd0, cmd0_b);
+	concat(cmd0, cmd0_c);
+
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	// 2nd POST command ("Host: POST_HOST\r\n")                  //
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	uint8_t cmd1_a[]  = "Host: ";
+	uint8_t cmd1_b[]  = "things.ubidots.com";
+	uint8_t cmd1_c[]  = " \r\n";
+	uint8_t cmd1[100];
+	memset(cmd1,0,sizeof(cmd1));
+	uint8_t size_of_cmd1 = sizeof(cmd1_a)+sizeof(cmd1_b)+sizeof(cmd1_c)-2;
+
+	concat(cmd1, cmd1_a);
+	concat(cmd1, cmd1_b);
+	concat(cmd1, cmd1_c);
+
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	// 3rd POST command ("Content-Type: application/json\r\n")     //
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	uint8_t cmd2_a[] = "\"Content-Type\": ";
+	uint8_t cmd2_b[] = "\"application/json\"\r\n";
+
+	uint8_t cmd2[100];
+	memset(cmd2,0,sizeof(cmd2));
+	uint8_t size_of_cmd2 = sizeof(cmd2_a)+sizeof(cmd2_b)-1;
+
+	concat(cmd2, cmd2_a);
+	concat(cmd2, cmd2_b);
+
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	// 4th POST command ("Content-Length: 14\r\n\r\n")             //
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+
+	uint8_t cmd3[]  = "\"X-Auth-Token\": \"A1E-kvuGQMIEMhwiHcUGI1MQNZE0n0wHqJ\"\r\n\r\n";
+	uint8_t size_of_cmd3 = sizeof(cmd3);
+
+
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	//     Body/Message ("{\"data\":\"PAYLOAD\"}\r\n")             //
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	uint8_t body[]  = "\"variablex\": 33\r\n";
+	uint8_t size_of_body = sizeof(body);
+
+	clk_sys_udelay(5000000); // Delay 0.5 second
+
+	static qm_uart_status_t uart0_status __attribute__((unused)) = 0;
+	qm_uart_get_status(uart, &uart0_status);
+	while((uart0_status == QM_UART_TX_BUSY))
+	{
+		//clk_sys_udelay(10000); 	// Create 10 sec delay
+		qm_uart_get_status(uart, &uart0_status);
+	}
+	clk_sys_udelay(10000); 	// Create 10 milisec delay
+
+
+//	//uint8_t head[]="{\"Content-Type\": \"application/json\", \"X-Auth-Token\": \"A1E-kvuGQMIEMhwiHcUGI1MQNZE0n0wHqJ\"}\r\n";
+//	uint8_t head[]="{\"X-Auth-Token\": \"A1E-kvuGQMIEMhwiHcUGI1MQNZE0n0wHqJ\", \"Content-Type\": \"application/json\"}\r\n";
+//	uint8_t size_of_head=sizeof(head);
+//
+//	uint8_t data[]="{\"variablex\": 46}";
+//	uint8_t size_of_data=sizeof(data);
+
+
+
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	// Send the POST msgs over HTTP                                //
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+//	qm_uart_write_buffer(uart, cmd0, (size_of_cmd0- 1)); 	 clk_sys_udelay(500000); // Delay 0.5 second
+//	qm_uart_write_buffer(uart, cmd1, (size_of_cmd1- 1));     clk_sys_udelay(500000); // Delay 0.5 second
+//	qm_uart_write_buffer(uart, head, (size_of_head- 1)); 	 clk_sys_udelay(500000); // Delay 0.5 second
+//	qm_uart_write_buffer(uart, data, (size_of_data- 1)); 	 clk_sys_udelay(500000); // Delay 0.5 second
+
+
+	qm_uart_write_buffer(uart, cmd0, (size_of_cmd0- 1)); 	 clk_sys_udelay(500000); // Delay 0.5 second
+	qm_uart_write_buffer(uart, cmd1, (size_of_cmd1- 1));     clk_sys_udelay(500000); // Delay 0.5 second
+	qm_uart_write_buffer(uart, cmd2, (size_of_cmd2- 1));     clk_sys_udelay(500000); // Delay 0.5 second
+	qm_uart_write_buffer(uart, cmd3, (size_of_cmd3- 1));     clk_sys_udelay(500000); // Delay 0.5 second  //TODO: to change 3rd to 4th.
+	qm_uart_write_buffer(uart, body, (size_of_body- 1));     clk_sys_udelay(500000); // Delay 0.5 second
+
+	QM_PRINTF("%s\n",cmd0);
+	QM_PRINTF("%s\n",cmd1);
+	QM_PRINTF("%s\n",cmd2);
+	QM_PRINTF("%s\n",cmd3);
+	QM_PRINTF("%s\n",body);
+
+	memset(cmd0,0,sizeof(cmd0));
+	memset(cmd1,0,sizeof(cmd1));
+	memset(cmd2,0,sizeof(cmd2));
+	memset(cmd3,0,sizeof(cmd3));
+	memset(body,0,sizeof(body));
+
+	clk_sys_udelay(5000000); 	// Create 5 sec delay
+
+	//azwan added to check respond from server
+	uint8_t uart_buffer=0;
+	uint8_t uart_rx[200];
+	memset(uart_rx,0,sizeof(uart_rx));
+	qm_uart_get_status(uart, &uart0_status);
+	clk_sys_udelay(1000); 	// Create 10 milisec delay
+	for (int jj=0;jj<16;jj++)
+	{
+		if (uart0_status != QM_UART_IDLE)
+		{
+			qm_uart_read(QM_UART_0, &uart_buffer, &uart0_status);
+			uart_rx[jj] = uart_buffer;
+			QM_PRINTF("jj: %d", jj);
+			QM_PRINTF("%s\n", uart_rx);
+		}
+		else
+		{
+			qm_uart_get_status(uart, &uart0_status);
+			clk_sys_udelay(10000);
+		}
+
+	}
+
+	QM_PRINTF("uart3g: %s\n", uart_rx);
+	*/
+
+
+
+
+
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+	// Test Bench (Do Not Delete)                                  //
+	//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+    // Test Codes
+	//uint8_t cmd0[] = "POST /GHiLtvmGg8D0aFDhKuEu HTTP/1.1\r\n";
+	//uint8_t cmd1[] = "Host: putsreq.com\r\n";
+	//uint8_t cmd2[] = "Content-Type: application/json\r\n";
+	//uint8_t cmd3[] = "Content-Length: 14\r\n\r\n";
+	//uint8_t cmd4[] = "{\"data\":\"123\"}\r\n";
+
+//	uint8_t cmd0[] = "POST /api/v1.6/devices/devicex HTTP/1.1\r\n";
+//	uint8_t cmd1[] = "Host: things.ubidots.com\r\n";
+//	uint8_t cmd2[] = "Content-Type: application/json\r\n";
+//	uint8_t cmd3[] = "X-Auth-Token: A1E-kvuGQMIEMhwiHcUGI1MQNZE0n0wHqJ\r\n";
+//	uint8_t cmd4[] = "Content-Length: 76\r\n\r\n";
+//	uint8_t cmd5[] = "{\"variablex\":\"123\"}\r\n";
+
+
+	uint8_t cmd0[] = "POST /api/v1.6/devices/datax/variablex/values/?token=BBFF-mE3Q3YAXYtpAuXpUKMDFntJZBV2jgt HTTP/1.1\r\n";
+	//uint8_t cmd0[] = "POST /api/v1.6/devices/devicex HTTP/1.1\r\n";
+	uint8_t cmd1[] ="Host: things.ubidots.com\r\n";
+	//uint8_t cmd2[] ="User-Agent: ESP8266 1.0\r\n";
+	//uint8_t cmd3[] ="X-Auth-Token: A1E-kvuGQMIEMhwiHcUGI1MQNZE0n0wHqJ\r\n";
+	//uint8_t cmd4[] ="Connection: close\r\n";
+	uint8_t cmd5[] ="Content-Type: application/json\r\n";
+	uint8_t cmd6[] ="Content-Length: 76\r\n\r\n";
+	//uint8_t cmd7[] = "{\"variablex\":35}\r\n\r\n";
+	uint8_t cmd7[] = "{\"value\":35}\r\n\r\n";
+
+	//uint8_t cmd4[] = "{\"message\":{\"id\":\"0\",\"macAddr\":\"000000000FFFFFF4\",\"data\":\"000000000100670c1c\",\"recv\":\"0\",\"extra\":{\"commsysType\":\"0\",\"rssi\":-47,\"snr\":0,\"frameCnt\":1,\"gwid\":\"0\",\"gwip\":\"0\",\"channel\":0,\"sf\":0,\"fport\":0},\"pub\":\"0\"}}\r\n";
+
+
+	//uint8_t tx_packet[] = "000000000100670c1c";
+
+	QM_PRINTF("%s\n",cmd0);
+	QM_PRINTF("%s\n",cmd1);
+	//QM_PRINTF("%s\n",cmd2);
+	//QM_PRINTF("%s\n",cmd3);
+	//QM_PRINTF("%s\n",cmd4);
+	QM_PRINTF("%s\n",cmd5);
+	QM_PRINTF("%s\n",cmd6);
+	QM_PRINTF("%s\n",cmd7);
+
+	static qm_uart_status_t uart0_status __attribute__((unused)) = 0;
+	qm_uart_get_status(uart, &uart0_status);
+	while((uart0_status == QM_UART_TX_BUSY))
+	{
+		//clk_sys_udelay(10000); 	// Create 10 sec delay
+		qm_uart_get_status(uart, &uart0_status);
+	}
+	clk_sys_udelay(10000); 	// Create 10 milisec delay
+
+	qm_uart_write_buffer(uart, cmd0, (sizeof(cmd0)- 1)); 	 clk_sys_udelay(500000); // Delay 0.5 second
+	qm_uart_write_buffer(uart, cmd1, (sizeof(cmd1)- 1));     clk_sys_udelay(500000); // Delay 0.5 second
+	//qm_uart_write_buffer(uart, cmd2, (sizeof(cmd2)- 1));     clk_sys_udelay(500000); // Delay 0.5 second
+	//qm_uart_write_buffer(uart, cmd3, (sizeof(cmd3)- 1));     clk_sys_udelay(500000); // Delay 0.5 second
+	//qm_uart_write_buffer(uart, cmd4, (sizeof(cmd4)- 1));     clk_sys_udelay(500000); // Delay 0.5 second
+	qm_uart_write_buffer(uart, cmd5, (sizeof(cmd5)- 1));     clk_sys_udelay(500000); // Delay 0.5 second
+	qm_uart_write_buffer(uart, cmd6, (sizeof(cmd6)- 1));     clk_sys_udelay(500000); // Delay 0.5 second
+	qm_uart_write_buffer(uart, cmd7, (sizeof(cmd7)- 1));     clk_sys_udelay(500000); // Delay 0.5 second
+
+	//azwan added to check respond from server
+	uint8_t uart_buffer=0;
+	uint8_t uart_rx[200];
+
+	memset(uart_rx,0,sizeof(uart_rx));
+	qm_uart_get_status(uart, &uart0_status);
+	clk_sys_udelay(1000); 	// Create 10 milisec delay
+	for (int jj=0;jj<10;jj++)
+	{
+		if (uart0_status != QM_UART_IDLE)
+		{
+			qm_uart_read(QM_UART_0, &uart_buffer, &uart0_status);
+			uart_rx[jj] = uart_buffer;
+			QM_PRINTF("jj: %d", jj);
+			QM_PRINTF("%s\n", uart_rx);
+		}
+		else
+		{
+			qm_uart_get_status(uart, &uart0_status);
+			clk_sys_udelay(10000);
+		}
+
+	}
+
+	QM_PRINTF("uart3g: %s\n", uart_rx);
+
+
+}
+
+// Check 3G connectivity
+void cellular_3g_connect(const qm_uart_t uart)
+{
+	uint8_t uart_buffer=0;
+	uint8_t uart_rx[16];
+	memset(uart_rx,0,sizeof(uart_rx));
+
+	static qm_uart_status_t uart0_status __attribute__((unused)) = 0;
+
+	// Clear buffer and flush all the data
+	qm_uart_get_status(uart, &uart0_status);
+	clk_sys_udelay(10000); 	// Create 10 milisec delay
+	if (uart0_status != QM_UART_IDLE)
+	{
+		for(int jj=0; jj<16; jj++)
+		{
+			qm_uart_read(QM_UART_0, &uart_buffer, &uart0_status);
+			uart_rx[jj] = uart_buffer;
+		}
+	}
+	clk_sys_udelay(2000000); 	// Create 2 sec delay
+
+	// Make sure it is connected
+	while (1)
+	{
+        // Send +++ (Enter AT command mode)
+		uint8_t at0[] = "+++";
+		qm_uart_write_buffer(uart, at0, (sizeof(at0) - 1));
+
+		// Total of 6 seconds delay with blinking LED
+		for(int jj=0; jj<3; jj++)
+		{
+		  led_b_flash();             // Flash LED2 (RED)
+		  clk_sys_udelay(1000000); 	// Create 1 sec delay
+		}
+
+		// Send ATAI
+		uint8_t at1[] = "ATAI\r\n";
+		qm_uart_write_buffer(uart, at1, (sizeof(at1) - 1));
+
+		// Total of 2 seconds delay with blinking LED
+		led_b_flash();               // Flash LED2 (RED)
+		clk_sys_udelay(1000000); 	// Create 1 sec delay
+
+		qm_uart_get_status(uart, &uart0_status);
+		clk_sys_udelay(10000); 	// Create 10 milisec delay
+
+		if (uart0_status != QM_UART_IDLE)
+		{
+			for(int jj=0; jj<4; jj++)
+			{
+				qm_uart_read(QM_UART_0, &uart_buffer, &uart0_status);
+                uart_rx[jj] = uart_buffer;
+			}
+
+			if (uart_rx[3] == 48)// Check for '0'
+			{
+				led_b_on();
+				break;
+			}
+
+		}
+
+		// Total 10 seconds delay with blinking LED
+		for(int jj=0; jj<5; jj++)
+		{
+		  led_b_flash();             // Flash LED2 (RED)
+		  clk_sys_udelay(1000000); 	// Create 1 sec delay
+		}
+	}
+
+}

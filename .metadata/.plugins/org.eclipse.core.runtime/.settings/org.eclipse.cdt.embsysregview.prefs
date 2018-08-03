@@ -1,0 +1,4 @@
+architecture=x86
+chip=Quark_SE
+eclipse.preferences.version=1
+vendor=Intel

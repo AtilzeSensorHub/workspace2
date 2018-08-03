@@ -1,0 +1,13 @@
+08:54:10 **** Clean-only build of configuration Debug for project sensor_hub_3G_ss ****
+make clean 
+APP_NAME = sensor_hub_3G_ss
+SOC = quark_se
+TARGET = sensor
+APP_DIR = .
+BUILD = debug
+CSTD = c99
+VERSION = '1.4.0'
+rm -f -r ./debug/quark_se/sensor/bin ./debug/quark_se/sensor/obj ./debug/quark_se/sensor ./bsp/drivers/debug/quark_se/sensor ./bsp/soc/quark_se/debug/quark_se/sensor/obj ./debug/quark_se/sensor/obj ./bsp/build/debug/quark_se/sensor
+
+08:54:11 Build Finished (took 1s.133ms)
+

@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/issm.configuration.release/BUILD/delimiter=;
+environment/project/issm.configuration.release/BUILD/operation=replace
+environment/project/issm.configuration.release/BUILD/value=release
+environment/project/issm.configuration.release/append=true
+environment/project/issm.configuration.release/appendContributed=true

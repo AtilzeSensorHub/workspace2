@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="issm.configuration.release">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="issm.configuration.release" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="issm.configuration.release" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="issm.configuration.release." name="/" resourcePath="">
+						<toolChain id="com.intel.iss.mcu.toolChain.gcc.a.debug.1097052832" name="Intel® System Studio for Microcontrollers - GCC IA Compiler" superClass="com.intel.iss.mcu.toolChain.gcc.a.debug">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF" id="com.intel.iss.mcu.target.base.145834188" isAbstract="false" name="com.intel.iss.mcu.target.base" osList="all" superClass="com.intel.iss.mcu.target.base"/>
+							<builder cleanBuildTarget="clean" id="com.intel.iss.mcu.builder.make.gcc.62686727" incrementalBuildTarget="" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="false" superClass="com.intel.iss.mcu.builder.make.gcc"/>
+							<tool id="com.intel.iss.mcu.c.compiler.gcc.1418595244" name="GCC C Compiler" superClass="com.intel.iss.mcu.c.compiler.gcc">
+								<inputType id="com.intel.iss.mcu.compiler.c.input.1293860276" name="CSources" superClass="com.intel.iss.mcu.compiler.c.input"/>
+							</tool>
+							<tool id="com.intel.iss.mcu.cpp.compiler.gcc.419513878" name="GCC C++ Compiler" superClass="com.intel.iss.mcu.cpp.compiler.gcc"/>
+							<tool id="com.intel.iss.mcu.c.linker.gcc.511129975" name="GCC C Linker" superClass="com.intel.iss.mcu.c.linker.gcc">
+								<inputType id="com.intel.iss.mcu.linker.input.1749374807" superClass="com.intel.iss.mcu.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinputdependency" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.intel.iss.mcu.cpp.linker.gcc.1832881352" name="GCC C++ Linker" superClass="com.intel.iss.mcu.cpp.linker.gcc"/>
+							<tool id="com.intel.iss.mcu.assembler.gcc.1402210760" name="GCC Assembler " superClass="com.intel.iss.mcu.assembler.gcc">
+								<inputType id="com.intel.iss.mcu.assembler.input.634063915" superClass="com.intel.iss.mcu.assembler.input"/>
+								<inputType id="com.intel.iss.mcu.assembler.input2.1945180668" superClass="com.intel.iss.mcu.assembler.input2"/>
+							</tool>
+							<tool id="com.intel.iss.mcu.archiver.gcc.1487276479" name="GCC Archiver" superClass="com.intel.iss.mcu.archiver.gcc"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="issm.configuration.debug">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="issm.configuration.debug" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="issm.configuration.debug" name="Debug" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="issm.configuration.debug." name="/" resourcePath="">
+						<toolChain id="com.intel.iss.mcu.toolChain.gcc.a.debug.1856454031" name="Intel® System Studio for Microcontrollers - GCC IA Compiler" superClass="com.intel.iss.mcu.toolChain.gcc.a.debug">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF" id="com.intel.iss.mcu.target.base.329624081" isAbstract="false" name="com.intel.iss.mcu.target.base" osList="all" superClass="com.intel.iss.mcu.target.base"/>
+							<builder cleanBuildTarget="clean" id="com.intel.iss.mcu.builder.make.gcc.995208458" incrementalBuildTarget="" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="false" superClass="com.intel.iss.mcu.builder.make.gcc"/>
+							<tool id="com.intel.iss.mcu.c.compiler.gcc.2108499940" name="GCC C Compiler" superClass="com.intel.iss.mcu.c.compiler.gcc">
+								<inputType id="com.intel.iss.mcu.compiler.c.input.514496483" name="CSources" superClass="com.intel.iss.mcu.compiler.c.input"/>
+							</tool>
+							<tool id="com.intel.iss.mcu.cpp.compiler.gcc.935300489" name="GCC C++ Compiler" superClass="com.intel.iss.mcu.cpp.compiler.gcc"/>
+							<tool id="com.intel.iss.mcu.c.linker.gcc.140944860" name="GCC C Linker" superClass="com.intel.iss.mcu.c.linker.gcc">
+								<inputType id="com.intel.iss.mcu.linker.input.609540702" superClass="com.intel.iss.mcu.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinputdependency" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.intel.iss.mcu.cpp.linker.gcc.131399699" name="GCC C++ Linker" superClass="com.intel.iss.mcu.cpp.linker.gcc"/>
+							<tool id="com.intel.iss.mcu.assembler.gcc.400529548" name="GCC Assembler " superClass="com.intel.iss.mcu.assembler.gcc">
+								<inputType id="com.intel.iss.mcu.assembler.input.1267299010" superClass="com.intel.iss.mcu.assembler.input"/>
+								<inputType id="com.intel.iss.mcu.assembler.input2.1216360296" superClass="com.intel.iss.mcu.assembler.input2"/>
+							</tool>
+							<tool id="com.intel.iss.mcu.archiver.gcc.1599998484" name="GCC Archiver" superClass="com.intel.iss.mcu.archiver.gcc"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="sensor_hub_106_thingspeak_sensor.null.132621384" name="sensor_hub_106_thingspeak_sensor"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>

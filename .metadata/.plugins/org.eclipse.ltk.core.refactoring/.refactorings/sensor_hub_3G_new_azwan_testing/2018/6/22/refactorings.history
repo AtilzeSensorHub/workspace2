@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;sensor_hub_3G_new_azwan_testing/sensor_hub_lib/wireless/serialtest.c&apos; to &apos;uart_test.c&apos;" description="Rename resource &apos;serialtest.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="sensor_hub_lib/wireless/serialtest.c" name="uart_test.c" stamp="1527818287117" updateReferences="true"/>
+</session>

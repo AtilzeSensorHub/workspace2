@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;sensor_hub_109_updated_azwan_new_3g/sensor_hub_109_updated_azwan_new_3g_400_respond (flash to board).launch&apos; to &apos;sensor_hub_109_updated_azwan_new (flash to board).launch&apos;" description="Rename resource &apos;sensor_hub_109_updated_azwan_new_3g_400_respond (flash to board).launch&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="sensor_hub_109_updated_azwan_new_3g_400_respond (flash to board).launch" name="sensor_hub_109_updated_azwan_new (flash to board).launch" stamp="1531205520114" updateReferences="true"/>
+</session>

@@ -1,0 +1,95 @@
+/*
+ Copyright (c) 2017, Atilze Digital Sdn. Bhd.
+
+ cellular_3g.c
+ This is the library file for cellular 3G.
+
+ Version   : 1.00
+ Author    : Khoo Boon Kien / Tan Han Wei
+ File Name : cellular_3g.c
+
+ History:
+   1.00 BK 27-Nov-17 Initial
+ */
+
+#include "qm_common.h"
+#include "system/utilities.h"
+#include "qm_uart.h"
+#include "../main.h"
+#include "qm_common.h"
+#include "qm_pinmux.h"
+#include "clk.h"
+#include "qm_gpio.h"
+#include "string.h"
+#include "stdlib.h"
+#include "system/gpio.h"
+
+// Initialise the XBee 3G module
+void uart_test_init(qm_uart_config_t *cfg)
+{
+    // Enable XBee Vcc
+	qm_gpio_set_pin(QM_GPIO_0, 20);
+
+	qm_pmux_select(QM_PIN_ID_19, QM_PMUX_FN_0);  // UART0 TXD
+	qm_pmux_select(QM_PIN_ID_18, QM_PMUX_FN_0);  // UART0 RXD
+	qm_pmux_select(QM_PIN_ID_41, QM_PMUX_FN_1);  // UART0 RTS
+	qm_pmux_select(QM_PIN_ID_40, QM_PMUX_FN_1);  // UART0 CTS
+	qm_pmux_input_en(QM_PIN_ID_18, true);
+	qm_pmux_input_en(QM_PIN_ID_41, true);
+
+//	qm_pmux_select(QM_PIN_ID_16, QM_PMUX_FN_0);  // UART1 TXD
+//	qm_pmux_select(QM_PIN_ID_17, QM_PMUX_FN_0);  // UART1 RXD
+//	qm_pmux_select(QM_PIN_ID_9, QM_PMUX_FN_1);  // UART1 RTS
+//	qm_pmux_select(QM_PIN_ID_8, QM_PMUX_FN_1);  // UART1 CTS
+//	qm_pmux_input_en(QM_PIN_ID_16, true);
+//	qm_pmux_input_en(QM_PIN_ID_9, true);
+
+    // Configures UART_0 for 9600 bps
+    cfg->baud_divisor = QM_UART_CFG_BAUD_DL_PACK(0, 208, 5);
+    cfg->line_control = QM_UART_LC_8N1;
+    cfg->hw_fc = false;
+
+    //UART Selection
+    qm_uart_set_config(QM_UART_0, cfg);
+
+    //qm_uart_set_config(QM_UART_1, cfg);
+
+    // enable clock for UART_0
+    clk_periph_enable(CLK_PERIPH_CLK | CLK_PERIPH_UARTA_REGISTER);
+
+    clk_sys_udelay(5000000);    // Create 5 sec delay
+
+//    // Send uart starts
+    uint8_t at0[] = "AT\r\n";
+    qm_uart_write_buffer(QM_UART_0, at0, (sizeof(at0) - 1));
+    clk_sys_udelay(5000000);    // Create 5 sec delay
+
+
+//   uint8_t at1[] = "AT+GMR\r\n";
+//   qm_uart_write_buffer(QM_UART_0, at1, (sizeof(at1) - 1));
+//   clk_sys_udelay(5000000);    // Create 5 sec delay
+
+//    //send data ends
+
+    //read uart data starts
+    uint8_t uart_rx[16];
+    memset(uart_rx,0,sizeof(uart_rx));
+
+    static qm_uart_status_t uart0_status __attribute__((unused)) = 0;
+
+    uint8_t uart_buffer=0;
+    qm_uart_get_status(QM_UART_0, &uart0_status);
+    if (uart0_status != QM_UART_IDLE)
+	{
+		for(int jj=0; jj<16; jj++)
+		{
+			qm_uart_read(QM_UART_0, &uart_buffer, &uart0_status);
+			uart_rx[jj] = uart_buffer;
+			QM_PRINTF("Read data:  %d\n", uart_buffer);
+		}
+	}
+
+    else
+    	QM_PUTS("UART IDLE");
+    //read uart data ends
+}

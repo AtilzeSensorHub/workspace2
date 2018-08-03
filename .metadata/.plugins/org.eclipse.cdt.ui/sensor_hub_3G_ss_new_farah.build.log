@@ -1,0 +1,75 @@
+14:32:03 **** Build of configuration Debug for project sensor_hub_3G_ss_new_farah ****
+make 
+APP_NAME = sensor_hub_3G_ss_new_farah
+SOC = quark_se
+TARGET = sensor
+APP_DIR = .
+BUILD = debug
+CSTD = c99
+VERSION = '1.4.0'
+make -C ./bsp/drivers SOC=quark_se TARGET=sensor BUILD=debug V=0 CSTD=c99 ITA_NO_ASSERT=0
+BUILD = debug
+CSTD = c99
+VERSION = '1.4.0'
+make[1]: Entering directory `C:/IntelSWTools/ISSM_2016.2.094/workspace2/sensor_hub_3G_ss_new_farah/bsp/drivers'
+"CC ../drivers/debug/quark_se/sensor/obj/aon_counters/qm_aon_counters.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/comparator/qm_comparator.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/dma/qm_dma.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/flash/qm_flash.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/fpr/qm_fpr.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/gpio/qm_gpio.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/i2c/qm_i2c.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/qm_identification.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/qm_init.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/interrupt/qm_interrupt.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/mailbox/qm_mailbox_se.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/mpr/qm_mpr.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/adc/qm_ss_adc.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/clk/ss_clk.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/gpio/qm_ss_gpio.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/i2c/qm_ss_i2c.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/interrupt/qm_ss_interrupt.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/spi/qm_ss_spi.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/timer/qm_ss_timer.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/pinmux/qm_pinmux.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/pwm/qm_pwm.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/rtc/qm_rtc.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/spi/qm_spi.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/uart/qm_uart.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/qm_version.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/wdt/qm_wdt.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/soc_watch.o" 
+"CC ../drivers/debug/quark_se/sensor/obj/usb/qm_usb.o" 
+"CC ../soc/quark_se/debug/quark_se/sensor/obj/clk.o" 
+"CC ../soc/quark_se/debug/quark_se/sensor/obj/power_states.o" 
+"CC ../soc/quark_se/debug/quark_se/sensor/obj/qm_interrupt_router.o" 
+"CC ../soc/quark_se/debug/quark_se/sensor/obj/ss_power_states.o" 
+"CC ../soc/quark_se/debug/quark_se/sensor/obj/vreg.o" 
+"AR ../build/debug/quark_se/sensor/libqmsi/lib/libqmsi_quark_se_1.4.0d.a" 
+make[1]: Leaving directory `C:/IntelSWTools/ISSM_2016.2.094/workspace2/sensor_hub_3G_ss_new_farah/bsp/drivers'
+"CC debug/quark_se/sensor/obj/./main.o" 
+In file included from main.c:29:0:
+sensor_hub_lib/system/adc.h:18:41: error: unknown type name 'qm_ss_adc_status_t'
+ void transfer_cb(void *data, int error, qm_ss_adc_status_t status, qm_ss_adc_cb_source_t source);
+                                         ^
+sensor_hub_lib/system/adc.h:18:68: error: unknown type name 'qm_ss_adc_cb_source_t'
+ void transfer_cb(void *data, int error, qm_ss_adc_status_t status, qm_ss_adc_cb_source_t source);
+                                                                    ^
+sensor_hub_lib/system/adc.h:22:26: error: unknown type name 'qm_ss_adc_channel_t'
+ int start_irq_conversion(qm_ss_adc_channel_t channel_adc[]);
+                          ^
+sensor_hub_lib/system/adc.h:26:1: error: unknown type name 'qm_pin_id_t'
+ void setup_adc(const qm_pin_id_t pin, const qm_pmux_fn_t fn);
+ ^
+sensor_hub_lib/system/adc.h:26:1: error: unknown type name 'qm_pmux_fn_t'
+sensor_hub_lib/system/adc.h:28:1: error: unknown type name 'qm_pin_id_t'
+ void adc_init(const qm_pin_id_t pin, const qm_pmux_fn_t fn, qm_ss_adc_channel_t channel_adc[]);
+ ^
+sensor_hub_lib/system/adc.h:28:1: error: unknown type name 'qm_pmux_fn_t'
+sensor_hub_lib/system/adc.h:28:61: error: unknown type name 'qm_ss_adc_channel_t'
+ void adc_init(const qm_pin_id_t pin, const qm_pmux_fn_t fn, qm_ss_adc_channel_t channel_adc[]);
+                                                             ^
+make: *** [debug/quark_se/sensor/obj/./main.o] Error 1
+
+14:32:12 Build Finished (took 9s.180ms)
+

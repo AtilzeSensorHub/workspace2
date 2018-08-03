@@ -1,0 +1,26 @@
+08:44:35 **** Incremental Build of configuration Debug for project sensor_hub_106_ubidots_data ****
+make 
+APP_NAME = sensor_hub_106_ubidots_data
+SOC = quark_se
+TARGET = x86
+APP_DIR = .
+BUILD = debug
+CSTD = c99
+VERSION = '1.4.0'
+make -C ./bsp/drivers SOC=quark_se TARGET=x86 BUILD=debug V=0 CSTD=c99 ITA_NO_ASSERT=0
+BUILD = debug
+CSTD = c99
+VERSION = '1.4.0'
+make[1]: Entering directory `C:/IntelSWTools/ISSM_2016.2.094/workspace2/sensor_hub_106_ubidots_data/bsp/drivers'
+make[1]: Leaving directory `C:/IntelSWTools/ISSM_2016.2.094/workspace2/sensor_hub_106_ubidots_data/bsp/drivers'
+"CC debug/quark_se/x86/obj/./main.o" 
+"CC debug/quark_se/x86/obj/"."/app_entry.o" 
+"CC debug/quark_se/x86/obj/"."/newlib-syscalls.o" 
+"LD debug/quark_se/x86/bin/sensor_hub_106_ubidots_data.bin" 
+"Size debug/quark_se/x86/bin/sensor_hub_106_ubidots_data.bin" 
+   text	   data	    bss	    dec	    hex	filename
+  11532	     48	    520	  12100	   2f44	./debug/quark_se/x86/obj/sensor_hub_106_ubidots_data.elf
+"Objcopy debug/quark_se/x86/bin/sensor_hub_106_ubidots_data.bin" 
+
+08:44:38 Build Finished (took 3s.67ms)
+

@@ -1,0 +1,26 @@
+15:15:51 **** Incremental Build of configuration Debug for project sensor_hub_3G_ss_107 ****
+make 
+APP_NAME = sensor_hub_3G_ss_107
+SOC = quark_se
+TARGET = sensor
+APP_DIR = .
+BUILD = debug
+CSTD = c99
+VERSION = '1.4.0'
+make -C ./bsp/drivers SOC=quark_se TARGET=sensor BUILD=debug V=0 CSTD=c99 ITA_NO_ASSERT=0
+BUILD = debug
+CSTD = c99
+VERSION = '1.4.0'
+make[1]: Entering directory `D:/azwan/Atilze/workspace2/sensor_hub_3G_ss_107/bsp/drivers'
+make[1]: Leaving directory `D:/azwan/Atilze/workspace2/sensor_hub_3G_ss_107/bsp/drivers'
+"CC debug/quark_se/sensor/obj/./main.o" 
+"CC debug/quark_se/sensor/obj/"."/app_entry.o" 
+"CC debug/quark_se/sensor/obj/"."/newlib-syscalls.o" 
+"LD debug/quark_se/sensor/bin/sensor_hub_3G_ss_107.bin" 
+"Size debug/quark_se/sensor/bin/sensor_hub_3G_ss_107.bin" 
+   text	   data	    bss	    dec	    hex	filename
+   4852	     24	    228	   5104	   13f0	./debug/quark_se/sensor/obj/sensor_hub_3G_ss_107.elf
+"Objcopy debug/quark_se/sensor/bin/sensor_hub_3G_ss_107.bin" 
+
+15:15:58 Build Finished (took 6s.819ms)
+

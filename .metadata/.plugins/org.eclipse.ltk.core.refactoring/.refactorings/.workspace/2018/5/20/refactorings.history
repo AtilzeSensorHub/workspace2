@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;sensor_hub_108&apos; to &apos;sensor_hub_108_azwan&apos;" description="Rename resource &apos;sensor_hub_108&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/sensor_hub_108" name="sensor_hub_108_azwan" stamp="1526543854588" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;sensor_hub_ss_108&apos; to &apos;sensor_hub_ss_108_azwan&apos;" description="Rename resource &apos;sensor_hub_ss_108&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/sensor_hub_ss_108" name="sensor_hub_ss_108_azwan" stamp="1526543867837" updateReferences="true"/>
+</session>

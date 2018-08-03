@@ -1,0 +1,9 @@
+18:21:30 **** Clean-only build of configuration Debug for project Blink_led ****
+"C:\\MinGW\\msys\\1.0\\bin\\bash.exe" --login -i -c "cd D:/azwan/Atilze/workspace2/Blink_led && make pristine" 
+Cannot run program "C:\MinGW\msys\1.0\bin\bash.exe": Launching failed
+
+Error: Program "C:\MinGW\msys\1.0\bin\bash.exe" not found in PATH
+PATH=[C:/IntelSWTools/ISSM_2016.2.094/tools/compiler/gcc-ia/5.2.1\bin\;C:/IntelSWTools/ISSM_2016.2.094/tools/utils\;C:/IntelSWTools/ISSM_2016.2.094/eclipse/jre/bin/server;C:/IntelSWTools/ISSM_2016.2.094/eclipse/jre/bin;C:/IntelSWTools/ISSM_2016.2.094/eclipse/jre/lib/amd64;C:/IntelSWTools/ISSM_2016.2.094/tools/utils;C:/IntelSWTools/ISSM_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin;C:/IntelSWTools/ISSM_2016.2.094/tools/compiler/gcc-ia/5.2.1/i586-intel-elfiamcu/bin/;C:/IntelSWTools/ISSM_2016.2.094/tools/python;C:/IntelSWTools/ISSM_2016.2.094/tools/python3;C:/IntelSWTools/ISSM_2016.2.094/tools/dfu_utils/1.3;C:\IntelSWTools\ISSM_2016.2.094\tools\compiler_llvm\linux\bin\intel64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\IntelSWTools\ISSM_2016.2.094]
+
+18:21:30 Build Finished (took 334ms)
+

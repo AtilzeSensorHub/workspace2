@@ -1,0 +1,26 @@
+17:22:35 **** Incremental Build of configuration Debug for project sensor_hub_109 ****
+make 
+APP_NAME = sensor_hub_109
+SOC = quark_se
+TARGET = x86
+APP_DIR = .
+BUILD = debug
+CSTD = c99
+VERSION = '1.4.0'
+make -C ./bsp/drivers SOC=quark_se TARGET=x86 BUILD=debug V=0 CSTD=c99 ITA_NO_ASSERT=0
+BUILD = debug
+CSTD = c99
+VERSION = '1.4.0'
+make[1]: Entering directory `C:/IntelSWTools/ISSM_2016.2.094/workspace2/sensor_hub_109/bsp/drivers'
+make[1]: Leaving directory `C:/IntelSWTools/ISSM_2016.2.094/workspace2/sensor_hub_109/bsp/drivers'
+"CC debug/quark_se/x86/obj/./main.o" 
+"CC debug/quark_se/x86/obj/"."/app_entry.o" 
+"CC debug/quark_se/x86/obj/"."/newlib-syscalls.o" 
+"LD debug/quark_se/x86/bin/sensor_hub_109.bin" 
+"Size debug/quark_se/x86/bin/sensor_hub_109.bin" 
+   text	   data	    bss	    dec	    hex	filename
+  23216	     48	    528	  23792	   5cf0	./debug/quark_se/x86/obj/sensor_hub_109.elf
+"Objcopy debug/quark_se/x86/bin/sensor_hub_109.bin" 
+
+17:22:38 Build Finished (took 2s.619ms)
+

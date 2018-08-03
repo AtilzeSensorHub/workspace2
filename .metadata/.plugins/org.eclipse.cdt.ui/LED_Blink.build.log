@@ -1,0 +1,27 @@
+11:43:55 **** Incremental Build of configuration Debug for project LED_Blink ****
+make 
+APP_NAME = LED_Blink
+SOC = quark_se
+TARGET = x86
+APP_DIR = .
+BUILD = debug
+CSTD = c99
+VERSION = '1.4.0'
+make -C ./bsp/drivers SOC=quark_se TARGET=x86 BUILD=debug V=0 CSTD=c99 ITA_NO_ASSERT=0
+BUILD = debug
+CSTD = c99
+VERSION = '1.4.0'
+make[1]: Entering directory `D:/azwan/Atilze/workspace2/LED_Blink/bsp/drivers'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `D:/azwan/Atilze/workspace2/LED_Blink/bsp/drivers'
+"CC debug/quark_se/x86/obj/./main.o" 
+"CC debug/quark_se/x86/obj/"."/app_entry.o" 
+"CC debug/quark_se/x86/obj/"."/newlib-syscalls.o" 
+"LD debug/quark_se/x86/bin/LED_Blink.bin" 
+"Size debug/quark_se/x86/bin/LED_Blink.bin" 
+   text	   data	    bss	    dec	    hex	filename
+   1317	     20	     60	   1397	    575	./debug/quark_se/x86/obj/LED_Blink.elf
+"Objcopy debug/quark_se/x86/bin/LED_Blink.bin" 
+
+11:43:56 Build Finished (took 1s.501ms)
+

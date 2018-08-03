@@ -1,0 +1,773 @@
+/*
+ Copyright (c) 2017, Atilze Digital Sdn. Bhd.
+
+ radio.c
+ This is the library file for radio.
+
+ Version   : 1.03
+ Author    : Khoo Boon Kien / Tan Han Wei
+ File Name : radio.c
+
+ History:
+   1.00 BK 18-Aug-17 Initial
+   1.01 HW 23-Nov-17 Send battery level first
+   1.02 HW 23-Nov-17 Added in debug message
+   1.03 BK 08-May-18 Added downlink
+ */
+
+#include "sensors/pm25_hpma115.h"
+#include "sensors/do_kit103d.h"
+#include "sensors/ultrasonic_mb7060.h"
+#include "sensors/temp_rh_sht10.h"
+#include "sensors/floatswitch_lv600.h"
+#include "sensors/ferti_pump_status.h"
+#include "shields/relayshield_v3.h"
+#include "../main.h"
+#include <stdint.h>
+#include "system/utilities.h"
+#include "system/xbee.h"
+#include "wireless/lora.h"
+#include "clk.h"
+#include "system/gpio.h"
+#include "string.h"
+#include "system/downlink_status.h"
+
+static qm_gpio_port_config_t cfg2;   // GPIO
+static qm_gpio_port_config_t cfg02;  // AON GPIO
+
+void radio_send_data(uint16_t *send_data)
+{
+#if (SENSOR_TYPE == 0)
+	//============================================================================//
+    //                              SMART FARMING0                                //
+	//============================================================================//
+
+	// Battery level===============================================================
+	uint8_t battery_level[5];
+	conv_to_2B_hex(2 * send_data[0], battery_level);
+
+	// Send battery level data via LoRa
+	//QM_PRINTF("Send battery level message\n");
+	xbee_tx(QM_UART_0, 0, 1, 0, 3316, battery_level, (sizeof(battery_level) - 1));
+
+	// Flash Red LED
+	led_r_flash();
+
+	//Debug mode
+	if (DEBUG_MODE)
+	{
+		QM_PRINTF("(1/6) Battery Level: %d\n",2 * send_data[0]);
+	}
+
+	// Create 62 sec delay for duty cycle limit
+    clk_sys_udelay(62000000);
+
+
+    // Soil EC=====================================================================
+    uint8_t soil_ec[5];
+    conv_to_2B_hex(send_data[1], soil_ec);
+
+    // Send soil EC data via LoRa
+    //QM_PRINTF("Send soil EC message\n");
+    xbee_tx(QM_UART_0, 0, 1, 0, 3327, soil_ec, (sizeof(soil_ec) - 1));
+
+    // Flash Red LED
+    led_r_flash();
+
+    //Debug mode
+    if (DEBUG_MODE)
+    {
+    	QM_PRINTF("(2/6) Soil EC: %d\n", send_data[1]);
+    }
+
+	// Create 62 sec delay for duty cycle limit
+	clk_sys_udelay(62000000);
+
+	// Soil Moisture===============================================================
+	uint8_t soil_moisture[5];
+	conv_to_2B_hex(send_data[2], soil_moisture);
+
+	// Send soil moisture data via LoRa
+	//QM_PRINTF("Send soil moisture message\n");
+	xbee_tx(QM_UART_0, 0, 1, 0, 3401, soil_moisture, (sizeof(soil_moisture) - 1));
+
+	// Flash Red LED
+	led_r_flash();
+
+	//Debug mode
+	if (DEBUG_MODE)
+	{
+	    QM_PRINTF("(3/6) Soil moisture: %d\n", send_data[2]);
+	}
+
+	// Create 62 sec delay for duty cycle limit
+	clk_sys_udelay(62000000);
+
+	// Soil pH=====================================================================
+	uint8_t soil_ph[5];
+	conv_to_2B_hex(send_data[3], soil_ph);
+
+	// Send soil pH data via LoRa
+	//QM_PRINTF("Send soil pH message\n");
+	xbee_tx(QM_UART_0, 0, 1, 0, 3326, soil_ph, (sizeof(soil_ph) - 1));
+
+	// Flash Red LED
+	led_r_flash();
+
+	//Debug mode
+	if (DEBUG_MODE)
+	{
+		 QM_PRINTF("(4/6) Soil pH: %d\n", send_data[3]);
+	}
+
+	// Create 62 sec delay for duty cycle limit
+	clk_sys_udelay(62000000);
+
+
+	// Temperature(sht10)=========================================================
+	int temp_degree=0;
+	uint8_t temp[5];
+
+	temp_degree = get_sht10_temp();
+	gpio_init(cfg2, cfg02);               // Initialise back the GPIO
+
+	conv_to_2B_hex(temp_degree, temp);
+
+	// Send temperature data via LoRa
+	//QM_PRINTF("Send temperature message\n");
+	xbee_tx(QM_UART_0, 0, 1, 0, 3303, temp, (sizeof(temp)-1));
+
+	// Flash Red LED
+	led_r_flash();
+
+	//Debug mode
+	if (DEBUG_MODE)
+	{
+		 QM_PRINTF("(5/6) Temperature: %d\n", temp_degree);
+	}
+
+
+	// Create 62 sec delay for duty cycle limit
+	clk_sys_udelay(62000000);
+
+
+	// Humidity (sht10)=========================================================
+
+	int humidity_percent;
+	uint8_t humidity[5];
+
+	humidity_percent = get_sht10_rh_linear();
+	gpio_init(cfg2, cfg02);               // Initialise back the GPIO
+
+	conv_to_2B_hex(humidity_percent, humidity);
+
+	// Send humidity data via LoRa
+	//QM_PRINTF("Send humidity message\n");
+	xbee_tx(QM_UART_0, 0, 1, 0, 3304, humidity, (sizeof(humidity)-1));
+
+	// Flash Red LED
+	led_r_flash();
+
+	//Debug mode
+	if (DEBUG_MODE)
+	{
+		 QM_PRINTF("(6/6) Humidity: %d\n\n", humidity_percent);
+	}
+
+	// Create 62 sec delay for duty cycle limit
+	clk_sys_udelay(62000000);
+
+
+
+
+#elif (SENSOR_TYPE == 1)
+
+	//============================================================================//
+    //                              SMART AQUACULTURE0                            //
+	//============================================================================//
+
+	// Battery level===============================================================
+	uint8_t battery_level[5];
+	conv_to_2B_hex(2 * send_data[0], battery_level);
+
+	// Send battery level data via LoRa
+	//QM_PRINTF("Send battery level message\n");
+	xbee_tx(QM_UART_0, 0, 1, 0, 3316, battery_level, (sizeof(battery_level) - 1));
+
+	// Flash Red LED
+	led_r_flash();
+
+	//Debug mode
+	if (DEBUG_MODE)
+	{
+		QM_PRINTF("(1/4) Battery Level: %d\n",2 * send_data[0]);
+	}
+
+	// Create 62 sec delay for duty cycle limit
+    clk_sys_udelay(62000000);
+
+    // DO==========================================================================
+	uint16_t doxy_val;
+    uint8_t doxy[5];
+    doxy_val = get_dissolved_oxy();
+    conv_to_2B_hex(doxy_val, doxy);
+
+    // Send DO data via LoRa
+    //QM_PRINTF("Send DO message\n");
+    xbee_tx(QM_UART_0, 0, 1, 0, 3403, doxy, (sizeof(doxy)-1));
+
+    // Flash Red LED
+    led_r_flash();
+
+	//Debug mode
+	if (DEBUG_MODE)
+	{
+		QM_PRINTF("(2/4) Dissolved Oxy: %d\n",doxy_val);
+	}
+
+    // Create 62 sec delay for duty cycle limit
+    clk_sys_udelay(62000000);
+
+    // Water level=================================================================
+    uint8_t water_level[5];
+    conv_to_2B_hex(send_data[1], water_level);
+
+    // Send water level data via LoRa
+    //QM_PRINTF("Send water level message\n");
+    xbee_tx(QM_UART_0, 0, 1, 0, 3319, water_level, (sizeof(water_level)-1));
+
+    // Flash Red LED
+    led_r_flash();
+
+	//Debug mode
+	if (DEBUG_MODE)
+	{
+		QM_PRINTF("(3/4) Water level: %d\n",send_data[1]);
+	}
+
+    // Create 62 sec delay for duty cycle limit
+    clk_sys_udelay(62000000);
+
+    // Temperature(PT1000)=========================================================
+    uint8_t temp[5];
+    conv_to_2B_hex(send_data[2], temp);
+
+    // Send water level data via LoRa
+    //QM_PRINTF("Send temperature message\n");
+    xbee_tx(QM_UART_0, 0, 1, 0, 3303, temp, (sizeof(temp)-1));
+
+    // Flash Red LED
+    led_r_flash();
+
+	//Debug mode
+	if (DEBUG_MODE)
+	{
+		QM_PRINTF("(4/4) Temperature(PT1000): %d\n\n",send_data[2]);
+	}
+
+    // Create 62 sec delay for duty cycle limit
+    clk_sys_udelay(62000000);
+
+#elif (SENSOR_TYPE == 2)
+	//============================================================================//
+    //                              SMART CITY0                                   //
+	//============================================================================//
+    // Battery level===============================================================
+    uint8_t battery_level[5];
+    conv_to_2B_hex(2*send_data[0], battery_level);
+
+    // Flash Red LED
+    led_r_flash();
+
+    // Send battery level data via LoRa
+    //QM_PRINTF("Send battery level message\n");
+    xbee_tx(QM_UART_0, 0, 1, 0, 3316, battery_level, (sizeof(battery_level)-1));
+
+    // Flash Red LED
+    led_r_flash();
+
+	//Debug mode
+	if (DEBUG_MODE)
+    {
+		  QM_PRINTF("(1/2) Battery Level: %d\n",2 * send_data[0]);//azwan added
+		  clk_sys_udelay(10000000);
+      led_r_flash();
+    }
+
+    // Create 62 sec delay for duty cycle limit
+    clk_sys_udelay(62000000);
+
+    // PM2.5=======================================================================
+	uint16_t pm25_val=0;
+    uint8_t pm25[5];
+    //pm25_val = get_pm25_hpma115();    // EDITED!!!!!!!!!!!!!!!!!!!!!!!!
+    //conv_to_2B_hex(send_data[4], pm25);
+    conv_to_2B_hex(pm25_val, pm25);
+
+    // Flash Red LED
+    led_r_flash();
+
+    // Send PM2.5 data via LoRa
+    //QM_PRINTF("Send PM2.5 message\n");
+    xbee_tx(QM_UART_0, 0, 1, 0, 3402, pm25, (sizeof(pm25)-1));
+
+    // Flash Red LED
+    led_r_flash();
+
+	//Debug mode
+	if (DEBUG_MODE)
+    {
+		  QM_PRINTF("(1/2) PM2.5: %d\n",2 * send_data[1]);//azwan added
+		  clk_sys_udelay(10000000);
+      led_r_flash();
+    }
+
+    // Create 62 sec delay for duty cycle limit
+    clk_sys_udelay(62000000);
+
+#elif (SENSOR_TYPE == 3)
+	//============================================================================//
+    //                              SMART CITY1                                   //
+	//============================================================================//
+    // Battery level===============================================================
+    uint8_t battery_level[5];
+    conv_to_2B_hex(2*send_data[0], battery_level);
+
+    // Send battery level data via LoRa
+    //QM_PRINTF("Send battery level message\n");
+    xbee_tx(QM_UART_0, 0, 1, 0, 3316, battery_level, (sizeof(battery_level)-1));
+
+    // Flash Red LED
+    led_r_flash();
+
+	//Debug mode
+	if (DEBUG_MODE)
+	{
+		QM_PRINTF("(1/2) Battery Level: %d\n",2 * send_data[0]);
+	}
+
+    // Create 62 sec delay for duty cycle limit
+    clk_sys_udelay(62000000);
+
+    // Ultrasonic mb7060=======================================================================
+	uint16_t ultrasonic_mb7060_val;
+    uint8_t ultrasonic_mb7060[5];
+    ultrasonic_mb7060_val = get_ultrasonic_mb7060();
+    conv_to_2B_hex(ultrasonic_mb7060_val, ultrasonic_mb7060);
+
+    // Send range data via LoRa
+    //QM_PRINTF("Send ultrasonic message\n");
+    xbee_tx(QM_UART_0, 0, 1, 0, 3405, ultrasonic_mb7060, (sizeof(ultrasonic_mb7060)-1));
+
+    // Flash Red LED
+    led_r_flash();
+
+	//Debug mode
+	if (DEBUG_MODE)
+	{
+		QM_PRINTF("(2/2) Ultrasonic mb7060: %d\n\n",ultrasonic_mb7060_val);
+	}
+
+    // Create 62 sec delay for duty cycle limit
+    clk_sys_udelay(62000000);
+
+#elif (SENSOR_TYPE == 4)
+	//============================================================================//
+    //                              E_LADANG0                                     //
+	//============================================================================//
+    // Battery level===============================================================
+
+    //azwan added starts
+    uint8_t status0[100];
+    uint8_t * downlink_pump_status0;
+    downlink_pump_status0=get_downlink_status(status0);
+    QM_PRINTF("%s\n", downlink_pump_status0);
+    //ends
+
+
+    uint8_t battery_level[5];
+    conv_to_2B_hex(2*send_data[0], battery_level);
+
+    // Send battery level data via LoRa
+    //QM_PRINTF("Send battery level message\n");
+    xbee_tx(QM_UART_0, 0, 1, 0, 3316, battery_level, (sizeof(battery_level)-1));
+
+    // Flash Red LED
+    led_r_flash();
+
+	//Debug mode
+	if (DEBUG_MODE)
+	{
+		QM_PRINTF("(1/8) Battery Level: %d\n",2 * send_data[0]);
+	}
+
+    // Create 62 sec delay for duty cycle limit
+    if(XBEE_MODE!=0)
+    {
+    	clk_sys_udelay(2000000);
+    }
+
+    else
+    	clk_sys_udelay(62000000);
+
+
+    // Fertilizer EC=====================================================================
+    //azwan added starts
+    uint8_t status1[100];
+	uint8_t * downlink_pump_status1;
+	downlink_pump_status1=get_downlink_status(status1);
+	QM_PRINTF("%s\n", downlink_pump_status1);
+	//ends
+
+
+    uint8_t fertilizer_ec[5];
+    conv_to_2B_hex(send_data[1], fertilizer_ec);
+
+    // Send soil EC data via LoRa
+    //QM_PRINTF("Send soil EC message\n");
+    xbee_tx(QM_UART_0, 0, 1, 0, 3327, fertilizer_ec, (sizeof(fertilizer_ec) - 1));
+
+    // Flash Red LED
+    led_r_flash();
+
+    //Debug mode
+    if (DEBUG_MODE)
+    {
+    	QM_PRINTF("(2/8) Fertilizer EC: %d\n", send_data[1]);
+    }
+	// Create 62 sec delay for duty cycle limit
+    if(XBEE_MODE!=0)
+	{
+		clk_sys_udelay(2000000);
+	}
+
+	else
+		clk_sys_udelay(62000000);
+
+
+    // Tank A Water Level=====================================================================
+    //azwan added starts
+	uint8_t status2[100];
+	uint8_t * downlink_pump_status2;
+	downlink_pump_status2=get_downlink_status(status2);
+	QM_PRINTF("%s\n", downlink_pump_status2);
+	//ends
+
+	uint8_t tank_A_waterlevel;
+	uint8_t tank_A_level[5];
+
+	tank_A_waterlevel = get_tank_A_level();
+
+	conv_to_2B_hex(tank_A_waterlevel, tank_A_level);
+    // Send soil EC data via LoRa
+    //QM_PRINTF("Send soil EC message\n");
+    xbee_tx(QM_UART_0, 0, 1, 0, 3406, tank_A_level, (sizeof(tank_A_level) - 1));
+
+    // Flash Red LED
+    led_r_flash();
+
+    //Debug mode
+    if (DEBUG_MODE)
+    {
+    	QM_PRINTF("(3/8) Tank A Water Level: %d\n", tank_A_waterlevel);		// 0:No Water 1:Water
+    }
+	// Create 62 sec delay for duty cycle limit
+    if(XBEE_MODE!=0)
+	{
+		clk_sys_udelay(2000000);
+	}
+
+	else
+		clk_sys_udelay(62000000);
+
+
+    // Tank B Water Level=====================================================================
+
+    //azwan added starts
+   	uint8_t status3[100];
+   	uint8_t * downlink_pump_status3;
+   	downlink_pump_status3=get_downlink_status(status3);
+   	QM_PRINTF("%s\n", downlink_pump_status3);
+   	//ends
+
+    uint8_t tank_B_waterlevel;
+	uint8_t tank_B_level[5];
+
+	tank_B_waterlevel = get_tank_B_level();
+
+	conv_to_2B_hex(tank_B_waterlevel, tank_B_level);
+    // Send soil EC data via LoRa
+    //QM_PRINTF("Send soil EC message\n");
+    xbee_tx(QM_UART_0, 0, 1, 1, 3406, tank_B_level, (sizeof(tank_B_level) - 1));
+
+    // Flash Red LED
+    led_r_flash();
+
+    //Debug mode
+    if (DEBUG_MODE)
+    {
+    	QM_PRINTF("(4/8) Tank B Water Level: %d\n", tank_B_waterlevel);		// 0:No Water 1:Water
+
+    }
+	// Create 62 sec delay for duty cycle limit
+    if(XBEE_MODE!=0)
+	{
+		clk_sys_udelay(2000000);
+	}
+
+	else
+		clk_sys_udelay(62000000);
+
+
+
+    // Pump A Status=====================================================================
+
+    //azwan added starts
+   	uint8_t status4[100];
+   	uint8_t * downlink_pump_status4;
+   	downlink_pump_status4=get_downlink_status(status4);
+   	QM_PRINTF("%s\n", downlink_pump_status4);
+   	//ends
+
+    uint8_t pump_A_status;
+	uint8_t pumpA_status[5];
+
+	pump_A_status = get_fertipumpA_status();
+
+	conv_to_2B_hex(pump_A_status, pumpA_status);
+
+    xbee_tx(QM_UART_0, 0, 1, 0, 3407, pumpA_status, (sizeof(pumpA_status) - 1));
+
+    // Flash Red LED
+    led_r_flash();
+
+    //Debug mode
+    if (DEBUG_MODE)
+    {
+    	QM_PRINTF("(5/8) Pump A status: %d\n", pump_A_status);		// 0:OFF 1:ON
+    }
+	// Create 62 sec delay for duty cycle limit
+    if(XBEE_MODE!=0)
+	{
+		clk_sys_udelay(2000000);
+	}
+
+	else
+		clk_sys_udelay(62000000);
+
+
+    // Pump B Status=====================================================================
+
+    //azwan added starts
+   	uint8_t status5[100];
+   	uint8_t * downlink_pump_status5;
+   	downlink_pump_status5=get_downlink_status(status5);
+   	QM_PRINTF("%s\n", downlink_pump_status5);
+   	//ends
+
+    uint8_t pump_B_status;
+	uint8_t pumpB_status[5];
+
+	pump_B_status = get_fertipumpB_status();
+
+	conv_to_2B_hex(pump_B_status, pumpB_status);
+
+    xbee_tx(QM_UART_0, 0, 1, 1, 3407, pumpB_status, (sizeof(pumpB_status) - 1));
+
+    // Flash Red LED
+    led_r_flash();
+
+    //Debug mode
+    if (DEBUG_MODE)
+    {
+    	QM_PRINTF("(6/8) Pump B Status: %d\n", pump_B_status);		// 0:OFF 1:ON
+    }
+	// Create 62 sec delay for duty cycle limit
+    if(XBEE_MODE!=0)
+	{
+		clk_sys_udelay(2000000);
+	}
+
+	else
+		clk_sys_udelay(62000000);
+
+
+	// Temperature(sht10)=========================================================
+
+    //azwan added starts
+   	uint8_t status2[100];
+   	uint8_t * downlink_pump_status6;
+   	downlink_pump_status6=get_downlink_status(status6);
+   	QM_PRINTF("%s\n", downlink_pump_status6);
+   	//ends
+
+	int temp_degree=0;
+	uint8_t temp[5];
+
+	temp_degree = get_sht10_temp();
+	gpio_init(cfg2, cfg02);               // Initialise back the GPIO
+
+	conv_to_2B_hex(temp_degree, temp);
+
+	// Send temperature data via LoRa
+	//QM_PRINTF("Send temperature message\n");
+	xbee_tx(QM_UART_0, 0, 1, 0, 3303, temp, (sizeof(temp)-1));
+
+	// Flash Red LED
+	led_r_flash();
+
+	//Debug mode
+	if (DEBUG_MODE)
+	{
+		 QM_PRINTF("(7/8) Temperature: %d\n", temp_degree);
+	}
+
+
+	// Create 62 sec delay for duty cycle limit
+	if(XBEE_MODE!=0)
+	{
+		clk_sys_udelay(2000000);
+	}
+
+	else
+		clk_sys_udelay(62000000);
+
+	// Humidity (sht10)=========================================================
+
+	 //azwan added starts
+	uint8_t status7[100];
+	uint8_t * downlink_pump_status7;
+	downlink_pump_status7=get_downlink_status(status7);
+	QM_PRINTF("%s\n", downlink_pump_status7);
+	//ends
+
+	int humidity_percent;
+	uint8_t humidity[5];
+
+	humidity_percent = get_sht10_rh_linear();
+	gpio_init(cfg2, cfg02);               // Initialise back the GPIO
+
+	conv_to_2B_hex(humidity_percent, humidity);
+
+	// Send humidity data via LoRa
+	//QM_PRINTF("Send humidity message\n");
+	xbee_tx(QM_UART_0, 0, 1, 0, 3304, humidity, (sizeof(humidity)-1));
+
+	// Flash Red LED
+	led_r_flash();
+
+	//Debug mode
+	if (DEBUG_MODE)
+	{
+		 QM_PRINTF("(8/8) Humidity: %d\n\n", humidity_percent);
+	}
+
+    // Create 62 sec delay for duty cycle limit
+	if(XBEE_MODE!=0)
+	{
+		clk_sys_udelay(2000000);
+	}
+
+	else
+		clk_sys_udelay(62000000);
+
+
+#else
+#endif
+}
+
+uint8_t * radio_receive_data(uint8_t status[])
+{
+
+#if (SENSOR_TYPE == 4)
+	//============================================================================//
+    //                              E_LADANG0                                     //
+	//============================================================================//
+
+    // Initialisation for Pumps=====================================================
+	uint8_t channel_pump_a[] = "00";
+	uint8_t channel_pump_b[] = "01";
+
+    // Initialisation for DL Data===================================================
+	uint8_t downlink_data_a[100];
+	uint8_t downlink_data_b[100];
+	memset(downlink_data_a, 0, sizeof(downlink_data_a));
+	memset(downlink_data_b, 0, sizeof(downlink_data_b));
+
+	// Pump A=======================================================================
+	clk_sys_udelay(2000000); // Delay 5 seconds (azwan changed to 2sec.default 5sec)
+	xbee_rx(QM_UART_0, downlink_data_a, channel_pump_a);
+
+
+	// Downlink data for Pump A
+	uint8_t pump_a_cmd[] = "00";
+	pump_a_cmd[0] = downlink_data_a[14];
+	pump_a_cmd[1] = downlink_data_a[15];
+
+	if (pump_a_cmd[1] != status[0])
+	{
+		status[0] = pump_a_cmd[1];
+
+		// Take action
+		if (downlink_data_a[15]=='1')
+		{
+			//led_r_on();
+			on_relay1();
+
+		}
+		else
+		{
+			//led_r_off();
+			off_relay1();
+		}
+
+		// Update Pump A status
+		clk_sys_udelay(2000000); // Delay 5 seconds (azwan changed to 2sec.default 5sec)
+		xbee_update_dl_status(QM_UART_0, channel_pump_a, pump_a_cmd);
+	}
+
+	// Pump B=======================================================================
+	clk_sys_udelay(2000000); // Delay 5 seconds (azwan changed to 2sec.default 5sec)
+	xbee_rx(QM_UART_0, downlink_data_b, channel_pump_b);
+
+	// Downlink data for Pump B
+	uint8_t pump_b_cmd[] = "00";
+	pump_b_cmd[0] = downlink_data_b[14];
+	pump_b_cmd[1] = downlink_data_b[15];
+
+	if (pump_b_cmd[1] != status[1])
+	{
+		status[1] = pump_b_cmd[1];
+
+		// Take action
+		if (downlink_data_b[15]=='1')
+		{
+			//led_b_on();
+			on_relay4();
+		}
+		else
+		{
+			//led_b_off();
+			off_relay4();
+		}
+
+		// Update Pump B status
+		clk_sys_udelay(2000000); // Delay 5 seconds (azwan changed to 2sec.default 5sec)
+		xbee_update_dl_status(QM_UART_0, channel_pump_b, pump_b_cmd);
+	}
+
+	clk_sys_udelay(1000000); // Delay 10 seconds (azwan changed to 1sec.default 10sec)
+#endif
+	// For LoRa Under Testing (Pls Do Not Del)
+	/*
+    //uint8_t downlink_data[100];
+    //memset(downlink_data,0,sizeof(downlink_data));
+
+    for (int ii=0; ii<RX_DURATION_TIME; ii++)
+    {
+	    xbee_rx(QM_UART_0, downlink_data);
+    }
+    */
+
+	return status;
+}

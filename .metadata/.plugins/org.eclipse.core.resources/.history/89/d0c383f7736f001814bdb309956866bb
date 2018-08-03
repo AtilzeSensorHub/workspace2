@@ -1,0 +1,7 @@
+
+#ifndef SENSOR_HUB_LIB_UART_H_
+#define SENSOR_HUB_LIB_UART_H_
+
+void uart0_init(qm_uart_config_t *cfg);
+
+#endif /* SENSOR_HUB_LIB_WIRELESS_CELLULAR_3G_H_ */

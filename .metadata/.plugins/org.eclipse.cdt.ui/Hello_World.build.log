@@ -1,0 +1,13 @@
+12:21:37 **** Clean-only build of configuration Debug for project Hello_World ****
+make clean 
+APP_NAME = Hello_World
+SOC = quark_se
+TARGET = x86
+APP_DIR = .
+BUILD = debug
+CSTD = c99
+VERSION = '1.4.0'
+rm -f -r ./debug/quark_se/x86/bin ./debug/quark_se/x86/obj ./debug/quark_se/x86 ./bsp/drivers/debug/quark_se/x86 ./bsp/soc/quark_se/debug/quark_se/x86/obj ./debug/quark_se/x86/obj ./bsp/usb/debug/quark_se/x86 ./bsp/build/debug/quark_se/x86
+
+12:21:38 Build Finished (took 372ms)
+

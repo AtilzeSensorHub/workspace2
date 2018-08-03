@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;sensor_hub_ss_109_updated_azwan_new_3g/sensor_hub_ss_109_updated_azwan_new_3g_400_respond (flash to board).launch&apos;" deleteContents="false" description="Delete resource &apos;sensor_hub_ss_109_updated_azwan_new_3g/sensor_hub_ss_109_updated_azwan_new_3g_400_respond (flash to board).launch&apos;" element1="/sensor_hub_ss_109_updated_azwan_new_3g/sensor_hub_ss_109_updated_azwan_new_3g_400_respond (flash to board).launch" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1531192430453"/>
+</session>

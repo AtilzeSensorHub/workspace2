@@ -1,0 +1,18 @@
+#include "main.h"
+#include "clk.h"
+#include "qm_gpio.h"
+#include "qm_pinmux.h"
+#include "qm_pin_functions.h"
+#include "led.h"
+#include "uart0.h"
+#include "qm_uart.h"
+
+
+int main(void)
+{
+//	int k  = led();
+//	QM_PRINTF("%d/n", k);
+	qm_uart_config_t uart1_cfg;         // UART1
+	led();
+	uart0_init(uart1_cfg);
+}

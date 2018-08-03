@@ -1,0 +1,76 @@
+#include "sensors/pm25_hpma115.h"
+#include "sensors/do_kit103d.h"
+#include "sensors/ultrasonic_mb7060.h"
+#include "sensors/temp_rh_sht10.h"
+#include "sensors/floatswitch_lv600.h"
+#include "sensors/ferti_pump_status.h"
+#include "../main.h"
+#include <stdint.h>
+#include "system/utilities.h"
+#include "system/xbee.h"
+#include "wireless/lora.h"
+#include "clk.h"
+#include "system/gpio.h"
+
+void radio_send_data(uint16_t *send_data)
+{
+
+#if (SENSOR_TYPE == 0)
+
+    // Battery level===============================================================
+    uint8_t battery_level[5];
+    conv_to_2B_hex(2*send_data[0], battery_level);
+
+    // Flash Red LED
+    led_r_flash();
+
+    // Send battery level data via LoRa
+    //QM_PRINTF("Send battery level message\n");
+    xbee_tx(QM_UART_0, 0, 1, 0, 3316, battery_level, (sizeof(battery_level)-1));
+    QM_PRINTF("Battery Level: %d\n",2 * send_data[0]);
+
+    // Flash Red LED
+    led_r_flash();
+
+	//Debug mode
+	if (DEBUG_MODE)
+    {
+      clk_sys_udelay(10000000);
+      led_r_flash();
+    }
+
+    // Create x sec delay for duty cycle limit
+    clk_sys_udelay(15000000);
+
+    // PM2.5=======================================================================
+	//uint16_t pm25_val=0;
+    uint8_t pm25_val[1];
+    //pm25_val = get_pm25_hpma115();    // EDITED!!!!!!!!!!!!!!!!!!!!!!!!
+    conv_to_2B_hex(send_data[1], pm25_val);
+    //conv_to_2B_hex(pm25_val, pm25);
+
+    // Flash Red LED
+    led_r_flash();
+
+    // Send PM2.5 data via LoRa
+    QM_PRINTF("PM2.5: %d\n", pm25_val);
+    //xbee_tx(QM_UART_0, 0, 1, 0, 3402, pm25, (sizeof(pm25)-1));
+
+    // Flash Red LED
+    led_r_flash();
+
+	//Debug mode
+	if (DEBUG_MODE)
+    {
+      clk_sys_udelay(10000000);
+      led_r_flash();
+    }
+
+    // Create x sec delay for duty cycle limit
+    clk_sys_udelay(15000000);
+
+
+#else
+    QM_PRINTF("test123");
+#endif
+}

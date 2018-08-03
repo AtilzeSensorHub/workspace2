@@ -1,0 +1,13 @@
+09:51:09 **** Clean-only build of configuration Debug for project Inter_Integrated_Circuit__I2C__Slave_EEPROM_Simulation ****
+make clean 
+APP_NAME = Inter_Integrated_Circuit__I2C__Slave_EEPROM_Simulation
+SOC = quark_se
+TARGET = x86
+APP_DIR = .
+BUILD = debug
+CSTD = c99
+VERSION = '1.4.0'
+rm -f -r ./debug/quark_se/x86/bin ./debug/quark_se/x86/obj ./debug/quark_se/x86 ./bsp/drivers/debug/quark_se/x86 ./bsp/soc/quark_se/debug/quark_se/x86/obj ./debug/quark_se/x86/obj ./bsp/usb/debug/quark_se/x86 ./bsp/build/debug/quark_se/x86
+
+09:51:09 Build Finished (took 334ms)
+

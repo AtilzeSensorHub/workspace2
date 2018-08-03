@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;sensor_hub_3G_new_azwan_testing/sensor_hub_lib/shield&apos; to &apos;shields&apos;" description="Rename resource &apos;shield&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="sensor_hub_lib/shield" name="shields" stamp="1525060704014" updateReferences="true"/>
+</session>

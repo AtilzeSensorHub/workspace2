@@ -1,0 +1,2168 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-atoi.o)
+                              ./debug/quark_se/x86/obj/ultrasonic_mb7060.o (atoi)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-errno.o)
+                              ./debug/quark_se/x86/obj/./newlib-syscalls.o (__errno)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-impure.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-errno.o) (_impure_ptr)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-memcpy.o)
+                              ./debug/quark_se/x86/obj/./app_entry.o (memcpy)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-memset.o)
+                              ./debug/quark_se/x86/obj/./app_entry.o (memset)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-printf.o)
+                              ./debug/quark_se/x86/obj/do_kit103d.o (printf)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putchar.o)
+                              ./debug/quark_se/x86/obj/do_kit103d.o (putchar)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putc.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putchar.o) (_putc_r)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-strtol.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-atoi.o) (_strtol_r)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wbuf.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putc.o) (__swbuf_r)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wsetup.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wbuf.o) (__swsetup_r)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-ctype_.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-strtol.o) (__ctype_ptr__)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fflush.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wbuf.o) (_fflush_r)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-findfp.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putc.o) (__sinit)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fwalk.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fflush.o) (_fwalk_reent)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-makebuf.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wsetup.o) (__smakebuf_r)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-freer.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wsetup.o) (_free_r)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-mallocr.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-findfp.o) (_malloc_r)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-printf.o) (_vfprintf_r)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-stdio.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-findfp.o) (__sread)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fvwrite.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf.o) (__sfvwrite_r)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-memchr.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf.o) (memchr)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-memmove.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fvwrite.o) (memmove)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-reallocr.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fvwrite.o) (_realloc_r)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf_i.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf.o) (_printf_i)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-msizer.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(addsf3.o)
+                              ./debug/quark_se/x86/obj/temp_rh_sht10.o (__addsf3)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(subsf3.o)
+                              ./debug/quark_se/x86/obj/temp_rh_sht10.o (__subsf3)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(mulsf3.o)
+                              ./debug/quark_se/x86/obj/temp_rh_sht10.o (__mulsf3)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(divsf3.o)
+                              ./debug/quark_se/x86/obj/temp_rh_sht10.o (__divsf3)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(fixsfsi.o)
+                              ./debug/quark_se/x86/obj/temp_rh_sht10.o (__fixsfsi)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(floatsisf.o)
+                              ./debug/quark_se/x86/obj/temp_rh_sht10.o (__floatsisf)
+./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+                              ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o (qm_flash)
+./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+                              ./debug/quark_se/x86/obj/air_direction_degree.o (qm_gpio_set_config)
+./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+                              ./debug/quark_se/x86/obj/./newlib-syscalls.o (qm_irq_disable)
+./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mailbox_se.o)
+                              ./debug/quark_se/x86/obj/mailbox.o (qm_mailbox_0_isr)
+./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mpr.o)
+                              ./bsp/soc/quark_se/debug/quark_se/x86/obj/ss_init.o (qm_mpr_set_config)
+./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_pinmux.o)
+                              ./debug/quark_se/x86/obj/./newlib-syscalls.o (qm_pmux_select)
+./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+                              ./debug/quark_se/x86/obj/power.o (qm_rtc)
+./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+                              ./debug/quark_se/x86/obj/./newlib-syscalls.o (qm_uart_set_config)
+./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+                              ./debug/quark_se/x86/obj/usb_device.o (qm_usb_attach)
+./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+                              ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o) (qm_dma_channel_set_config)
+
+Allocating common symbols
+Common symbol       size              file
+
+tank_A_status       0x4               ./debug/quark_se/x86/obj/ferti_pump_status.o
+mbox_rx             0x4               ./debug/quark_se/x86/obj/mailbox.o
+mbox_tx             0x4               ./debug/quark_se/x86/obj/mailbox.o
+sp_restore_storage  0x4               ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+rx_data             0x14              ./debug/quark_se/x86/obj/mailbox.o
+tank_B_status       0x4               ./debug/quark_se/x86/obj/ferti_pump_status.o
+mbox_rx_config      0x10              ./debug/quark_se/x86/obj/mailbox.o
+tx_data             0x14              ./debug/quark_se/x86/obj/mailbox.o
+sensorstring        0x1               ./debug/quark_se/x86/obj/do_kit103d.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/./main.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/./main.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/./main.o
+ .bss.uart1_status.3443
+                0x00000000        0x4 ./debug/quark_se/x86/obj/./main.o
+ .bss.uart0_status.3442
+                0x00000000        0x4 ./debug/quark_se/x86/obj/./main.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/./app_entry.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/./app_entry.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/./app_entry.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .rodata        0x00000000       0x22 ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .text.__assert_func
+                0x00000000       0xa5 ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .text.close    0x00000000       0x1b ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .text.isatty   0x00000000       0x1b ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .text.read     0x00000000       0x21 ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .text.write    0x00000000       0x5d ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .text.lseek    0x00000000       0x21 ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .text.fstat    0x00000000       0x3b ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .text.sbrk     0x00000000       0x5c ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .data.prog_break.3636
+                0x00000000        0x4 ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .text          0x00000000        0x0 ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .data          0x00000000        0x0 ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .bss           0x00000000        0x0 ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .text.apply_flash_timings
+                0x00000000       0xe3 ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .text.clk_sys_compute_new_frequency
+                0x00000000       0xd2 ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .rodata.clk_sys_compute_new_frequency
+                0x00000000       0x18 ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .text.clk_sys_set_mode
+                0x00000000      0x1fa ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .text.clk_trim_read
+                0x00000000       0x34 ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .text.clk_trim_apply
+                0x00000000       0x70 ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .text.clk_periph_set_div
+                0x00000000       0x3d ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .text.clk_gpio_db_set_div
+                0x00000000       0x52 ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .text.clk_ext_set_div
+                0x00000000       0x52 ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .text.clk_periph_disable
+                0x00000000       0x37 ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .text.clk_sys_get_ticks_per_us
+                0x00000000        0xa ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .text.clk_sys_usb_enable
+                0x00000000       0x73 ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .text.clk_sys_usb_disable
+                0x00000000       0x6a ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .text.clk_dma_enable
+                0x00000000       0x1d ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .text.clk_dma_disable
+                0x00000000       0x1d ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .text.get_i2c_clk_freq_in_mhz
+                0x00000000       0x1f ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .text          0x00000000        0x0 ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+ .data          0x00000000        0x0 ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+ .bss           0x00000000        0x0 ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+ .text.qm_power_soc_sleep
+                0x00000000       0x2c ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+ .text.qm_power_soc_sleep_restore
+                0x00000000       0x6c ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+ .text.qm_power_soc_deep_sleep_restore
+                0x00000000       0x6c ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+ .text.qm_power_sleep_wait
+                0x00000000       0x42 ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+ .text.qm_power_soc_set_x86_restore_flag
+                0x00000000       0x17 ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+ .text.qm_power_cpu_c1
+                0x00000000        0x8 ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+ .text.qm_power_cpu_c2
+                0x00000000       0x20 ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+ .text.qm_power_cpu_c2lp
+                0x00000000       0x20 ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+ COMMON         0x00000000        0x4 ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+ .text          0x00000000        0x0 ./bsp/soc/quark_se/debug/quark_se/x86/obj/qm_interrupt_router.o
+ .data          0x00000000        0x0 ./bsp/soc/quark_se/debug/quark_se/x86/obj/qm_interrupt_router.o
+ .bss           0x00000000        0x0 ./bsp/soc/quark_se/debug/quark_se/x86/obj/qm_interrupt_router.o
+ .text          0x00000000        0x0 ./bsp/soc/quark_se/debug/quark_se/x86/obj/ss_init.o
+ .data          0x00000000        0x0 ./bsp/soc/quark_se/debug/quark_se/x86/obj/ss_init.o
+ .bss           0x00000000        0x0 ./bsp/soc/quark_se/debug/quark_se/x86/obj/ss_init.o
+ .text          0x00000000        0x0 ./bsp/soc/quark_se/debug/quark_se/x86/obj/vreg.o
+ .data          0x00000000        0x0 ./bsp/soc/quark_se/debug/quark_se/x86/obj/vreg.o
+ .bss           0x00000000        0x0 ./bsp/soc/quark_se/debug/quark_se/x86/obj/vreg.o
+ .text.vreg_aon_set_mode
+                0x00000000       0x34 ./bsp/soc/quark_se/debug/quark_se/x86/obj/vreg.o
+ .text.vreg_host_set_mode
+                0x00000000       0x27 ./bsp/soc/quark_se/debug/quark_se/x86/obj/vreg.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/air_direction_degree.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/air_direction_degree.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/air_direction_degree.o
+ .text.init_airdirectiondegree_control
+                0x00000000       0x60 ./debug/quark_se/x86/obj/air_direction_degree.o
+ .text.airdirectiondegree_init
+                0x00000000       0x99 ./debug/quark_se/x86/obj/air_direction_degree.o
+ .rodata        0x00000000       0x1c ./debug/quark_se/x86/obj/air_direction_degree.o
+ .text.get_airdirectiondegree
+                0x00000000       0xaa ./debug/quark_se/x86/obj/air_direction_degree.o
+ .bss.uart1_status.3539
+                0x00000000        0x4 ./debug/quark_se/x86/obj/air_direction_degree.o
+ .debug_info    0x00000000      0x5fc ./debug/quark_se/x86/obj/air_direction_degree.o
+ .debug_abbrev  0x00000000      0x126 ./debug/quark_se/x86/obj/air_direction_degree.o
+ .debug_aranges
+                0x00000000       0x30 ./debug/quark_se/x86/obj/air_direction_degree.o
+ .debug_ranges  0x00000000       0x20 ./debug/quark_se/x86/obj/air_direction_degree.o
+ .debug_line    0x00000000      0x201 ./debug/quark_se/x86/obj/air_direction_degree.o
+ .debug_str     0x00000000      0xb10 ./debug/quark_se/x86/obj/air_direction_degree.o
+ .comment       0x00000000       0x6f ./debug/quark_se/x86/obj/air_direction_degree.o
+ .debug_frame   0x00000000       0x74 ./debug/quark_se/x86/obj/air_direction_degree.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/air_speed_1min.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/air_speed_1min.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/air_speed_1min.o
+ .text.init_airspeed1min_control
+                0x00000000       0x60 ./debug/quark_se/x86/obj/air_speed_1min.o
+ .text.airspeed1min_init
+                0x00000000       0x99 ./debug/quark_se/x86/obj/air_speed_1min.o
+ .rodata        0x00000000       0x22 ./debug/quark_se/x86/obj/air_speed_1min.o
+ .text.get_airspeed1min
+                0x00000000       0x9a ./debug/quark_se/x86/obj/air_speed_1min.o
+ .bss.uart1_status.3539
+                0x00000000        0x4 ./debug/quark_se/x86/obj/air_speed_1min.o
+ .debug_info    0x00000000      0x5fc ./debug/quark_se/x86/obj/air_speed_1min.o
+ .debug_abbrev  0x00000000      0x126 ./debug/quark_se/x86/obj/air_speed_1min.o
+ .debug_aranges
+                0x00000000       0x30 ./debug/quark_se/x86/obj/air_speed_1min.o
+ .debug_ranges  0x00000000       0x20 ./debug/quark_se/x86/obj/air_speed_1min.o
+ .debug_line    0x00000000      0x1fe ./debug/quark_se/x86/obj/air_speed_1min.o
+ .debug_str     0x00000000      0xaf2 ./debug/quark_se/x86/obj/air_speed_1min.o
+ .comment       0x00000000       0x6f ./debug/quark_se/x86/obj/air_speed_1min.o
+ .debug_frame   0x00000000       0x74 ./debug/quark_se/x86/obj/air_speed_1min.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/air_temperature.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/air_temperature.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/air_temperature.o
+ .text.init_airtemperature_control
+                0x00000000       0x60 ./debug/quark_se/x86/obj/air_temperature.o
+ .text.airtemperature_init
+                0x00000000       0x99 ./debug/quark_se/x86/obj/air_temperature.o
+ .rodata        0x00000000        0xc ./debug/quark_se/x86/obj/air_temperature.o
+ .text.get_airtemperature
+                0x00000000       0xe7 ./debug/quark_se/x86/obj/air_temperature.o
+ .bss.uart1_status.3539
+                0x00000000        0x4 ./debug/quark_se/x86/obj/air_temperature.o
+ .debug_info    0x00000000      0x5fc ./debug/quark_se/x86/obj/air_temperature.o
+ .debug_abbrev  0x00000000      0x126 ./debug/quark_se/x86/obj/air_temperature.o
+ .debug_aranges
+                0x00000000       0x30 ./debug/quark_se/x86/obj/air_temperature.o
+ .debug_ranges  0x00000000       0x20 ./debug/quark_se/x86/obj/air_temperature.o
+ .debug_line    0x00000000      0x201 ./debug/quark_se/x86/obj/air_temperature.o
+ .debug_str     0x00000000      0xafb ./debug/quark_se/x86/obj/air_temperature.o
+ .comment       0x00000000       0x6f ./debug/quark_se/x86/obj/air_temperature.o
+ .debug_frame   0x00000000       0x74 ./debug/quark_se/x86/obj/air_temperature.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/do_kit103d.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/do_kit103d.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/do_kit103d.o
+ .bss.DO_val    0x00000000        0x4 ./debug/quark_se/x86/obj/do_kit103d.o
+ .text.concatenate
+                0x00000000       0x3c ./debug/quark_se/x86/obj/do_kit103d.o
+ .text.char2int
+                0x00000000       0xb1 ./debug/quark_se/x86/obj/do_kit103d.o
+ .text.do_kit103d_init
+                0x00000000       0x99 ./debug/quark_se/x86/obj/do_kit103d.o
+ .rodata        0x00000000        0x4 ./debug/quark_se/x86/obj/do_kit103d.o
+ .text.get_do_kit103d
+                0x00000000      0x19f ./debug/quark_se/x86/obj/do_kit103d.o
+ .debug_info    0x00000000      0x7ab ./debug/quark_se/x86/obj/do_kit103d.o
+ .debug_abbrev  0x00000000      0x144 ./debug/quark_se/x86/obj/do_kit103d.o
+ .debug_aranges
+                0x00000000       0x38 ./debug/quark_se/x86/obj/do_kit103d.o
+ .debug_ranges  0x00000000       0x28 ./debug/quark_se/x86/obj/do_kit103d.o
+ .debug_line    0x00000000      0x2ab ./debug/quark_se/x86/obj/do_kit103d.o
+ .debug_str     0x00000000      0xc22 ./debug/quark_se/x86/obj/do_kit103d.o
+ .comment       0x00000000       0x6f ./debug/quark_se/x86/obj/do_kit103d.o
+ .debug_frame   0x00000000       0x94 ./debug/quark_se/x86/obj/do_kit103d.o
+ COMMON         0x00000000        0x1 ./debug/quark_se/x86/obj/do_kit103d.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/ferti_pump_status.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/ferti_pump_status.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/ferti_pump_status.o
+ .text.get_fertipumpA_status
+                0x00000000       0x42 ./debug/quark_se/x86/obj/ferti_pump_status.o
+ .text.get_fertipumpB_status
+                0x00000000       0x42 ./debug/quark_se/x86/obj/ferti_pump_status.o
+ .debug_info    0x00000000      0x331 ./debug/quark_se/x86/obj/ferti_pump_status.o
+ .debug_abbrev  0x00000000       0x98 ./debug/quark_se/x86/obj/ferti_pump_status.o
+ .debug_aranges
+                0x00000000       0x28 ./debug/quark_se/x86/obj/ferti_pump_status.o
+ .debug_ranges  0x00000000       0x18 ./debug/quark_se/x86/obj/ferti_pump_status.o
+ .debug_line    0x00000000      0x1a3 ./debug/quark_se/x86/obj/ferti_pump_status.o
+ .debug_str     0x00000000      0x4dd ./debug/quark_se/x86/obj/ferti_pump_status.o
+ .comment       0x00000000       0x6f ./debug/quark_se/x86/obj/ferti_pump_status.o
+ .debug_frame   0x00000000       0x54 ./debug/quark_se/x86/obj/ferti_pump_status.o
+ COMMON         0x00000000        0x8 ./debug/quark_se/x86/obj/ferti_pump_status.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/floatswitch_lv600.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/floatswitch_lv600.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/floatswitch_lv600.o
+ .text.get_tank_A_level
+                0x00000000       0x42 ./debug/quark_se/x86/obj/floatswitch_lv600.o
+ .text.get_tank_B_level
+                0x00000000       0x42 ./debug/quark_se/x86/obj/floatswitch_lv600.o
+ .debug_info    0x00000000      0x331 ./debug/quark_se/x86/obj/floatswitch_lv600.o
+ .debug_abbrev  0x00000000       0x98 ./debug/quark_se/x86/obj/floatswitch_lv600.o
+ .debug_aranges
+                0x00000000       0x28 ./debug/quark_se/x86/obj/floatswitch_lv600.o
+ .debug_ranges  0x00000000       0x18 ./debug/quark_se/x86/obj/floatswitch_lv600.o
+ .debug_line    0x00000000      0x1a3 ./debug/quark_se/x86/obj/floatswitch_lv600.o
+ .debug_str     0x00000000      0x4c9 ./debug/quark_se/x86/obj/floatswitch_lv600.o
+ .comment       0x00000000       0x6f ./debug/quark_se/x86/obj/floatswitch_lv600.o
+ .debug_frame   0x00000000       0x54 ./debug/quark_se/x86/obj/floatswitch_lv600.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/pm25_hpma115.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/pm25_hpma115.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/pm25_hpma115.o
+ .text.init_pm25_control
+                0x00000000       0x60 ./debug/quark_se/x86/obj/pm25_hpma115.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .text.init_voltages_enable
+                0x00000000       0x6f ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .text.init_uart
+                0x00000000       0xb7 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .text.data_input
+                0x00000000       0x2e ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .text.data_output
+                0x00000000       0x88 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .text.send_ack
+                0x00000000       0x7e ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .text.skip_ack
+                0x00000000       0x7e ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .text.connection_reset
+                0x00000000       0x4d ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .text.sht11_recv_byte
+                0x00000000       0x86 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .text.start_transmission
+                0x00000000       0xc9 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .text.send_command
+                0x00000000      0x107 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .text.wait_for_result
+                0x00000000       0x66 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .text.calc_temp
+                0x00000000       0x78 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .text.calc_rh_linear
+                0x00000000       0xb7 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .text.calc_rh_true
+                0x00000000       0xc0 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .text.get_sht10_temp
+                0x00000000       0x5b ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .text.get_sht10_rh_linear
+                0x00000000       0x5b ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .text.get_sht10_rh_true
+                0x00000000       0x6f ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .bss.input_cfg.4107
+                0x00000000       0x20 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .bss.cfg.4110  0x00000000       0x20 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .rodata        0x00000000       0x24 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .debug_info    0x00000000      0x8de ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .debug_abbrev  0x00000000      0x1e8 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .debug_aranges
+                0x00000000       0xa0 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .debug_ranges  0x00000000       0x90 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .debug_line    0x00000000      0x3f5 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .debug_str     0x00000000      0xbe5 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .comment       0x00000000       0x6f ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .debug_frame   0x00000000      0x244 ./debug/quark_se/x86/obj/temp_rh_sht10.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/ultrasonic_mb7060.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/ultrasonic_mb7060.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/ultrasonic_mb7060.o
+ .bss.Range_val
+                0x00000000        0x4 ./debug/quark_se/x86/obj/ultrasonic_mb7060.o
+ .text.char2int_ultrasonic
+                0x00000000       0xb1 ./debug/quark_se/x86/obj/ultrasonic_mb7060.o
+ .text.init_ultrasonic_control
+                0x00000000       0x60 ./debug/quark_se/x86/obj/ultrasonic_mb7060.o
+ .text.ultrasonic_mb7060_init
+                0x00000000       0x99 ./debug/quark_se/x86/obj/ultrasonic_mb7060.o
+ .text.get_ultrasonic_mb7060
+                0x00000000       0xcb ./debug/quark_se/x86/obj/ultrasonic_mb7060.o
+ .bss.uart1_status.3779
+                0x00000000        0x4 ./debug/quark_se/x86/obj/ultrasonic_mb7060.o
+ .debug_info    0x00000000      0x845 ./debug/quark_se/x86/obj/ultrasonic_mb7060.o
+ .debug_abbrev  0x00000000      0x15b ./debug/quark_se/x86/obj/ultrasonic_mb7060.o
+ .debug_aranges
+                0x00000000       0x38 ./debug/quark_se/x86/obj/ultrasonic_mb7060.o
+ .debug_ranges  0x00000000       0x28 ./debug/quark_se/x86/obj/ultrasonic_mb7060.o
+ .debug_line    0x00000000      0x2a8 ./debug/quark_se/x86/obj/ultrasonic_mb7060.o
+ .debug_str     0x00000000      0xd68 ./debug/quark_se/x86/obj/ultrasonic_mb7060.o
+ .comment       0x00000000       0x6f ./debug/quark_se/x86/obj/ultrasonic_mb7060.o
+ .debug_frame   0x00000000       0x94 ./debug/quark_se/x86/obj/ultrasonic_mb7060.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/cellular_3g.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/cellular_3g.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/cellular_3g.o
+ .text.cellular_3g_init
+                0x00000000      0x296 ./debug/quark_se/x86/obj/cellular_3g.o
+ .rodata        0x00000000      0x126 ./debug/quark_se/x86/obj/cellular_3g.o
+ .text.cellular_3g_get_token
+                0x00000000      0x8ce ./debug/quark_se/x86/obj/cellular_3g.o
+ .text.cellular_3g_send
+                0x00000000      0x94c ./debug/quark_se/x86/obj/cellular_3g.o
+ .text.cellular_3g_connect
+                0x00000000      0x16d ./debug/quark_se/x86/obj/cellular_3g.o
+ .text.cellular_3g_recv
+                0x00000000      0x22a ./debug/quark_se/x86/obj/cellular_3g.o
+ .bss.uart0_status.3874
+                0x00000000        0x4 ./debug/quark_se/x86/obj/cellular_3g.o
+ .bss.uart0_status.3969
+                0x00000000        0x4 ./debug/quark_se/x86/obj/cellular_3g.o
+ .bss.uart0_status.3998
+                0x00000000        0x4 ./debug/quark_se/x86/obj/cellular_3g.o
+ .debug_info    0x00000000      0xf8d ./debug/quark_se/x86/obj/cellular_3g.o
+ .debug_abbrev  0x00000000      0x1c4 ./debug/quark_se/x86/obj/cellular_3g.o
+ .debug_aranges
+                0x00000000       0x40 ./debug/quark_se/x86/obj/cellular_3g.o
+ .debug_ranges  0x00000000       0x78 ./debug/quark_se/x86/obj/cellular_3g.o
+ .debug_line    0x00000000      0x50c ./debug/quark_se/x86/obj/cellular_3g.o
+ .debug_str     0x00000000      0xc95 ./debug/quark_se/x86/obj/cellular_3g.o
+ .comment       0x00000000       0x6f ./debug/quark_se/x86/obj/cellular_3g.o
+ .debug_frame   0x00000000       0xcc ./debug/quark_se/x86/obj/cellular_3g.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/lora.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/lora.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/lora.o
+ .text.lora_init
+                0x00000000       0x99 ./debug/quark_se/x86/obj/lora.o
+ .text.lora_send
+                0x00000000      0x2b9 ./debug/quark_se/x86/obj/lora.o
+ .debug_info    0x00000000      0x642 ./debug/quark_se/x86/obj/lora.o
+ .debug_abbrev  0x00000000      0x135 ./debug/quark_se/x86/obj/lora.o
+ .debug_aranges
+                0x00000000       0x28 ./debug/quark_se/x86/obj/lora.o
+ .debug_ranges  0x00000000       0x18 ./debug/quark_se/x86/obj/lora.o
+ .debug_line    0x00000000      0x214 ./debug/quark_se/x86/obj/lora.o
+ .debug_str     0x00000000      0xa31 ./debug/quark_se/x86/obj/lora.o
+ .comment       0x00000000       0x6f ./debug/quark_se/x86/obj/lora.o
+ .debug_frame   0x00000000       0x60 ./debug/quark_se/x86/obj/lora.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/uart.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/uart.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/uart.o
+ .rodata        0x00000000      0x126 ./debug/quark_se/x86/obj/uart.o
+ .text.uart0_get_token
+                0x00000000      0xad1 ./debug/quark_se/x86/obj/uart.o
+ .text.uart0_send
+                0x00000000      0x9ff ./debug/quark_se/x86/obj/uart.o
+ .bss.uart0_status.3880
+                0x00000000        0x4 ./debug/quark_se/x86/obj/uart.o
+ .bss.uart0_status.3979
+                0x00000000        0x4 ./debug/quark_se/x86/obj/uart.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/wifi.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/wifi.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/wifi.o
+ .text.wifi_init
+                0x00000000       0xdb ./debug/quark_se/x86/obj/wifi.o
+ .rodata        0x00000000      0x12e ./debug/quark_se/x86/obj/wifi.o
+ .text.wifi_get_token
+                0x00000000      0x8ce ./debug/quark_se/x86/obj/wifi.o
+ .text.wifi_send
+                0x00000000      0x94c ./debug/quark_se/x86/obj/wifi.o
+ .text.wifi_connect
+                0x00000000      0x155 ./debug/quark_se/x86/obj/wifi.o
+ .text.wifi_recv
+                0x00000000      0x22a ./debug/quark_se/x86/obj/wifi.o
+ .bss.uart0_status.3865
+                0x00000000        0x4 ./debug/quark_se/x86/obj/wifi.o
+ .bss.uart0_status.3960
+                0x00000000        0x4 ./debug/quark_se/x86/obj/wifi.o
+ .bss.uart0_status.3988
+                0x00000000        0x4 ./debug/quark_se/x86/obj/wifi.o
+ .debug_info    0x00000000      0xef2 ./debug/quark_se/x86/obj/wifi.o
+ .debug_abbrev  0x00000000      0x1c4 ./debug/quark_se/x86/obj/wifi.o
+ .debug_aranges
+                0x00000000       0x40 ./debug/quark_se/x86/obj/wifi.o
+ .debug_ranges  0x00000000       0x78 ./debug/quark_se/x86/obj/wifi.o
+ .debug_line    0x00000000      0x4d8 ./debug/quark_se/x86/obj/wifi.o
+ .debug_str     0x00000000      0xc6b ./debug/quark_se/x86/obj/wifi.o
+ .comment       0x00000000       0x6f ./debug/quark_se/x86/obj/wifi.o
+ .debug_frame   0x00000000       0xcc ./debug/quark_se/x86/obj/wifi.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/debug_mode.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/debug_mode.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/debug_mode.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/gpio.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/gpio.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/gpio.o
+ .text.led_r_flash
+                0x00000000       0x2e ./debug/quark_se/x86/obj/gpio.o
+ .text.led_r_off
+                0x00000000       0x15 ./debug/quark_se/x86/obj/gpio.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/mailbox.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/mailbox.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/mailbox.o
+ .bss.transfer_count
+                0x00000000        0x4 ./debug/quark_se/x86/obj/mailbox.o
+ .rodata        0x00000000       0x44 ./debug/quark_se/x86/obj/mailbox.o
+ .text.request_ss_data
+                0x00000000       0x6f ./debug/quark_se/x86/obj/mailbox.o
+ .text.read_mailbox_data
+                0x00000000       0xa1 ./debug/quark_se/x86/obj/mailbox.o
+ .text.get_ss_data
+                0x00000000       0x53 ./debug/quark_se/x86/obj/mailbox.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/power.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/power.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/power.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/radio.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/radio.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/radio.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/sensor.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/sensor.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/sensor.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/utilities.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/utilities.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/utilities.o
+ .text.conv_to_2B_hex
+                0x00000000       0xdf ./debug/quark_se/x86/obj/utilities.o
+ .text.conv_to_1B_hex
+                0x00000000       0x69 ./debug/quark_se/x86/obj/utilities.o
+ .text.concat   0x00000000       0x72 ./debug/quark_se/x86/obj/utilities.o
+ .text.int2char
+                0x00000000       0x71 ./debug/quark_se/x86/obj/utilities.o
+ .debug_info    0x00000000      0x1bf ./debug/quark_se/x86/obj/utilities.o
+ .debug_abbrev  0x00000000       0x9d ./debug/quark_se/x86/obj/utilities.o
+ .debug_aranges
+                0x00000000       0x38 ./debug/quark_se/x86/obj/utilities.o
+ .debug_ranges  0x00000000       0x28 ./debug/quark_se/x86/obj/utilities.o
+ .debug_line    0x00000000      0x242 ./debug/quark_se/x86/obj/utilities.o
+ .debug_str     0x00000000      0x234 ./debug/quark_se/x86/obj/utilities.o
+ .comment       0x00000000       0x6f ./debug/quark_se/x86/obj/utilities.o
+ .debug_frame   0x00000000       0x94 ./debug/quark_se/x86/obj/utilities.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/xbee.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/xbee.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/xbee.o
+ .text.xbee_tx  0x00000000       0x35 ./debug/quark_se/x86/obj/xbee.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/relayshield_v3.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/relayshield_v3.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/relayshield_v3.o
+ .text.relayshield_init
+                0x00000000       0x51 ./debug/quark_se/x86/obj/relayshield_v3.o
+ .rodata        0x00000000       0x24 ./debug/quark_se/x86/obj/relayshield_v3.o
+ .text.on_relay1
+                0x00000000       0x1f ./debug/quark_se/x86/obj/relayshield_v3.o
+ .text.off_relay1
+                0x00000000       0x1f ./debug/quark_se/x86/obj/relayshield_v3.o
+ .text.on_relay2
+                0x00000000       0x1f ./debug/quark_se/x86/obj/relayshield_v3.o
+ .text.off_relay2
+                0x00000000       0x1f ./debug/quark_se/x86/obj/relayshield_v3.o
+ .text.on_relay3
+                0x00000000       0x1f ./debug/quark_se/x86/obj/relayshield_v3.o
+ .text.off_relay3
+                0x00000000       0x1f ./debug/quark_se/x86/obj/relayshield_v3.o
+ .text.on_relay4
+                0x00000000       0x1f ./debug/quark_se/x86/obj/relayshield_v3.o
+ .text.off_relay4
+                0x00000000       0x1f ./debug/quark_se/x86/obj/relayshield_v3.o
+ .debug_info    0x00000000      0x3be ./debug/quark_se/x86/obj/relayshield_v3.o
+ .debug_abbrev  0x00000000       0xd9 ./debug/quark_se/x86/obj/relayshield_v3.o
+ .debug_aranges
+                0x00000000       0x60 ./debug/quark_se/x86/obj/relayshield_v3.o
+ .debug_ranges  0x00000000       0x50 ./debug/quark_se/x86/obj/relayshield_v3.o
+ .debug_line    0x00000000      0x232 ./debug/quark_se/x86/obj/relayshield_v3.o
+ .debug_str     0x00000000      0x67e ./debug/quark_se/x86/obj/relayshield_v3.o
+ .comment       0x00000000       0x6f ./debug/quark_se/x86/obj/relayshield_v3.o
+ .debug_frame   0x00000000      0x134 ./debug/quark_se/x86/obj/relayshield_v3.o
+ .text          0x00000000        0x0 ./debug/quark_se/x86/obj/usb_device.o
+ .data          0x00000000        0x0 ./debug/quark_se/x86/obj/usb_device.o
+ .bss           0x00000000        0x0 ./debug/quark_se/x86/obj/usb_device.o
+ .bss.dev_config
+                0x00000000        0x4 ./debug/quark_se/x86/obj/usb_device.o
+ .bss.setup_packet
+                0x00000000        0x8 ./debug/quark_se/x86/obj/usb_device.o
+ .bss.data_buf  0x00000000        0x4 ./debug/quark_se/x86/obj/usb_device.o
+ .bss.data_count
+                0x00000000        0x4 ./debug/quark_se/x86/obj/usb_device.o
+ .bss.control_xfer_len
+                0x00000000        0x4 ./debug/quark_se/x86/obj/usb_device.o
+ .bss.current_config
+                0x00000000        0x1 ./debug/quark_se/x86/obj/usb_device.o
+ .bss.req_data_store
+                0x00000000       0x20 ./debug/quark_se/x86/obj/usb_device.o
+ .bss.usb_enabled
+                0x00000000        0x1 ./debug/quark_se/x86/obj/usb_device.o
+ .bss.std_request_data
+                0x00000000        0x8 ./debug/quark_se/x86/obj/usb_device.o
+ .rodata.ep0_cfg
+                0x00000000       0x28 ./debug/quark_se/x86/obj/usb_device.o
+ .text.handle_request
+                0x00000000       0x67 ./debug/quark_se/x86/obj/usb_device.o
+ .text.transmit_data
+                0x00000000       0x65 ./debug/quark_se/x86/obj/usb_device.o
+ .text.handle_setup_packet
+                0x00000000       0xff ./debug/quark_se/x86/obj/usb_device.o
+ .text.handle_out_control_transfer
+                0x00000000      0x13b ./debug/quark_se/x86/obj/usb_device.o
+ .text.handle_in_control_transfer
+                0x00000000       0x20 ./debug/quark_se/x86/obj/usb_device.o
+ .rodata        0x00000000       0x46 ./debug/quark_se/x86/obj/usb_device.o
+ .text.get_descriptor
+                0x00000000       0xea ./debug/quark_se/x86/obj/usb_device.o
+ .text.set_config
+                0x00000000      0x1f7 ./debug/quark_se/x86/obj/usb_device.o
+ .text.handle_std_device_req
+                0x00000000       0xed ./debug/quark_se/x86/obj/usb_device.o
+ .rodata.handle_std_device_req
+                0x00000000       0x28 ./debug/quark_se/x86/obj/usb_device.o
+ .text.handle_std_interface_req
+                0x00000000       0x6e ./debug/quark_se/x86/obj/usb_device.o
+ .rodata.handle_std_interface_req
+                0x00000000       0x30 ./debug/quark_se/x86/obj/usb_device.o
+ .text.handle_std_endpoint_req
+                0x00000000       0xdd ./debug/quark_se/x86/obj/usb_device.o
+ .text.handle_standard_request
+                0x00000000       0xd0 ./debug/quark_se/x86/obj/usb_device.o
+ .text.usb_enable
+                0x00000000      0x11e ./debug/quark_se/x86/obj/usb_device.o
+ .text.usb_disable
+                0x00000000       0x49 ./debug/quark_se/x86/obj/usb_device.o
+ .rodata.__func__.3174
+                0x00000000        0xf ./debug/quark_se/x86/obj/usb_device.o
+ .rodata.__func__.3185
+                0x00000000        0xb ./debug/quark_se/x86/obj/usb_device.o
+ .debug_info    0x00000000      0xb86 ./debug/quark_se/x86/obj/usb_device.o
+ .debug_abbrev  0x00000000      0x207 ./debug/quark_se/x86/obj/usb_device.o
+ .debug_aranges
+                0x00000000       0x80 ./debug/quark_se/x86/obj/usb_device.o
+ .debug_ranges  0x00000000       0x88 ./debug/quark_se/x86/obj/usb_device.o
+ .debug_line    0x00000000      0x3e0 ./debug/quark_se/x86/obj/usb_device.o
+ .debug_str     0x00000000      0x98b ./debug/quark_se/x86/obj/usb_device.o
+ .comment       0x00000000       0x6f ./debug/quark_se/x86/obj/usb_device.o
+ .debug_frame   0x00000000      0x1c4 ./debug/quark_se/x86/obj/usb_device.o
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-atoi.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-atoi.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-atoi.o)
+ .text.unlikely.atoi
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-atoi.o)
+ .text.atoi     0x00000000        0xc c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-atoi.o)
+ .text.unlikely._atoi_r
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-atoi.o)
+ .text._atoi_r  0x00000000        0xb c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-atoi.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-atoi.o)
+ .eh_frame      0x00000000       0x44 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-atoi.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-errno.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-errno.o)
+ .text.unlikely.__errno
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-errno.o)
+ .text.__errno  0x00000000        0x6 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-errno.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-errno.o)
+ .eh_frame      0x00000000       0x2c c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-errno.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-impure.o)
+ .data          0x00000000      0x2a4 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-impure.o)
+ .rodata        0x00000000        0x4 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-impure.o)
+ .rodata.str1.1
+                0x00000000        0x2 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-impure.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-printf.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-printf.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-printf.o)
+ .text.unlikely._printf_r
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-printf.o)
+ .text._printf_r
+                0x00000000       0x17 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-printf.o)
+ .text.unlikely.printf
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-printf.o)
+ .text.printf   0x00000000       0x18 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-printf.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-printf.o)
+ .eh_frame      0x00000000       0x48 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-printf.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putchar.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putchar.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putchar.o)
+ .text.unlikely._putchar_r
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putchar.o)
+ .text._putchar_r
+                0x00000000        0x8 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putchar.o)
+ .text.unlikely.putchar
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putchar.o)
+ .text.putchar  0x00000000        0xf c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putchar.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putchar.o)
+ .eh_frame      0x00000000       0x40 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putchar.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putc.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putc.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putc.o)
+ .text.unlikely._putc_r
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putc.o)
+ .text._putc_r  0x00000000       0x61 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putc.o)
+ .text.unlikely.putc
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putc.o)
+ .text.putc     0x00000000        0xe c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putc.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putc.o)
+ .eh_frame      0x00000000       0x58 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-putc.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-strtol.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-strtol.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-strtol.o)
+ .text.unlikely._strtol_r
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-strtol.o)
+ .text._strtol_r
+                0x00000000      0x14c c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-strtol.o)
+ .text.unlikely.strtol
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-strtol.o)
+ .text.strtol   0x00000000       0x11 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-strtol.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-strtol.o)
+ .eh_frame      0x00000000       0x70 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-strtol.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wbuf.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wbuf.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wbuf.o)
+ .text.unlikely.__swbuf_r
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wbuf.o)
+ .text.__swbuf_r
+                0x00000000       0x8e c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wbuf.o)
+ .text.unlikely.__swbuf
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wbuf.o)
+ .text.__swbuf  0x00000000        0xe c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wbuf.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wbuf.o)
+ .eh_frame      0x00000000       0x64 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wbuf.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wsetup.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wsetup.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wsetup.o)
+ .text.unlikely.__swsetup_r
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wsetup.o)
+ .text.__swsetup_r
+                0x00000000       0xc9 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wsetup.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wsetup.o)
+ .eh_frame      0x00000000       0x3c c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-wsetup.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-ctype_.o)
+ .data          0x00000000        0x4 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-ctype_.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-ctype_.o)
+ .rodata        0x00000000      0x2a0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-ctype_.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-ctype_.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fflush.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fflush.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fflush.o)
+ .text.unlikely.__sflush_r
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fflush.o)
+ .text.__sflush_r
+                0x00000000      0x123 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fflush.o)
+ .text.unlikely._fflush_r
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fflush.o)
+ .text._fflush_r
+                0x00000000       0x2e c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fflush.o)
+ .text.unlikely.fflush
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fflush.o)
+ .text.fflush   0x00000000       0x1f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fflush.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fflush.o)
+ .eh_frame      0x00000000       0xa4 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fflush.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-findfp.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-findfp.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-findfp.o)
+ .text.unlikely._cleanup_r
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-findfp.o)
+ .text._cleanup_r
+                0x00000000        0xa c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-findfp.o)
+ .text.unlikely.std.isra.0
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-findfp.o)
+ .text.std.isra.0
+                0x00000000       0x6b c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-findfp.o)
+ .text.unlikely.__sfmoreglue
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-findfp.o)
+ .text.__sfmoreglue
+                0x00000000       0x38 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-findfp.o)
+ .text.unlikely._cleanup
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-findfp.o)
+ .text._cleanup
+                0x00000000        0xa c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-findfp.o)
+ .text.unlikely.__sinit
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-findfp.o)
+ .text.__sinit  0x00000000       0x6c c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-findfp.o)
+ .text.unlikely.__sfp
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-findfp.o)
+ .text.__sfp    0x00000000       0xc3 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-findfp.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-findfp.o)
+ .eh_frame      0x00000000       0xd4 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-findfp.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fwalk.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fwalk.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fwalk.o)
+ .text.unlikely._fwalk
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fwalk.o)
+ .text._fwalk   0x00000000       0x45 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fwalk.o)
+ .text.unlikely._fwalk_reent
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fwalk.o)
+ .text._fwalk_reent
+                0x00000000       0x56 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fwalk.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fwalk.o)
+ .eh_frame      0x00000000       0x90 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fwalk.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-makebuf.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-makebuf.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-makebuf.o)
+ .text.unlikely.__smakebuf_r
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-makebuf.o)
+ .text.__smakebuf_r
+                0x00000000       0xca c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-makebuf.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-makebuf.o)
+ .eh_frame      0x00000000       0x54 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-makebuf.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-freer.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-freer.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-freer.o)
+ .text.unlikely._free_r
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-freer.o)
+ .text._free_r  0x00000000       0xb9 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-freer.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-freer.o)
+ .eh_frame      0x00000000       0x4c c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-freer.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-mallocr.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-mallocr.o)
+ .bss           0x00000000        0x8 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-mallocr.o)
+ .text.unlikely._malloc_r
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-mallocr.o)
+ .text._malloc_r
+                0x00000000       0xd0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-mallocr.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-mallocr.o)
+ .eh_frame      0x00000000       0x50 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-mallocr.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf.o)
+ .text.unlikely.__sfputc_r
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf.o)
+ .text.__sfputc_r
+                0x00000000       0x2a c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf.o)
+ .text.unlikely.__sfputs_r
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf.o)
+ .text.__sfputs_r
+                0x00000000       0x2f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf.o)
+ .text.unlikely.__sprint_r
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf.o)
+ .text.__sprint_r
+                0x00000000       0x28 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf.o)
+ .rodata.str1.1
+                0x00000000       0x11 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf.o)
+ .text.unlikely._vfprintf_r
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf.o)
+ .text._vfprintf_r
+                0x00000000      0x290 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf.o)
+ .text.unlikely.vfprintf
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf.o)
+ .text.vfprintf
+                0x00000000       0x11 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf.o)
+ .eh_frame      0x00000000      0x108 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-stdio.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-stdio.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-stdio.o)
+ .text.unlikely.__sread
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-stdio.o)
+ .text.__sread  0x00000000       0x23 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-stdio.o)
+ .text.unlikely.__seofread
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-stdio.o)
+ .text.__seofread
+                0x00000000        0x3 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-stdio.o)
+ .text.unlikely.__swrite
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-stdio.o)
+ .text.__swrite
+                0x00000000       0x37 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-stdio.o)
+ .text.unlikely.__sseek
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-stdio.o)
+ .text.__sseek  0x00000000       0x2a c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-stdio.o)
+ .text.unlikely.__sclose
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-stdio.o)
+ .text.__sclose
+                0x00000000        0x9 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-stdio.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-stdio.o)
+ .eh_frame      0x00000000       0xa4 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-stdio.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fvwrite.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fvwrite.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fvwrite.o)
+ .text.unlikely.__sfvwrite_r
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fvwrite.o)
+ .text.__sfvwrite_r
+                0x00000000      0x3b6 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fvwrite.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fvwrite.o)
+ .eh_frame      0x00000000       0x6c c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-fvwrite.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-memchr.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-memchr.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-memchr.o)
+ .text.memchr   0x00000000       0x18 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-memchr.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-memmove.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-memmove.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-memmove.o)
+ .text.memmove  0x00000000       0x20 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-memmove.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-reallocr.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-reallocr.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-reallocr.o)
+ .text.unlikely._realloc_r
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-reallocr.o)
+ .text._realloc_r
+                0x00000000       0x57 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-reallocr.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-reallocr.o)
+ .eh_frame      0x00000000       0x50 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-reallocr.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf_i.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf_i.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf_i.o)
+ .text.unlikely._printf_common
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf_i.o)
+ .text._printf_common
+                0x00000000       0xdc c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf_i.o)
+ .rodata.str1.1
+                0x00000000       0x22 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf_i.o)
+ .text.unlikely._printf_i
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf_i.o)
+ .text._printf_i
+                0x00000000      0x291 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf_i.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf_i.o)
+ .eh_frame      0x00000000       0xc0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-vfprintf_i.o)
+ .text          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-msizer.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-msizer.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-msizer.o)
+ .text.unlikely._malloc_usable_size_r
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-msizer.o)
+ .text._malloc_usable_size_r
+                0x00000000       0x12 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-msizer.o)
+ .comment       0x00000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-msizer.o)
+ .eh_frame      0x00000000       0x2c c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-nano-msizer.o)
+ .text          0x00000000      0x19e c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(addsf3.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(addsf3.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(addsf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(addsf3.o)
+ .text          0x00000000        0xc c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(subsf3.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(subsf3.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(subsf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(subsf3.o)
+ .text          0x00000000      0x103 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(mulsf3.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(mulsf3.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(mulsf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(mulsf3.o)
+ .text          0x00000000       0xe5 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(divsf3.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(divsf3.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(divsf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(divsf3.o)
+ .text          0x00000000       0x51 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(fixsfsi.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(fixsfsi.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(fixsfsi.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(fixsfsi.o)
+ .text          0x00000000       0x53 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(floatsisf.o)
+ .data          0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(floatsisf.o)
+ .bss           0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(floatsisf.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a(floatsisf.o)
+ .text          0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .data          0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .bss           0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .data.qm_flash
+                0x00000000        0x8 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .text.qm_flash_check_otp_locked
+                0x00000000       0x16 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .text.qm_flash_set_config
+                0x00000000       0xba ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .text.qm_flash_word_write
+                0x00000000       0xcd ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .text.qm_flash_page_write
+                0x00000000      0x13c ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .text.qm_flash_page_update
+                0x00000000      0x20c ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .text.qm_flash_page_erase
+                0x00000000       0xaa ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .text.qm_flash_mass_erase
+                0x00000000       0x7a ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .text.qm_flash_save_context
+                0x00000000       0x50 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .text.qm_flash_restore_context
+                0x00000000       0x50 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .debug_info    0x00000000      0x7fe ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .debug_abbrev  0x00000000      0x1d0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .debug_aranges
+                0x00000000       0x60 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .debug_ranges  0x00000000       0x50 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .debug_line    0x00000000      0x3b8 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .debug_str     0x00000000      0x6bd ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .comment       0x00000000       0x6f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .debug_frame   0x00000000      0x134 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_flash.o)
+ .text          0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .data          0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .bss           0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .text.gpio_isr
+                0x00000000       0x60 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .text.qm_gpio_0_isr
+                0x00000000       0x3e ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .text.qm_aon_gpio_0_isr
+                0x00000000       0x3e ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .text.qm_gpio_read_pin
+                0x00000000       0x60 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .text.qm_gpio_set_pin_state
+                0x00000000       0x80 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .text.qm_gpio_read_port
+                0x00000000       0x3f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .text.qm_gpio_write_port
+                0x00000000       0x2f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .text.qm_gpio_save_context
+                0x00000000       0xbc ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .text.qm_gpio_restore_context
+                0x00000000       0xca ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .text          0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .data          0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .bss           0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .text._ioapic_set_redtbl_entry
+                0x00000000       0x4f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .text._ioapic_get_redtbl_size
+                0x00000000       0x2a ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .text.apic_init
+                0x00000000       0x94 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .text.ioapic_mask_irq
+                0x00000000       0x29 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .text.qm_irq_disable
+                0x00000000        0x7 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .text.qm_irq_enable
+                0x00000000        0x7 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .text.qm_irq_lock
+                0x00000000       0x18 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .text.qm_irq_unlock
+                0x00000000       0x1b ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .text.qm_irq_mask
+                0x00000000       0x14 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .text.qm_irq_unmask
+                0x00000000       0x14 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .text.qm_irq_save_context
+                0x00000000       0x49 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .text.qm_irq_restore_context
+                0x00000000       0x4e ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .text          0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mailbox_se.o)
+ .data          0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mailbox_se.o)
+ .bss           0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mailbox_se.o)
+ .text.qm_mbox_ch_write
+                0x00000000       0xbb ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mailbox_se.o)
+ .text.qm_mbox_ch_read
+                0x00000000       0xf5 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mailbox_se.o)
+ .text.qm_mbox_ch_get_status
+                0x00000000       0x4a ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mailbox_se.o)
+ .text          0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mpr.o)
+ .data          0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mpr.o)
+ .bss           0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mpr.o)
+ .bss.callback  0x00000000        0x4 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mpr.o)
+ .bss.callback_data
+                0x00000000        0x4 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mpr.o)
+ .text.qm_sram_mpr_0_isr
+                0x00000000       0x58 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mpr.o)
+ .text.qm_mpr_set_violation_policy
+                0x00000000       0xc8 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mpr.o)
+ .text.qm_mpr_save_context
+                0x00000000       0x48 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mpr.o)
+ .text.qm_mpr_restore_context
+                0x00000000       0x48 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mpr.o)
+ .text          0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_pinmux.o)
+ .data          0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_pinmux.o)
+ .bss           0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_pinmux.o)
+ .text.qm_pmux_set_slew
+                0x00000000       0xa5 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_pinmux.o)
+ .text.qm_pmux_pullup_en
+                0x00000000       0x91 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_pinmux.o)
+ .text          0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+ .data          0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+ .bss           0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+ .text.qm_rtc_read
+                0x00000000       0x3e ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+ .text.qm_rtc_save_context
+                0x00000000       0x2d ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+ .text.qm_rtc_restore_context
+                0x00000000       0x4f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+ .text          0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .data          0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .bss           0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .bss.write_pos
+                0x00000000        0x8 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .bss.read_pos  0x00000000        0x8 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .bss.uart_read_transfer
+                0x00000000        0x8 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .bss.uart_write_transfer
+                0x00000000        0x8 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .bss.dma_context_tx
+                0x00000000       0x10 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .bss.dma_context_rx
+                0x00000000       0x10 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .bss.dma_core  0x00000000        0x8 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .bss.dma_delayed_callback_par
+                0x00000000       0x18 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text.is_read_xfer_complete
+                0x00000000       0x2d ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text.is_write_xfer_complete
+                0x00000000       0x2d ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text.qm_uart_isr_handler
+                0x00000000      0x2f3 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text.qm_uart_0_isr
+                0x00000000       0x3e ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text.qm_uart_1_isr
+                0x00000000       0x3e ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text.qm_uart_write_non_block
+                0x00000000       0x38 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text.qm_uart_read_non_block
+                0x00000000       0x46 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text.qm_uart_irq_write
+                0x00000000       0x70 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text.qm_uart_irq_read
+                0x00000000       0x70 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text.qm_uart_irq_write_terminate
+                0x00000000       0x7c ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text.qm_uart_irq_read_terminate
+                0x00000000       0x7c ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .rodata        0x00000000       0xa5 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text.uart_dma_callback
+                0x00000000      0x140 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text.uart_client_callback
+                0x00000000      0x110 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text.qm_uart_dma_channel_config
+                0x00000000      0x130 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text.qm_uart_dma_write
+                0x00000000       0xf5 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text.qm_uart_dma_read
+                0x00000000       0xf5 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text.qm_uart_dma_write_terminate
+                0x00000000       0x37 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text.qm_uart_dma_read_terminate
+                0x00000000       0x37 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text.qm_uart_save_context
+                0x00000000       0xc4 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text.qm_uart_restore_context
+                0x00000000       0xce ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .rodata.__func__.3340
+                0x00000000       0x12 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .rodata.__func__.3349
+                0x00000000       0x15 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+ .text          0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .data          0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .bss           0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .bss.usb_ctrl  0x00000000       0x84 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.usb_dc_ep_is_valid
+                0x00000000       0x12 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.usb_dc_reset
+                0x00000000       0xda ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.usb_dc_prep_rx
+                0x00000000      0x127 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.usb_dc_tx
+                0x00000000      0x20e ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.usb_dc_handle_reset
+                0x00000000      0x12d ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.usb_dc_handle_enum_done
+                0x00000000       0x5d ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.handle_rx_fifo
+                0x00000000       0xde ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.handle_in_ep_intr
+                0x00000000      0x167 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.handle_out_ep_intr
+                0x00000000       0xec ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.usb_dc_isr_handler
+                0x00000000      0x1d8 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.qm_usb_0_isr
+                0x00000000       0x3e ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.qm_usb_attach
+                0x00000000      0x17c ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.qm_usb_detach
+                0x00000000       0x95 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.qm_usb_reset
+                0x00000000       0x20 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.qm_usb_set_address
+                0x00000000       0xb5 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.qm_usb_ep_set_config
+                0x00000000      0x256 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.qm_usb_ep_set_stall_state
+                0x00000000      0x163 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.qm_usb_ep_halt
+                0x00000000      0x10f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.qm_usb_ep_is_stalled
+                0x00000000       0xe1 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.qm_usb_ep_enable
+                0x00000000      0x1e4 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.qm_usb_ep_disable
+                0x00000000      0x265 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.qm_usb_ep_flush
+                0x00000000      0x126 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.qm_usb_ep_write
+                0x00000000       0xd3 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.qm_usb_ep_read
+                0x00000000      0x219 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.qm_usb_set_status_callback
+                0x00000000       0x38 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text.qm_usb_ep_get_bytes_read
+                0x00000000       0xd9 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .debug_info    0x00000000     0x145f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .debug_abbrev  0x00000000      0x29a ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .debug_aranges
+                0x00000000       0xe8 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .debug_ranges  0x00000000       0xd8 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .debug_line    0x00000000      0x692 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .debug_str     0x00000000      0xc1c ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .comment       0x00000000       0x6f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .debug_frame   0x00000000      0x394 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_usb.o)
+ .text          0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .data          0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .bss           0x00000000        0x0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .rodata        0x00000000      0x238 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.get_transfer_length
+                0x00000000       0xb7 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_controller_disable
+                0x00000000       0x3b ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_controller_enable
+                0x00000000       0x20 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_channel_disable
+                0x00000000      0x165 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_channel_enable
+                0x00000000       0x3f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_interrupt_disable
+                0x00000000       0x40 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_interrupt_enable
+                0x00000000       0x40 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_set_transfer_type
+                0x00000000      0x1af ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_get_transfer_type
+                0x00000000       0x7d ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_set_source_transfer_width
+                0x00000000       0x58 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_set_destination_transfer_width
+                0x00000000       0x57 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_set_source_burst_length
+                0x00000000       0x5a ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_set_destination_burst_length
+                0x00000000       0x58 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_set_transfer_direction
+                0x00000000       0x5a ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_set_source_increment
+                0x00000000       0x58 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_set_destination_increment
+                0x00000000       0x5a ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_set_handshake_interface
+                0x00000000       0x80 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_set_handshake_type
+                0x00000000       0x82 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_set_handshake_polarity
+                0x00000000       0x82 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_set_source_address
+                0x00000000       0x35 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_set_destination_address
+                0x00000000       0x37 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_set_block_size
+                0x00000000       0x57 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .data.qm_dma   0x00000000        0x4 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .bss.dma_channel_config
+                0x00000000       0xa0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.qm_dma_isr_handler
+                0x00000000      0x27a ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.qm_dma_isr_err_handler
+                0x00000000      0x153 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.qm_dma_0_error_isr
+                0x00000000       0x3e ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.qm_dma_0_isr_0
+                0x00000000       0x43 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.qm_dma_0_isr_1
+                0x00000000       0x43 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.qm_dma_0_isr_2
+                0x00000000       0x43 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.qm_dma_0_isr_3
+                0x00000000       0x43 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.qm_dma_0_isr_4
+                0x00000000       0x43 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.qm_dma_0_isr_5
+                0x00000000       0x43 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.qm_dma_0_isr_6
+                0x00000000       0x43 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.qm_dma_0_isr_7
+                0x00000000       0x43 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.qm_dma_init
+                0x00000000      0x101 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.qm_dma_channel_set_config
+                0x00000000      0x1e6 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.qm_dma_transfer_set_config
+                0x00000000       0xc1 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.dma_linked_list_init
+                0x00000000      0x160 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.qm_dma_multi_transfer_set_config
+                0x00000000      0x28c ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.qm_dma_transfer_start
+                0x00000000      0x14d ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.qm_dma_transfer_terminate
+                0x00000000      0x132 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.qm_dma_transfer_mem_to_mem
+                0x00000000       0x95 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.qm_dma_save_context
+                0x00000000       0xe3 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .text.qm_dma_restore_context
+                0x00000000       0xda ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .rodata.__func__.3361
+                0x00000000       0x13 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .rodata.__func__.3200
+                0x00000000       0x14 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .rodata.__func__.3369
+                0x00000000       0x17 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .rodata.__func__.3438
+                0x00000000       0x15 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .rodata.__func__.3455
+                0x00000000       0x21 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .debug_info    0x00000000     0x1d08 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .debug_abbrev  0x00000000      0x2ff ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .debug_aranges
+                0x00000000      0x170 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .debug_ranges  0x00000000      0x160 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .debug_line    0x00000000      0x8aa ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .debug_str     0x00000000     0x15bb ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .comment       0x00000000       0x6f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+ .debug_frame   0x00000000      0x5f8 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_dma.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash0           0x40000000         0x00030000         r
+flash1           0x40030000         0x00030000         r
+x86_esram        0xa800a000         0x000099e0         rw
+x86_stack        0xa80139e0         0x000003dc         rw
+x86_esram_idt    0xa8013dbc         0x00000220         rw
+esram_restore_info 0xa8013fdc         0x00000004         rw
+esram_gdt        0xa8013fe0         0x00000020         rw
+sensor_ivt       0xa8000000         0x00000110         rw
+sensor_ivt_padding 0xa8000110         0x000002f0         rw
+sensor_esram     0xa8000400         0x00009800         rw
+sensor_stack     0xa8009c00         0x00000400         rw
+sensor_flash     0x40000000         0x0002f000         r
+bl_data          0x4002f000         0x00001000         r
+x86_flash        0x40030000         0x00030000         r
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0xa8013dbc                __idt_start = ORIGIN (x86_esram_idt)
+                0xa8013fdc                __idt_end = (__idt_start + LENGTH (x86_esram_idt))
+                0xa8013fdc                __x86_restore_info = ORIGIN (esram_restore_info)
+                0xa8013fe0                __x86_restore_info_end = (__x86_restore_info + LENGTH (esram_restore_info))
+                0xa8013fe0                __gdt_start = ORIGIN (esram_gdt)
+                0xa8014000                __gdt_end = (__gdt_start + LENGTH (esram_gdt))
+                0x40000000                __sensor_flash_start = ORIGIN (sensor_flash)
+                0x40030000                __x86_flash_start = ORIGIN (x86_flash)
+                0x4002f000                __bl_data_start = ORIGIN (bl_data)
+                0xa8000000                __sensor_reset_vector = ORIGIN (sensor_ivt)
+                0xa8013dbc                __stack_start = (ORIGIN (x86_stack) + LENGTH (x86_stack))
+
+.text           0x40030000     0x1ead
+ *(.text.entry)
+ .text.entry    0x40030000       0x41 ./debug/quark_se/x86/obj/./app_entry.o
+                0x40030000                _start
+ *(.text)
+ *(.text.last)
+ *(.text.*)
+ .text.main     0x40030041      0x166 ./debug/quark_se/x86/obj/./main.o
+                0x40030041                main
+ .text.pico_putchar
+                0x400301a7       0x22 ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .text.last_digit_to_char
+                0x400301c9       0x47 ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .text.putuint  0x40030210       0x85 ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .text.pico_putchars
+                0x40030295       0x33 ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .text.pico_printf
+                0x400302c8      0x17b ./debug/quark_se/x86/obj/./newlib-syscalls.o
+                0x400302c8                pico_printf
+ .text.stdout_uart_setup
+                0x40030443       0x6a ./debug/quark_se/x86/obj/./newlib-syscalls.o
+                0x40030443                stdout_uart_setup
+ .text.puts     0x400304ad       0x41 ./debug/quark_se/x86/obj/./newlib-syscalls.o
+                0x400304ad                puts
+ .text.clk_rtc_set_div
+                0x400304ee       0x52 ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+                0x400304ee                clk_rtc_set_div
+ .text.clk_periph_enable
+                0x40030540       0x33 ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+                0x40030540                clk_periph_enable
+ .text.clk_sys_udelay
+                0x40030573       0x42 ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+                0x40030573                clk_sys_udelay
+ .text.qm_power_soc_deep_sleep
+                0x400305b5       0x40 ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+                0x400305b5                qm_power_soc_deep_sleep
+ .text._qm_ir_unmask_int
+                0x400305f5       0x83 ./bsp/soc/quark_se/debug/quark_se/x86/obj/qm_interrupt_router.o
+                0x400305f5                _qm_ir_unmask_int
+ .text._qm_ir_mask_int
+                0x40030678       0x83 ./bsp/soc/quark_se/debug/quark_se/x86/obj/qm_interrupt_router.o
+                0x40030678                _qm_ir_mask_int
+ .text.sensor_vectors_protect
+                0x400306fb       0x15 ./bsp/soc/quark_se/debug/quark_se/x86/obj/ss_init.o
+ .text.sensor_activation
+                0x40030710       0x3a ./bsp/soc/quark_se/debug/quark_se/x86/obj/ss_init.o
+                0x40030710                sensor_activation
+ .text.vreg_set_mode
+                0x4003074a       0x8f ./bsp/soc/quark_se/debug/quark_se/x86/obj/vreg.o
+ .text.vreg_plat3p3_set_mode
+                0x400307d9       0x27 ./bsp/soc/quark_se/debug/quark_se/x86/obj/vreg.o
+                0x400307d9                vreg_plat3p3_set_mode
+ .text.vreg_plat1p8_set_mode
+                0x40030800       0x27 ./bsp/soc/quark_se/debug/quark_se/x86/obj/vreg.o
+                0x40030800                vreg_plat1p8_set_mode
+ .text.pm25_hpma115_init
+                0x40030827       0x99 ./debug/quark_se/x86/obj/pm25_hpma115.o
+                0x40030827                pm25_hpma115_init
+ .text.get_pm25_hpma115
+                0x400308c0       0xc1 ./debug/quark_se/x86/obj/pm25_hpma115.o
+                0x400308c0                get_pm25_hpma115
+ .text.uart0_init
+                0x40030981      0x2e4 ./debug/quark_se/x86/obj/uart.o
+                0x40030981                uart0_init
+ .text.uart0_connect
+                0x40030c65      0x16d ./debug/quark_se/x86/obj/uart.o
+                0x40030c65                uart0_connect
+ .text.debug_init
+                0x40030dd2       0x99 ./debug/quark_se/x86/obj/debug_mode.o
+                0x40030dd2                debug_init
+ .text.gpio_init
+                0x40030e6b       0xd0 ./debug/quark_se/x86/obj/gpio.o
+                0x40030e6b                gpio_init
+ .text.led_b_flash
+                0x40030f3b       0x2e ./debug/quark_se/x86/obj/gpio.o
+                0x40030f3b                led_b_flash
+ .text.led_b_on
+                0x40030f69       0x15 ./debug/quark_se/x86/obj/gpio.o
+                0x40030f69                led_b_on
+ .text.led_b_off
+                0x40030f7e       0x15 ./debug/quark_se/x86/obj/gpio.o
+                0x40030f7e                led_b_off
+ .text.led_r_on
+                0x40030f93       0x15 ./debug/quark_se/x86/obj/gpio.o
+                0x40030f93                led_r_on
+ .text.qm_int_vector_request
+                0x40030fa8       0x1a ./debug/quark_se/x86/obj/mailbox.o
+ .text.mailbox_cb
+                0x40030fc2       0x13 ./debug/quark_se/x86/obj/mailbox.o
+                0x40030fc2                mailbox_cb
+ .text.mailbox_init
+                0x40030fd5       0x6f ./debug/quark_se/x86/obj/mailbox.o
+                0x40030fd5                mailbox_init
+ .text.qm_int_vector_request
+                0x40031044       0x1a ./debug/quark_se/x86/obj/power.o
+ .text.setup_rtc_alarm
+                0x4003105e       0x81 ./debug/quark_se/x86/obj/power.o
+                0x4003105e                setup_rtc_alarm
+ .text.app_deep_sleep
+                0x400310df       0x10 ./debug/quark_se/x86/obj/power.o
+ .text.enter_low_power
+                0x400310ef       0x29 ./debug/quark_se/x86/obj/power.o
+                0x400310ef                enter_low_power
+ .text.radio_send_data
+                0x40031118       0x2e ./debug/quark_se/x86/obj/radio.o
+                0x40031118                radio_send_data
+ .text.sensors_init
+                0x40031146       0x18 ./debug/quark_se/x86/obj/sensor.o
+                0x40031146                sensors_init
+ .text.xbee_init
+                0x4003115e       0x2c ./debug/quark_se/x86/obj/xbee.o
+                0x4003115e                xbee_init
+ .text.memcpy   0x4003118a        0xb c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-memcpy.o)
+                0x4003118a                memcpy
+ .text.memset   0x40031195        0xe c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a(lib_a-memset.o)
+                0x40031195                memset
+ .text.qm_gpio_set_config
+                0x400311a3       0xd4 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+                0x400311a3                qm_gpio_set_config
+ .text.qm_gpio_set_pin
+                0x40031277       0x5f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+                0x40031277                qm_gpio_set_pin
+ .text.qm_gpio_clear_pin
+                0x400312d6       0x61 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+                0x400312d6                qm_gpio_clear_pin
+ .text.idt_set_intr_gate_desc
+                0x40031337       0x57 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .text._ioapic_get_redtbl_entry_lo
+                0x4003138e       0x22 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .text._ioapic_set_redtbl_entry_lo
+                0x400313b0       0x29 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .text.ioapic_register_irq
+                0x400313d9       0x5f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .text.ioapic_unmask_irq
+                0x40031438       0x29 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .text._qm_irq_setup
+                0x40031461       0x22 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+                0x40031461                _qm_irq_setup
+ .text._qm_register_isr
+                0x40031483       0x1a ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+                0x40031483                _qm_register_isr
+ .text.qm_mailbox_0_isr
+                0x4003149d       0x39 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mailbox_se.o)
+                0x4003149d                qm_mailbox_0_isr
+ .text.mailbox_isr_handler
+                0x400314d6       0xe4 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mailbox_se.o)
+ .text.qm_mbox_ch_set_config
+                0x400315ba      0x1b7 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mailbox_se.o)
+                0x400315ba                qm_mbox_ch_set_config
+ .text.qm_mpr_set_config
+                0x40031771       0xb8 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mpr.o)
+                0x40031771                qm_mpr_set_config
+ .text.pin_to_register
+                0x40031829       0x27 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_pinmux.o)
+ .text.pin_to_offset
+                0x40031850       0x2d ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_pinmux.o)
+ .text.qm_pmux_select
+                0x4003187d       0xb6 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_pinmux.o)
+                0x4003187d                qm_pmux_select
+ .text.qm_pmux_input_en
+                0x40031933       0x9b ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_pinmux.o)
+                0x40031933                qm_pmux_input_en
+ .text.qm_rtc_0_isr
+                0x400319ce       0x68 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+                0x400319ce                qm_rtc_0_isr
+ .text.qm_rtc_set_config
+                0x40031a36      0x127 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+                0x40031a36                qm_rtc_set_config
+ .text.qm_rtc_set_alarm
+                0x40031b5d       0x6a ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+                0x40031b5d                qm_rtc_set_alarm
+ .text.qm_uart_set_config
+                0x40031bc7       0xe4 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+                0x40031bc7                qm_uart_set_config
+ .text.qm_uart_get_status
+                0x40031cab       0xa5 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+                0x40031cab                qm_uart_get_status
+ .text.qm_uart_write
+                0x40031d50       0x54 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+                0x40031d50                qm_uart_write
+ .text.qm_uart_read
+                0x40031da4       0x8b ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+                0x40031da4                qm_uart_read
+ .text.qm_uart_write_buffer
+                0x40031e2f       0x7e ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+                0x40031e2f                qm_uart_write_buffer
+
+.iplt           0x40031eb0        0x0
+ .iplt          0x40031eb0        0x0 ./debug/quark_se/x86/obj/./main.o
+
+.rodata         0x40031eb0       0x71
+ *(.rdata*)
+ *(.rodata*)
+ .rodata        0x40031eb0       0x2a ./debug/quark_se/x86/obj/./main.o
+ *fill*         0x40031eda        0x2 
+ .rodata.main   0x40031edc       0x14 ./debug/quark_se/x86/obj/./main.o
+ .rodata.cfg.3021
+                0x40031ef0        0x5 ./bsp/soc/quark_se/debug/quark_se/x86/obj/ss_init.o
+ .rodata        0x40031ef5       0x14 ./debug/quark_se/x86/obj/power.o
+ .rodata        0x40031f09        0xe ./debug/quark_se/x86/obj/radio.o
+ .rodata        0x40031f17        0xa ./debug/quark_se/x86/obj/xbee.o
+
+.rel.dyn        0x40031f24        0x0
+ .rel.iplt      0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.main
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.entry
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.pico_putchar
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.stdout_uart_setup
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.puts
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.__assert_func
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.close
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.isatty
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.read
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.write
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.lseek
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.fstat
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.sbrk
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.data.prog_break.3636
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.apply_flash_timings
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.qm_power_soc_deep_sleep
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.qm_power_soc_sleep_restore
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.qm_power_soc_deep_sleep_restore
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.qm_power_sleep_wait
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.sensor_vectors_protect
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.sensor_activation
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.init_airdirectiondegree_control
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.airdirectiondegree_init
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.get_airdirectiondegree
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.init_airspeed1min_control
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.airspeed1min_init
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.get_airspeed1min
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.init_airtemperature_control
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.airtemperature_init
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.get_airtemperature
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.do_kit103d_init
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.get_do_kit103d
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.get_fertipumpA_status
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.get_fertipumpB_status
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.get_tank_A_level
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.get_tank_B_level
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.init_pm25_control
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.pm25_hpma115_init
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.get_pm25_hpma115
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.init_voltages_enable
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.init_uart
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.data_input
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.data_output
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.send_ack
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.skip_ack
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.connection_reset
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.sht11_recv_byte
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.start_transmission
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.send_command
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.wait_for_result
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.calc_temp
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.calc_rh_linear
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.calc_rh_true
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.get_sht10_temp
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.get_sht10_rh_linear
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.get_sht10_rh_true
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.init_ultrasonic_control
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.ultrasonic_mb7060_init
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.get_ultrasonic_mb7060
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.cellular_3g_init
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.cellular_3g_get_token
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.cellular_3g_send
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.cellular_3g_connect
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.cellular_3g_recv
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.lora_init
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.lora_send
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.uart0_init
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.uart0_get_token
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.uart0_send
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.uart0_connect
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.wifi_init
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.wifi_get_token
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.wifi_send
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.wifi_connect
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.wifi_recv
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.debug_init
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.gpio_init
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.led_b_flash
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.led_r_flash
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.led_b_on
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.led_b_off
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.led_r_on
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.led_r_off
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.qm_int_vector_request
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.request_ss_data
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.read_mailbox_data
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.mailbox_init
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.setup_rtc_alarm
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.relayshield_init
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.on_relay1
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.off_relay1
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.on_relay2
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.off_relay2
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.on_relay3
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.off_relay3
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.on_relay4
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.off_relay4
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.transmit_data
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.handle_setup_packet
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.handle_out_control_transfer
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.set_config
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.handle_std_device_req
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.handle_std_endpoint_req
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.usb_enable
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.usb_disable
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.atoi
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text._atoi_r
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.__errno
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text._printf_r
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.printf
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text._putchar_r
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.putchar
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text._putc_r
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text._strtol_r
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.__swbuf_r
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.__swsetup_r
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.__sflush_r
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text._fflush_r
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.fflush
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text._cleanup_r
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.std.isra.0
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.__sfmoreglue
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.__smakebuf_r
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text._free_r
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.__sprint_r
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text._vfprintf_r
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.__sfvwrite_r
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text._realloc_r
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.idt_set_intr_gate_desc
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.qm_uart_dma_channel_config
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.qm_uart_dma_write
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.qm_uart_dma_read
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.qm_uart_dma_write_terminate
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+ .rel.text.qm_uart_dma_read_terminate
+                0x40031f24        0x0 ./debug/quark_se/x86/obj/./main.o
+
+.data           0xa800a000       0x30 load address 0x40031f21
+ *(.data*)
+ .data.ticks_per_us
+                0xa800a000        0x4 ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .data.vreg     0xa800a004       0x10 ./bsp/soc/quark_se/debug/quark_se/x86/obj/vreg.o
+                0xa800a004                vreg
+ .data.mbox_pair
+                0xa800a014        0x8 ./debug/quark_se/x86/obj/mailbox.o
+                0xa800a014                mbox_pair
+ .data.qm_gpio  0xa800a01c        0x8 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+                0xa800a01c                qm_gpio
+ .data.qm_rtc   0xa800a024        0x4 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+                0xa800a024                qm_rtc
+ .data.qm_uart  0xa800a028        0x8 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+                0xa800a028                qm_uart
+
+.igot.plt       0xa800a030        0x0 load address 0x40031f51
+ .igot.plt      0xa800a030        0x0 ./debug/quark_se/x86/obj/./main.o
+
+.bss            0xa800a040      0x168
+ *(.bss*)
+ .bss.cfg.3446  0xa800a040       0x20 ./debug/quark_se/x86/obj/./main.o
+ .bss.cfg0.3447
+                0xa800a060       0x20 ./debug/quark_se/x86/obj/./main.o
+ .bss.stdout_uart_cfg
+                0xa800a080        0xc ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ *fill*         0xa800a08c       0x14 
+ .bss.format_buf.3539
+                0xa800a0a0       0x20 ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .bss.uart1_status.3549
+                0xa800a0c0        0x4 ./debug/quark_se/x86/obj/pm25_hpma115.o
+ .bss.uart0_status.3831
+                0xa800a0c4        0x4 ./debug/quark_se/x86/obj/uart.o
+ .bss.uart0_status.3988
+                0xa800a0c8        0x4 ./debug/quark_se/x86/obj/uart.o
+ .bss.cb_fired  0xa800a0cc        0x1 ./debug/quark_se/x86/obj/mailbox.o
+                0xa800a0cc                cb_fired
+ *fill*         0xa800a0cd        0x3 
+ .bss.callback  0xa800a0d0        0x8 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .bss.callback_data
+                0xa800a0d8        0x8 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .bss.mailbox_devs
+                0xa800a0e0       0x80 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mailbox_se.o)
+ .bss.callback  0xa800a160        0x4 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+ .bss.callback_data
+                0xa800a164        0x4 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+ *(COMMON)
+ COMMON         0xa800a168       0x40 ./debug/quark_se/x86/obj/mailbox.o
+                0xa800a168                mbox_rx
+                0xa800a16c                mbox_tx
+                0xa800a170                rx_data
+                0xa800a184                mbox_rx_config
+                0xa800a194                tx_data
+                0x40031f21                __data_lma = LOADADDR (.data)
+                0xa800a000                __data_vma = ADDR (.data)
+                0x00000030                __data_size = SIZEOF (.data)
+                0xa800a040                __bss_start = ADDR (.bss)
+                0x00000168                __bss_size = SIZEOF (.bss)
+                0xa800a1a8                __heap = .
+                0xa80139e0                __heap_end = ORIGIN (x86_stack)
+
+.comment        0x00000000       0x6e
+ *(.comment)
+ .comment       0x00000000       0x6e ./debug/quark_se/x86/obj/./main.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f ./debug/quark_se/x86/obj/./app_entry.o
+ .comment       0x0000006e       0x6f ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .comment       0x0000006e       0x6f ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .comment       0x0000006e       0x6f ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+ .comment       0x0000006e       0x6f ./bsp/soc/quark_se/debug/quark_se/x86/obj/qm_interrupt_router.o
+ .comment       0x0000006e       0x6f ./bsp/soc/quark_se/debug/quark_se/x86/obj/ss_init.o
+ .comment       0x0000006e       0x6f ./bsp/soc/quark_se/debug/quark_se/x86/obj/vreg.o
+ .comment       0x0000006e       0x6f ./debug/quark_se/x86/obj/pm25_hpma115.o
+ .comment       0x0000006e       0x6f ./debug/quark_se/x86/obj/uart.o
+ .comment       0x0000006e       0x6f ./debug/quark_se/x86/obj/debug_mode.o
+ .comment       0x0000006e       0x6f ./debug/quark_se/x86/obj/gpio.o
+ .comment       0x0000006e       0x6f ./debug/quark_se/x86/obj/mailbox.o
+ .comment       0x0000006e       0x6f ./debug/quark_se/x86/obj/power.o
+ .comment       0x0000006e       0x6f ./debug/quark_se/x86/obj/radio.o
+ .comment       0x0000006e       0x6f ./debug/quark_se/x86/obj/sensor.o
+ .comment       0x0000006e       0x6f ./debug/quark_se/x86/obj/xbee.o
+ .comment       0x0000006e       0x6f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .comment       0x0000006e       0x6f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .comment       0x0000006e       0x6f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mailbox_se.o)
+ .comment       0x0000006e       0x6f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mpr.o)
+ .comment       0x0000006e       0x6f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_pinmux.o)
+ .comment       0x0000006e       0x6f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+ .comment       0x0000006e       0x6f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+LOAD ./debug/quark_se/x86/obj/./main.o
+LOAD ./debug/quark_se/x86/obj/./app_entry.o
+LOAD ./debug/quark_se/x86/obj/./newlib-syscalls.o
+LOAD ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+LOAD ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+LOAD ./bsp/soc/quark_se/debug/quark_se/x86/obj/qm_interrupt_router.o
+LOAD ./bsp/soc/quark_se/debug/quark_se/x86/obj/ss_init.o
+LOAD ./bsp/soc/quark_se/debug/quark_se/x86/obj/vreg.o
+LOAD ./debug/quark_se/x86/obj/air_direction_degree.o
+LOAD ./debug/quark_se/x86/obj/air_speed_1min.o
+LOAD ./debug/quark_se/x86/obj/air_temperature.o
+LOAD ./debug/quark_se/x86/obj/do_kit103d.o
+LOAD ./debug/quark_se/x86/obj/ferti_pump_status.o
+LOAD ./debug/quark_se/x86/obj/floatswitch_lv600.o
+LOAD ./debug/quark_se/x86/obj/pm25_hpma115.o
+LOAD ./debug/quark_se/x86/obj/temp_rh_sht10.o
+LOAD ./debug/quark_se/x86/obj/ultrasonic_mb7060.o
+LOAD ./debug/quark_se/x86/obj/cellular_3g.o
+LOAD ./debug/quark_se/x86/obj/lora.o
+LOAD ./debug/quark_se/x86/obj/uart.o
+LOAD ./debug/quark_se/x86/obj/wifi.o
+LOAD ./debug/quark_se/x86/obj/debug_mode.o
+LOAD ./debug/quark_se/x86/obj/gpio.o
+LOAD ./debug/quark_se/x86/obj/mailbox.o
+LOAD ./debug/quark_se/x86/obj/power.o
+LOAD ./debug/quark_se/x86/obj/radio.o
+LOAD ./debug/quark_se/x86/obj/sensor.o
+LOAD ./debug/quark_se/x86/obj/utilities.o
+LOAD ./debug/quark_se/x86/obj/xbee.o
+LOAD ./debug/quark_se/x86/obj/relayshield_v3.o
+LOAD ./debug/quark_se/x86/obj/usb_device.o
+START GROUP
+LOAD c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libc.a
+LOAD c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libnosys.a
+LOAD c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1/../../../../i586-intel-elfiamcu/lib\libsoftfp.a
+LOAD c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-ia/5.2.1/bin/../lib/gcc/i586-intel-elfiamcu/5.2.1\libgcc.a
+LOAD ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a
+END GROUP
+OUTPUT(./debug/quark_se/x86/obj/sensor_hub_3G_new_azwan_test.elf elf32-iamcu)
+
+.debug_info     0x00000000     0xab1b
+ .debug_info    0x00000000      0x340 ./debug/quark_se/x86/obj/./main.o
+ .debug_info    0x00000340      0x131 ./debug/quark_se/x86/obj/./app_entry.o
+ .debug_info    0x00000471      0xda0 ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .debug_info    0x00001211      0xaf3 ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .debug_info    0x00001d04      0x655 ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+ .debug_info    0x00002359      0x3fc ./bsp/soc/quark_se/debug/quark_se/x86/obj/qm_interrupt_router.o
+ .debug_info    0x00002755      0x1d1 ./bsp/soc/quark_se/debug/quark_se/x86/obj/ss_init.o
+ .debug_info    0x00002926      0x55f ./bsp/soc/quark_se/debug/quark_se/x86/obj/vreg.o
+ .debug_info    0x00002e85      0x60a ./debug/quark_se/x86/obj/pm25_hpma115.o
+ .debug_info    0x0000348f      0xf10 ./debug/quark_se/x86/obj/uart.o
+ .debug_info    0x0000439f      0x44c ./debug/quark_se/x86/obj/debug_mode.o
+ .debug_info    0x000047eb      0x3b1 ./debug/quark_se/x86/obj/gpio.o
+ .debug_info    0x00004b9c      0x5aa ./debug/quark_se/x86/obj/mailbox.o
+ .debug_info    0x00005146      0x2ea ./debug/quark_se/x86/obj/power.o
+ .debug_info    0x00005430       0xcf ./debug/quark_se/x86/obj/radio.o
+ .debug_info    0x000054ff      0x197 ./debug/quark_se/x86/obj/sensor.o
+ .debug_info    0x00005696      0x276 ./debug/quark_se/x86/obj/xbee.o
+ .debug_info    0x0000590c      0xb4f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .debug_info    0x0000645b      0x7f3 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .debug_info    0x00006c4e      0xc91 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mailbox_se.o)
+ .debug_info    0x000078df      0xbfe ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mpr.o)
+ .debug_info    0x000084dd      0x55e ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_pinmux.o)
+ .debug_info    0x00008a3b      0xb82 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+ .debug_info    0x000095bd     0x155e ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+
+.debug_abbrev   0x00000000     0x2140
+ .debug_abbrev  0x00000000       0xed ./debug/quark_se/x86/obj/./main.o
+ .debug_abbrev  0x000000ed       0x73 ./debug/quark_se/x86/obj/./app_entry.o
+ .debug_abbrev  0x00000160      0x23d ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .debug_abbrev  0x0000039d      0x27b ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .debug_abbrev  0x00000618      0x126 ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+ .debug_abbrev  0x0000073e       0xf2 ./bsp/soc/quark_se/debug/quark_se/x86/obj/qm_interrupt_router.o
+ .debug_abbrev  0x00000830      0x11a ./bsp/soc/quark_se/debug/quark_se/x86/obj/ss_init.o
+ .debug_abbrev  0x0000094a      0x124 ./bsp/soc/quark_se/debug/quark_se/x86/obj/vreg.o
+ .debug_abbrev  0x00000a6e      0x126 ./debug/quark_se/x86/obj/pm25_hpma115.o
+ .debug_abbrev  0x00000b94      0x1b9 ./debug/quark_se/x86/obj/uart.o
+ .debug_abbrev  0x00000d4d       0xbe ./debug/quark_se/x86/obj/debug_mode.o
+ .debug_abbrev  0x00000e0b       0xe8 ./debug/quark_se/x86/obj/gpio.o
+ .debug_abbrev  0x00000ef3      0x14f ./debug/quark_se/x86/obj/mailbox.o
+ .debug_abbrev  0x00001042      0x181 ./debug/quark_se/x86/obj/power.o
+ .debug_abbrev  0x000011c3       0x78 ./debug/quark_se/x86/obj/radio.o
+ .debug_abbrev  0x0000123b       0x92 ./debug/quark_se/x86/obj/sensor.o
+ .debug_abbrev  0x000012cd       0xda ./debug/quark_se/x86/obj/xbee.o
+ .debug_abbrev  0x000013a7      0x1d0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .debug_abbrev  0x00001577      0x26e ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .debug_abbrev  0x000017e5      0x206 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mailbox_se.o)
+ .debug_abbrev  0x000019eb      0x1c3 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mpr.o)
+ .debug_abbrev  0x00001bae      0x124 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_pinmux.o)
+ .debug_abbrev  0x00001cd2      0x1c5 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+ .debug_abbrev  0x00001e97      0x2a9 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+
+.debug_aranges  0x00000000      0x748
+ .debug_aranges
+                0x00000000       0x20 ./debug/quark_se/x86/obj/./main.o
+ .debug_aranges
+                0x00000020       0x20 ./debug/quark_se/x86/obj/./app_entry.o
+ .debug_aranges
+                0x00000040       0x90 ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .debug_aranges
+                0x000000d0       0xa8 ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .debug_aranges
+                0x00000178       0x60 ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+ .debug_aranges
+                0x000001d8       0x28 ./bsp/soc/quark_se/debug/quark_se/x86/obj/qm_interrupt_router.o
+ .debug_aranges
+                0x00000200       0x28 ./bsp/soc/quark_se/debug/quark_se/x86/obj/ss_init.o
+ .debug_aranges
+                0x00000228       0x40 ./bsp/soc/quark_se/debug/quark_se/x86/obj/vreg.o
+ .debug_aranges
+                0x00000268       0x30 ./debug/quark_se/x86/obj/pm25_hpma115.o
+ .debug_aranges
+                0x00000298       0x38 ./debug/quark_se/x86/obj/uart.o
+ .debug_aranges
+                0x000002d0       0x20 ./debug/quark_se/x86/obj/debug_mode.o
+ .debug_aranges
+                0x000002f0       0x50 ./debug/quark_se/x86/obj/gpio.o
+ .debug_aranges
+                0x00000340       0x48 ./debug/quark_se/x86/obj/mailbox.o
+ .debug_aranges
+                0x00000388       0x38 ./debug/quark_se/x86/obj/power.o
+ .debug_aranges
+                0x000003c0       0x20 ./debug/quark_se/x86/obj/radio.o
+ .debug_aranges
+                0x000003e0       0x20 ./debug/quark_se/x86/obj/sensor.o
+ .debug_aranges
+                0x00000400       0x28 ./debug/quark_se/x86/obj/xbee.o
+ .debug_aranges
+                0x00000428       0x78 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .debug_aranges
+                0x000004a0       0xb0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .debug_aranges
+                0x00000550       0x48 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mailbox_se.o)
+ .debug_aranges
+                0x00000598       0x40 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mpr.o)
+ .debug_aranges
+                0x000005d8       0x48 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_pinmux.o)
+ .debug_aranges
+                0x00000620       0x48 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+ .debug_aranges
+                0x00000668       0xe0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+
+.debug_ranges   0x00000000      0x610
+ .debug_ranges  0x00000000       0x10 ./debug/quark_se/x86/obj/./main.o
+ .debug_ranges  0x00000010       0x10 ./debug/quark_se/x86/obj/./app_entry.o
+ .debug_ranges  0x00000020       0x80 ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .debug_ranges  0x000000a0       0x98 ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .debug_ranges  0x00000138       0x50 ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+ .debug_ranges  0x00000188       0x18 ./bsp/soc/quark_se/debug/quark_se/x86/obj/qm_interrupt_router.o
+ .debug_ranges  0x000001a0       0x18 ./bsp/soc/quark_se/debug/quark_se/x86/obj/ss_init.o
+ .debug_ranges  0x000001b8       0x30 ./bsp/soc/quark_se/debug/quark_se/x86/obj/vreg.o
+ .debug_ranges  0x000001e8       0x20 ./debug/quark_se/x86/obj/pm25_hpma115.o
+ .debug_ranges  0x00000208       0x58 ./debug/quark_se/x86/obj/uart.o
+ .debug_ranges  0x00000260       0x10 ./debug/quark_se/x86/obj/debug_mode.o
+ .debug_ranges  0x00000270       0x40 ./debug/quark_se/x86/obj/gpio.o
+ .debug_ranges  0x000002b0       0x38 ./debug/quark_se/x86/obj/mailbox.o
+ .debug_ranges  0x000002e8       0x28 ./debug/quark_se/x86/obj/power.o
+ .debug_ranges  0x00000310       0x10 ./debug/quark_se/x86/obj/radio.o
+ .debug_ranges  0x00000320       0x10 ./debug/quark_se/x86/obj/sensor.o
+ .debug_ranges  0x00000330       0x18 ./debug/quark_se/x86/obj/xbee.o
+ .debug_ranges  0x00000348       0x68 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .debug_ranges  0x000003b0       0xa0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .debug_ranges  0x00000450       0x38 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mailbox_se.o)
+ .debug_ranges  0x00000488       0x30 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mpr.o)
+ .debug_ranges  0x000004b8       0x38 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_pinmux.o)
+ .debug_ranges  0x000004f0       0x38 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+ .debug_ranges  0x00000528       0xe8 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+
+.debug_line     0x00000000     0x3c54
+ .debug_line    0x00000000      0x199 ./debug/quark_se/x86/obj/./main.o
+ .debug_line    0x00000199      0x1a6 ./debug/quark_se/x86/obj/./app_entry.o
+ .debug_line    0x0000033f      0x475 ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .debug_line    0x000007b4      0x470 ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .debug_line    0x00000c24      0x223 ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+ .debug_line    0x00000e47      0x1ac ./bsp/soc/quark_se/debug/quark_se/x86/obj/qm_interrupt_router.o
+ .debug_line    0x00000ff3      0x192 ./bsp/soc/quark_se/debug/quark_se/x86/obj/ss_init.o
+ .debug_line    0x00001185      0x1f8 ./bsp/soc/quark_se/debug/quark_se/x86/obj/vreg.o
+ .debug_line    0x0000137d      0x1fa ./debug/quark_se/x86/obj/pm25_hpma115.o
+ .debug_line    0x00001577      0x50a ./debug/quark_se/x86/obj/uart.o
+ .debug_line    0x00001a81      0x198 ./debug/quark_se/x86/obj/debug_mode.o
+ .debug_line    0x00001c19      0x205 ./debug/quark_se/x86/obj/gpio.o
+ .debug_line    0x00001e1e      0x22e ./debug/quark_se/x86/obj/mailbox.o
+ .debug_line    0x0000204c      0x1e6 ./debug/quark_se/x86/obj/power.o
+ .debug_line    0x00002232      0x133 ./debug/quark_se/x86/obj/radio.o
+ .debug_line    0x00002365      0x16e ./debug/quark_se/x86/obj/sensor.o
+ .debug_line    0x000024d3      0x192 ./debug/quark_se/x86/obj/xbee.o
+ .debug_line    0x00002665      0x305 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .debug_line    0x0000296a      0x372 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .debug_line    0x00002cdc      0x2a6 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mailbox_se.o)
+ .debug_line    0x00002f82      0x23f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mpr.o)
+ .debug_line    0x000031c1      0x218 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_pinmux.o)
+ .debug_line    0x000033d9      0x252 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+ .debug_line    0x0000362b      0x629 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+
+.debug_str      0x00000000     0x37d2
+ .debug_str     0x00000000      0x467 ./debug/quark_se/x86/obj/./main.o
+                                0x4f2 (size before relaxing)
+ .debug_str     0x00000467       0x54 ./debug/quark_se/x86/obj/./app_entry.o
+                                0x202 (size before relaxing)
+ .debug_str     0x000004bb      0xb1e ./debug/quark_se/x86/obj/./newlib-syscalls.o
+                                0xeee (size before relaxing)
+ .debug_str     0x00000fd9      0x73c ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+                                0xd23 (size before relaxing)
+ .debug_str     0x00001715      0x217 ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+                                0x73f (size before relaxing)
+ .debug_str     0x0000192c      0x424 ./bsp/soc/quark_se/debug/quark_se/x86/obj/qm_interrupt_router.o
+                                0x5ea (size before relaxing)
+ .debug_str     0x00001d50       0xf6 ./bsp/soc/quark_se/debug/quark_se/x86/obj/ss_init.o
+                                0x2e4 (size before relaxing)
+ .debug_str     0x00001e46       0xc4 ./bsp/soc/quark_se/debug/quark_se/x86/obj/vreg.o
+                                0x5bb (size before relaxing)
+ .debug_str     0x00001f0a       0x82 ./debug/quark_se/x86/obj/pm25_hpma115.o
+                                0xaf2 (size before relaxing)
+ .debug_str     0x00001f8c      0x1f5 ./debug/quark_se/x86/obj/uart.o
+                                0xc6c (size before relaxing)
+ .debug_str     0x00002181       0x2e ./debug/quark_se/x86/obj/debug_mode.o
+                                0x954 (size before relaxing)
+ .debug_str     0x000021af       0x65 ./debug/quark_se/x86/obj/gpio.o
+                                0x65c (size before relaxing)
+ .debug_str     0x00002214      0x263 ./debug/quark_se/x86/obj/mailbox.o
+                                0x6b5 (size before relaxing)
+ .debug_str     0x00002477       0xf6 ./debug/quark_se/x86/obj/power.o
+                                0x409 (size before relaxing)
+ .debug_str     0x0000256d       0x40 ./debug/quark_se/x86/obj/radio.o
+                                0x1f1 (size before relaxing)
+ .debug_str     0x000025ad       0x2c ./debug/quark_se/x86/obj/sensor.o
+                                0x389 (size before relaxing)
+ .debug_str     0x000025d9       0x2f ./debug/quark_se/x86/obj/xbee.o
+                                0x416 (size before relaxing)
+ .debug_str     0x00002608      0x20c ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+                                0x7ec (size before relaxing)
+ .debug_str     0x00002814      0x206 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+                                0x4f9 (size before relaxing)
+ .debug_str     0x00002a1a      0x160 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mailbox_se.o)
+                                0xbf9 (size before relaxing)
+ .debug_str     0x00002b7a      0x12d ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mpr.o)
+                                0xaf6 (size before relaxing)
+ .debug_str     0x00002ca7      0x14f ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_pinmux.o)
+                                0x6db (size before relaxing)
+ .debug_str     0x00002df6       0x8a ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+                                0xb0c (size before relaxing)
+ .debug_str     0x00002e80      0x952 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)
+                               0x1130 (size before relaxing)
+
+.debug_frame    0x00000000     0x16a0
+ .debug_frame   0x00000000       0x2c ./debug/quark_se/x86/obj/./main.o
+ .debug_frame   0x0000002c       0x2c ./debug/quark_se/x86/obj/./app_entry.o
+ .debug_frame   0x00000058      0x1f0 ./debug/quark_se/x86/obj/./newlib-syscalls.o
+ .debug_frame   0x00000248      0x25c ./bsp/soc/quark_se/debug/quark_se/x86/obj/clk.o
+ .debug_frame   0x000004a4      0x12c ./bsp/soc/quark_se/debug/quark_se/x86/obj/power_states.o
+ .debug_frame   0x000005d0       0x54 ./bsp/soc/quark_se/debug/quark_se/x86/obj/qm_interrupt_router.o
+ .debug_frame   0x00000624       0x54 ./bsp/soc/quark_se/debug/quark_se/x86/obj/ss_init.o
+ .debug_frame   0x00000678       0xb4 ./bsp/soc/quark_se/debug/quark_se/x86/obj/vreg.o
+ .debug_frame   0x0000072c       0x74 ./debug/quark_se/x86/obj/pm25_hpma115.o
+ .debug_frame   0x000007a0       0xac ./debug/quark_se/x86/obj/uart.o
+ .debug_frame   0x0000084c       0x34 ./debug/quark_se/x86/obj/debug_mode.o
+ .debug_frame   0x00000880       0xf4 ./debug/quark_se/x86/obj/gpio.o
+ .debug_frame   0x00000974       0xd4 ./debug/quark_se/x86/obj/mailbox.o
+ .debug_frame   0x00000a48       0x94 ./debug/quark_se/x86/obj/power.o
+ .debug_frame   0x00000adc       0x34 ./debug/quark_se/x86/obj/radio.o
+ .debug_frame   0x00000b10       0x34 ./debug/quark_se/x86/obj/sensor.o
+ .debug_frame   0x00000b44       0x5c ./debug/quark_se/x86/obj/xbee.o
+ .debug_frame   0x00000ba0      0x1c0 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_gpio.o)
+ .debug_frame   0x00000d60      0x274 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_interrupt.o)
+ .debug_frame   0x00000fd4       0xe8 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mailbox_se.o)
+ .debug_frame   0x000010bc       0xc4 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_mpr.o)
+ .debug_frame   0x00001180       0xdc ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_pinmux.o)
+ .debug_frame   0x0000125c       0xe4 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_rtc.o)
+ .debug_frame   0x00001340      0x360 ./bsp/build/debug/quark_se/x86/libqmsi/lib\libqmsi_quark_se_1.4.0d.a(qm_uart.o)

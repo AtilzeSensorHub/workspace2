@@ -1,0 +1,26 @@
+15:14:43 **** Incremental Build of configuration Debug for project sensor_hub_108_azwan ****
+make 
+APP_NAME = sensor_hub_108_azwan
+SOC = quark_se
+TARGET = x86
+APP_DIR = .
+BUILD = debug
+CSTD = c99
+VERSION = '1.4.0'
+make -C ./bsp/drivers SOC=quark_se TARGET=x86 BUILD=debug V=0 CSTD=c99 ITA_NO_ASSERT=0
+BUILD = debug
+CSTD = c99
+VERSION = '1.4.0'
+make[1]: Entering directory `D:/azwan/Atilze/workspace2/sensor_hub_108_azwan/bsp/drivers'
+make[1]: Leaving directory `D:/azwan/Atilze/workspace2/sensor_hub_108_azwan/bsp/drivers'
+"CC debug/quark_se/x86/obj/./main.o" 
+"CC debug/quark_se/x86/obj/"."/app_entry.o" 
+"CC debug/quark_se/x86/obj/"."/newlib-syscalls.o" 
+"LD debug/quark_se/x86/bin/sensor_hub_108_azwan.bin" 
+"Size debug/quark_se/x86/bin/sensor_hub_108_azwan.bin" 
+   text	   data	    bss	    dec	    hex	filename
+  23211	     48	    528	  23787	   5ceb	./debug/quark_se/x86/obj/sensor_hub_108_azwan.elf
+"Objcopy debug/quark_se/x86/bin/sensor_hub_108_azwan.bin" 
+
+15:14:49 Build Finished (took 6s.141ms)
+

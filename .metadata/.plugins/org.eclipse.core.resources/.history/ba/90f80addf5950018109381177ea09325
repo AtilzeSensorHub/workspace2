@@ -1,0 +1,119 @@
+/*
+ Copyright (c) 2017, Atilze Digital Sdn. Bhd.
+
+ utilities.c
+ This is the library file for utilities.
+
+ Version   : 1.00
+ Author    : Khoo Boon Kien / Tan Han Wei
+ File Name : utilities.c
+
+ History:
+   1.00 BK 18-Aug-17 Initial
+ */
+
+#include "qm_common.h"
+
+#define TO_HEX(i) (i <= 9 ? '0' + i : 'A' - 10 + i)
+
+// Convert uint16 to 2 bytes in HEX
+
+uint8_t* test123(uint16_t data_int[], uint8_t data_hex[])
+{
+	data_hex[0] = data_int[0];
+	data_hex[1] = data_int[1];
+	data_hex[2] = data_int[2];
+	return data_hex;
+}
+
+
+
+uint8_t* conv_to_2B_hex(uint16_t data_int, uint8_t data_hex[])
+{
+
+	data_hex[0] = TO_HEX(((data_int & 0xF000) >> 12));
+	data_hex[1] = TO_HEX(((data_int & 0x0F00) >>  8));
+	data_hex[2] = TO_HEX(((data_int & 0x00F0) >>  4));
+	data_hex[3] = TO_HEX(((data_int & 0x000F)      ));
+	data_hex[4] = '\0';
+
+	return data_hex;
+}
+
+// Convert uint8 to 1 byte in HEX
+uint8_t* conv_to_1B_hex(uint8_t data_int, uint8_t data_hex[])
+{
+
+	data_hex[0] = TO_HEX(((data_int & 0x00F0) >>  4));
+	data_hex[1] = TO_HEX(((data_int & 0x000F)      ));
+	data_hex[2] = '\0';
+
+	return data_hex;
+}
+
+uint8_t* concat(uint8_t data_left[], uint8_t data_right[])
+//uint8_t* concat(uint8_t data_left[], uint8_t data_right[], uint8_t data_new[])
+{
+    int ii, jj;
+    for (ii=0; data_left[ii] != '\0'; ii++);
+    for (jj=0; data_right[jj] != '\0'; jj++)
+    {
+    	data_left[ii+jj] = data_right[jj];
+    }
+    data_left[ii+jj] = '\0';
+
+	/*
+    //uint8_t data_new[len_left+len_right];
+    int ii, jj;
+    for (ii=0; data_left[ii] != '\0'; ii++)
+    {
+    	data_new[ii] = data_left[ii];
+    }
+
+    for (jj=0; data_right[jj] != '\0'; jj++)
+    {
+    	data_new[ii+jj] = data_right[jj];
+    }
+    data_new[ii+jj+1] = '\0';
+    */
+	/*
+    for (int ii=0; ii < len_left+len_right; ii++)
+    {
+        if (ii < len_left)
+        	data_new[ii] = data_left[ii];
+        else
+        	data_new[ii] = data_right[ii-len_left];
+    }
+    */
+
+    return data_left;
+}
+
+uint8_t* int2char(int data_int, uint8_t data_char[])
+{
+	uint8_t ii = 0;
+    // Process individual digits
+    while (data_int != 0)
+    {
+	    int rem         = data_int % 10;
+	    data_char[ii++] = (rem > 9)? (rem-10) + 'a' : rem + '0';
+	    data_int        = data_int/10;
+    }
+
+    return data_char;
+}
+
+
+/*
+uint8_t* resize_array(uint8_t resized_data[], uint8_t data[])
+{
+	int jj;
+    for (jj=0; data[jj] != '\0'; jj++)
+    {
+    	resized_data[jj] = data[jj];
+    }
+    resized_data[jj+1] = '\0';
+
+    return resized_data;
+}
+*/

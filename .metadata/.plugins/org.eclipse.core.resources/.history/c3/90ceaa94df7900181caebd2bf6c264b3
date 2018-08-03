@@ -1,0 +1,132 @@
+/*
+ Copyright (c) 2017, Atilze Digital Sdn. Bhd.
+
+ xbee.c
+ This is the library file for xbee.
+
+ Version   : 1.00
+ Author    : Khoo Boon Kien / Tan Han Wei
+ File Name : xbee.c
+
+ History:
+   1.00 BK 18-Aug-17 Initial
+   1.01 BK 08-May-18 Added xbee_rx & xbee_update_dl_status
+ */
+
+#include "../main.h"
+#include "qm_common.h"
+#include "qm_uart.h"
+#include "qm_pinmux.h"
+#include "clk.h"
+#include "string.h"
+#include "wireless/lora.h"
+#include "wireless/cellular_3g.h"
+
+// Initialise XBee
+void xbee_init(qm_uart_config_t uart0_cfg)
+{
+#if (XBEE_MODE == 0)
+	// Initialise XBee Wireless Module (LoRa)
+	lora_init(&uart0_cfg);
+
+	// Create 5 sec delay
+	clk_sys_udelay(5000000);
+
+	// AT Command
+	uint8_t at_echo[] = "AT+ECHO=1\r\n";
+	// Send AT Command (Turn on LoRa echo for debugging)
+	qm_uart_write_buffer(QM_UART_0, at_echo, (sizeof(at_echo) - 1));
+
+	// Create 1 sec delay
+	clk_sys_udelay(1000000);
+
+	// Configure LoRa Class
+	if (LORA_CLASS == CLASS_A)
+	{
+		uint8_t at_command[] = "AT+CCLASS=A\r\n";
+		qm_uart_write_buffer(QM_UART_0, at_command, (sizeof(at_command)-1));
+	}
+	else if (LORA_CLASS == CLASS_C)
+	{
+		uint8_t at_command[] = "AT+CCLASS=C\r\n";
+		qm_uart_write_buffer(QM_UART_0, at_command, (sizeof(at_command)-1));
+	}
+
+#elif (XBEE_MODE == 1)
+	// Initialise XBee Wireless Module (Cellular 3G)
+	cellular_3g_init(&uart0_cfg);
+
+	// Create 5 sec delay
+	clk_sys_udelay(5000000);
+
+	// Connect to cellular base station
+	cellular_3g_connect(QM_UART_0);
+	QM_PUTS("3G Mode");
+
+
+#endif
+}
+
+// XBee transmitter
+void xbee_tx(const qm_uart_t uart, uint16_t device_id, uint8_t frame_cntr, uint8_t data_ch, uint16_t data_type, uint8_t data[], uint8_t data_len, uint8_t token[1200])
+{
+	//cellular_3g_send( uart );
+#if (XBEE_MODE == 0)
+	lora_send( uart, device_id, frame_cntr, data_ch, data_type, data, data_len);
+    //uint8_t downlink_data[100];
+    //memset(downlink_data,0,sizeof(downlink_data));
+	//lora_class_c_receive( uart, downlink_data);
+#elif (XBEE_MODE == 1)
+    cellular_3g_send(uart, device_id, frame_cntr, data_ch, data_type, data, data_len, token);
+    QM_PRINTF("xbee_tx Token: %s/n", token);
+#endif
+}
+
+// XBee receiver
+uint8_t * xbee_rx(const qm_uart_t uart, uint8_t downlink_data[], uint8_t downlink_channel[], uint8_t token[1200])
+{
+
+#if (XBEE_MODE == 0)
+	lora_receive( uart, downlink_data);
+#elif (XBEE_MODE == 1)
+	cellular_3g_recv( uart, downlink_data, downlink_channel, token);
+#endif
+
+	// For LoRa Under Testing (Pls Do Not Del)
+	/*
+    uint8_t downlink_data[100];
+    memset(downlink_data,0,sizeof(downlink_data));
+
+	lora_receive( uart, downlink_data);
+
+	int downlink_data_len=0;
+	for (int ii=0; ii<100; ii++)
+	{
+        if (downlink_data == '\0')
+        {
+            downlink_data_len = ii;
+            break;
+        }
+	}
+
+	uint8_t dl_data[downlink_data_len];
+
+	for (int ii=0; ii<downlink_data_len; ii++)
+	{
+        dl_data[ii] = downlink_data[ii] ;
+	}
+    */
+
+	return downlink_data;
+}
+
+// XBee update downlink status
+void xbee_update_dl_status(const qm_uart_t uart, uint8_t downlink_channel[], uint8_t status[], uint8_t token[1200])
+{
+#if (XBEE_MODE == 0)
+
+#elif (XBEE_MODE == 1)
+	cellular_3g_update_dl_status( uart, downlink_channel, status, token);
+#endif
+
+}

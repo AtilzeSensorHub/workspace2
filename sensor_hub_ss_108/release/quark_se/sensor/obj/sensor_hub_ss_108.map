@@ -1,0 +1,1091 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-w_sqrt.o)
+                              ./release/quark_se/sensor/obj/temp_atlas_pt1000.o (sqrt)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-e_sqrt.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-w_sqrt.o) (__ieee754_sqrt)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-s_fpclassify.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-w_sqrt.o) (__fpclassifyd)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-s_lib_ver.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-w_sqrt.o) (__fdlib_version)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-s_matherr.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-w_sqrt.o) (matherr)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a(lib_a-errno.o)
+                              ./release/quark_se/sensor/obj/./newlib-syscalls.o (__errno)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a(lib_a-impure.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a(lib_a-errno.o) (_impure_ptr)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a(lib_a-memcpy-bs.o)
+                              ./release/quark_se/sensor/obj/./app_entry.o (memcpy)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a(lib_a-memset-bs.o)
+                              ./release/quark_se/sensor/obj/./app_entry.o (memset)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_st.o)
+                              ./release/quark_se/sensor/obj/mailbox.o (__st_r13_to_r15)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_ld.o)
+                              ./release/quark_se/sensor/obj/./newlib-syscalls.o (__ld_r13_to_r17)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_ret.o)
+                              ./release/quark_se/sensor/obj/./newlib-syscalls.o (__ld_r13_to_r14_ret)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+                              ./release/quark_se/sensor/obj/420ma_sensor.o (__divsf3)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-e_sqrt.o) (__adddf3)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_clzsi2.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o) (__clzsi2)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_lshrdi3.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o) (__lshrdi3)
+c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_ashldi3.o)
+                              c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o) (__ashldi3)
+./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_flash.o)
+                              ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o (qm_flash)
+./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_interrupt.o)
+                              ./release/quark_se/sensor/obj/./newlib-syscalls.o (qm_irq_disable)
+./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_mailbox_se.o)
+                              ./release/quark_se/sensor/obj/./main.o (qm_mailbox_0_isr)
+./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+                              ./release/quark_se/sensor/obj/adc.o (qm_ss_adc_0_error_isr)
+./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(ss_clk.o)
+                              ./release/quark_se/sensor/obj/gpio.o (ss_clk_gpio_enable)
+./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_gpio.o)
+                              ./release/quark_se/sensor/obj/gpio.o (qm_ss_gpio_set_config)
+./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_interrupt.o)
+                              ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_interrupt.o) (qm_ss_irq_disable)
+./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_pinmux.o)
+                              ./release/quark_se/sensor/obj/./newlib-syscalls.o (qm_pmux_select)
+./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+                              ./release/quark_se/sensor/obj/./newlib-syscalls.o (qm_uart_set_config)
+./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+                              ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o) (qm_dma_channel_set_config)
+
+Allocating common symbols
+Common symbol       size              file
+
+mbox_rx             0x4               ./release/quark_se/sensor/obj/mailbox.o
+mbox_tx             0x4               ./release/quark_se/sensor/obj/mailbox.o
+rx_data             0x14              ./release/quark_se/sensor/obj/mailbox.o
+cpu_context         0x84              ./bsp/soc/quark_se/release/quark_se/sensor/obj/ss_power_states.o
+tx_data             0x14              ./release/quark_se/sensor/obj/mailbox.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/./main.o
+ .data          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/./main.o
+ .bss           0x0000000000000000        0x0 ./release/quark_se/sensor/obj/./main.o
+ .text          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/./app_entry.o
+ .data          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/./app_entry.o
+ .bss           0x0000000000000000        0x0 ./release/quark_se/sensor/obj/./app_entry.o
+ .text          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/./newlib-syscalls.o
+ .data          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/./newlib-syscalls.o
+ .bss           0x0000000000000000        0x0 ./release/quark_se/sensor/obj/./newlib-syscalls.o
+ .text.stdout_uart_setup
+                0x0000000000000000       0x50 ./release/quark_se/sensor/obj/./newlib-syscalls.o
+ .text.puts     0x0000000000000000       0x2c ./release/quark_se/sensor/obj/./newlib-syscalls.o
+ .text.__assert_func
+                0x0000000000000000       0x50 ./release/quark_se/sensor/obj/./newlib-syscalls.o
+ .text.close    0x0000000000000000       0x10 ./release/quark_se/sensor/obj/./newlib-syscalls.o
+ .text.isatty   0x0000000000000000       0x10 ./release/quark_se/sensor/obj/./newlib-syscalls.o
+ .text.read     0x0000000000000000       0x10 ./release/quark_se/sensor/obj/./newlib-syscalls.o
+ .text.write    0x0000000000000000       0x34 ./release/quark_se/sensor/obj/./newlib-syscalls.o
+ .text.lseek    0x0000000000000000       0x10 ./release/quark_se/sensor/obj/./newlib-syscalls.o
+ .text.fstat    0x0000000000000000       0x24 ./release/quark_se/sensor/obj/./newlib-syscalls.o
+ .text.sbrk     0x0000000000000000       0x38 ./release/quark_se/sensor/obj/./newlib-syscalls.o
+ .data.prog_break.3299
+                0x0000000000000000        0x4 ./release/quark_se/sensor/obj/./newlib-syscalls.o
+ .rodata.str1.4
+                0x0000000000000000       0x28 ./release/quark_se/sensor/obj/./newlib-syscalls.o
+ .bss.stdout_uart_cfg
+                0x0000000000000000        0xc ./release/quark_se/sensor/obj/./newlib-syscalls.o
+ .text          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/init.o
+ .data          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/init.o
+ .bss           0x0000000000000000        0x0 ./release/quark_se/sensor/obj/init.o
+ .text          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/startup.s.o
+ .data          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/startup.s.o
+ .bss           0x0000000000000000        0x0 ./release/quark_se/sensor/obj/startup.s.o
+ .text          0x0000000000000000        0x0 ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+ .data          0x0000000000000000        0x0 ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+ .bss           0x0000000000000000        0x0 ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+ .text.apply_flash_timings
+                0x0000000000000000       0x38 ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+ .text.clk_trim_read
+                0x0000000000000000       0x18 ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+ .text.clk_periph_set_div
+                0x0000000000000000       0x14 ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+ .text.clk_gpio_db_set_div
+                0x0000000000000000       0x1c ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+ .text.clk_ext_set_div
+                0x0000000000000000       0x1c ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+ .text.clk_rtc_set_div
+                0x0000000000000000       0x1c ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+ .text.clk_periph_enable
+                0x0000000000000000       0x10 ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+ .text.clk_periph_disable
+                0x0000000000000000       0x14 ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+ .text.clk_trim_apply
+                0x0000000000000000       0x48 ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+ .text.clk_sys_set_mode
+                0x0000000000000000      0x1dc ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+ .text.clk_sys_usb_enable
+                0x0000000000000000       0x68 ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+ .text.clk_sys_usb_disable
+                0x0000000000000000       0x64 ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+ .text.clk_dma_enable
+                0x0000000000000000       0x10 ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+ .text.clk_dma_disable
+                0x0000000000000000       0x10 ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+ .text.get_i2c_clk_freq_in_mhz
+                0x0000000000000000       0x1c ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+ .text          0x0000000000000000        0x0 ./bsp/soc/quark_se/release/quark_se/sensor/obj/power_states.o
+ .data          0x0000000000000000        0x0 ./bsp/soc/quark_se/release/quark_se/sensor/obj/power_states.o
+ .bss           0x0000000000000000        0x0 ./bsp/soc/quark_se/release/quark_se/sensor/obj/power_states.o
+ .text.qm_power_soc_sleep
+                0x0000000000000000       0x14 ./bsp/soc/quark_se/release/quark_se/sensor/obj/power_states.o
+ .text.qm_power_soc_deep_sleep
+                0x0000000000000000       0x24 ./bsp/soc/quark_se/release/quark_se/sensor/obj/power_states.o
+ .comment       0x0000000000000000       0x49 ./bsp/soc/quark_se/release/quark_se/sensor/obj/power_states.o
+ .text          0x0000000000000000        0x0 ./bsp/soc/quark_se/release/quark_se/sensor/obj/qm_interrupt_router.o
+ .data          0x0000000000000000        0x0 ./bsp/soc/quark_se/release/quark_se/sensor/obj/qm_interrupt_router.o
+ .bss           0x0000000000000000        0x0 ./bsp/soc/quark_se/release/quark_se/sensor/obj/qm_interrupt_router.o
+ .text          0x0000000000000000        0x0 ./bsp/soc/quark_se/release/quark_se/sensor/obj/ss_power_states.o
+ .data          0x0000000000000000        0x0 ./bsp/soc/quark_se/release/quark_se/sensor/obj/ss_power_states.o
+ .bss           0x0000000000000000        0x0 ./bsp/soc/quark_se/release/quark_se/sensor/obj/ss_power_states.o
+ .text.qm_ss_power_soc_lpss_enable
+                0x0000000000000000       0x28 ./bsp/soc/quark_se/release/quark_se/sensor/obj/ss_power_states.o
+ .text.qm_ss_power_soc_lpss_disable
+                0x0000000000000000       0x20 ./bsp/soc/quark_se/release/quark_se/sensor/obj/ss_power_states.o
+ .text.qm_ss_power_cpu_ss1
+                0x0000000000000000       0x1c ./bsp/soc/quark_se/release/quark_se/sensor/obj/ss_power_states.o
+ .text.qm_ss_power_cpu_ss2
+                0x0000000000000000       0x14 ./bsp/soc/quark_se/release/quark_se/sensor/obj/ss_power_states.o
+ .text.qm_power_soc_set_ss_restore_flag
+                0x0000000000000000       0x10 ./bsp/soc/quark_se/release/quark_se/sensor/obj/ss_power_states.o
+ .text.qm_ss_power_soc_sleep_restore
+                0x0000000000000000      0x154 ./bsp/soc/quark_se/release/quark_se/sensor/obj/ss_power_states.o
+ .text.qm_ss_power_soc_deep_sleep_restore
+                0x0000000000000000      0x154 ./bsp/soc/quark_se/release/quark_se/sensor/obj/ss_power_states.o
+ .text.qm_ss_power_sleep_wait
+                0x0000000000000000       0xac ./bsp/soc/quark_se/release/quark_se/sensor/obj/ss_power_states.o
+ .comment       0x0000000000000000       0x49 ./bsp/soc/quark_se/release/quark_se/sensor/obj/ss_power_states.o
+ COMMON         0x0000000000000000       0x84 ./bsp/soc/quark_se/release/quark_se/sensor/obj/ss_power_states.o
+ .text          0x0000000000000000        0x0 ./bsp/soc/quark_se/release/quark_se/sensor/obj/vreg.o
+ .data          0x0000000000000000        0x0 ./bsp/soc/quark_se/release/quark_se/sensor/obj/vreg.o
+ .bss           0x0000000000000000        0x0 ./bsp/soc/quark_se/release/quark_se/sensor/obj/vreg.o
+ .text.vreg_set_mode
+                0x0000000000000000       0x34 ./bsp/soc/quark_se/release/quark_se/sensor/obj/vreg.o
+ .text.vreg_aon_set_mode
+                0x0000000000000000        0x8 ./bsp/soc/quark_se/release/quark_se/sensor/obj/vreg.o
+ .text.vreg_plat3p3_set_mode
+                0x0000000000000000        0x8 ./bsp/soc/quark_se/release/quark_se/sensor/obj/vreg.o
+ .text.vreg_plat1p8_set_mode
+                0x0000000000000000        0x8 ./bsp/soc/quark_se/release/quark_se/sensor/obj/vreg.o
+ .text.vreg_host_set_mode
+                0x0000000000000000        0x8 ./bsp/soc/quark_se/release/quark_se/sensor/obj/vreg.o
+ .data.vreg     0x0000000000000000       0x10 ./bsp/soc/quark_se/release/quark_se/sensor/obj/vreg.o
+ .comment       0x0000000000000000       0x49 ./bsp/soc/quark_se/release/quark_se/sensor/obj/vreg.o
+ .text          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/420ma_sensor.o
+ .data          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/420ma_sensor.o
+ .bss           0x0000000000000000        0x0 ./release/quark_se/sensor/obj/420ma_sensor.o
+ .text.sensor_420ma_deinit
+                0x0000000000000000        0x4 ./release/quark_se/sensor/obj/420ma_sensor.o
+ .text          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/battery_level.o
+ .data          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/battery_level.o
+ .bss           0x0000000000000000        0x0 ./release/quark_se/sensor/obj/battery_level.o
+ .text.batt_level_adc_deinit
+                0x0000000000000000        0x4 ./release/quark_se/sensor/obj/battery_level.o
+ .text          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/soil_ec_ae0001.o
+ .data          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/soil_ec_ae0001.o
+ .bss           0x0000000000000000        0x0 ./release/quark_se/sensor/obj/soil_ec_ae0001.o
+ .text.soil_ec_ae0001_init
+                0x0000000000000000       0x1c ./release/quark_se/sensor/obj/soil_ec_ae0001.o
+ .text.soil_ec_ae0001_deinit
+                0x0000000000000000        0x4 ./release/quark_se/sensor/obj/soil_ec_ae0001.o
+ .text.get_soil_ec_ae0001
+                0x0000000000000000       0x44 ./release/quark_se/sensor/obj/soil_ec_ae0001.o
+ .data.ec_offset
+                0x0000000000000000        0x4 ./release/quark_se/sensor/obj/soil_ec_ae0001.o
+ .comment       0x0000000000000000       0x49 ./release/quark_se/sensor/obj/soil_ec_ae0001.o
+ .text          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/soil_moisture_ae0001.o
+ .data          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/soil_moisture_ae0001.o
+ .bss           0x0000000000000000        0x0 ./release/quark_se/sensor/obj/soil_moisture_ae0001.o
+ .text.soil_moisture_ae0001_init
+                0x0000000000000000       0x1c ./release/quark_se/sensor/obj/soil_moisture_ae0001.o
+ .text.soil_moisture_ae0001_deinit
+                0x0000000000000000        0x4 ./release/quark_se/sensor/obj/soil_moisture_ae0001.o
+ .text.get_soil_moisture_ae0001
+                0x0000000000000000       0x64 ./release/quark_se/sensor/obj/soil_moisture_ae0001.o
+ .comment       0x0000000000000000       0x49 ./release/quark_se/sensor/obj/soil_moisture_ae0001.o
+ .text          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/soil_ph_sen0169.o
+ .data          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/soil_ph_sen0169.o
+ .bss           0x0000000000000000        0x0 ./release/quark_se/sensor/obj/soil_ph_sen0169.o
+ .text.soil_ph_sen0169_init
+                0x0000000000000000       0x1c ./release/quark_se/sensor/obj/soil_ph_sen0169.o
+ .text.soil_ph_sen0169_deinit
+                0x0000000000000000        0x4 ./release/quark_se/sensor/obj/soil_ph_sen0169.o
+ .text.get_soil_ph_sen0169
+                0x0000000000000000       0x3c ./release/quark_se/sensor/obj/soil_ph_sen0169.o
+ .comment       0x0000000000000000       0x49 ./release/quark_se/sensor/obj/soil_ph_sen0169.o
+ .text          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/temp_atlas_pt1000.o
+ .data          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/temp_atlas_pt1000.o
+ .bss           0x0000000000000000        0x0 ./release/quark_se/sensor/obj/temp_atlas_pt1000.o
+ .text.temp_atlas_pt1000_init
+                0x0000000000000000       0x1c ./release/quark_se/sensor/obj/temp_atlas_pt1000.o
+ .text.temp_atlas_pt1000_deinit
+                0x0000000000000000        0x4 ./release/quark_se/sensor/obj/temp_atlas_pt1000.o
+ .text.get_temp_atlas_pt1000
+                0x0000000000000000       0xfc ./release/quark_se/sensor/obj/temp_atlas_pt1000.o
+ .comment       0x0000000000000000       0x49 ./release/quark_se/sensor/obj/temp_atlas_pt1000.o
+ .text          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/vin_level.o
+ .data          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/vin_level.o
+ .bss           0x0000000000000000        0x0 ./release/quark_se/sensor/obj/vin_level.o
+ .text.vin_level_adc_init
+                0x0000000000000000       0x1c ./release/quark_se/sensor/obj/vin_level.o
+ .text.vin_level_adc_deinit
+                0x0000000000000000        0x4 ./release/quark_se/sensor/obj/vin_level.o
+ .text.get_vin_level
+                0x0000000000000000       0x5c ./release/quark_se/sensor/obj/vin_level.o
+ .comment       0x0000000000000000       0x49 ./release/quark_se/sensor/obj/vin_level.o
+ .text          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/water_level_hpt604.o
+ .data          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/water_level_hpt604.o
+ .bss           0x0000000000000000        0x0 ./release/quark_se/sensor/obj/water_level_hpt604.o
+ .text.water_level_hpt604_init
+                0x0000000000000000       0x1c ./release/quark_se/sensor/obj/water_level_hpt604.o
+ .text.water_level_hpt604_deinit
+                0x0000000000000000        0x4 ./release/quark_se/sensor/obj/water_level_hpt604.o
+ .text.get_water_level_hpt604
+                0x0000000000000000       0x58 ./release/quark_se/sensor/obj/water_level_hpt604.o
+ .comment       0x0000000000000000       0x49 ./release/quark_se/sensor/obj/water_level_hpt604.o
+ .text          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/adc.o
+ .data          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/adc.o
+ .bss           0x0000000000000000        0x0 ./release/quark_se/sensor/obj/adc.o
+ .text          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/gpio.o
+ .data          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/gpio.o
+ .bss           0x0000000000000000        0x0 ./release/quark_se/sensor/obj/gpio.o
+ .text          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/mailbox.o
+ .data          0x0000000000000000        0x0 ./release/quark_se/sensor/obj/mailbox.o
+ .bss           0x0000000000000000        0x0 ./release/quark_se/sensor/obj/mailbox.o
+ .bss.transfer_count
+                0x0000000000000000        0x4 ./release/quark_se/sensor/obj/mailbox.o
+ .text          0x0000000000000000      0x160 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-w_sqrt.o)
+ .data          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-w_sqrt.o)
+ .bss           0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-w_sqrt.o)
+ .rodata        0x0000000000000000        0x8 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-w_sqrt.o)
+ .comment       0x0000000000000000       0x49 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-w_sqrt.o)
+ .text          0x0000000000000000      0x594 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-e_sqrt.o)
+ .data          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-e_sqrt.o)
+ .bss           0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-e_sqrt.o)
+ .rodata        0x0000000000000000       0x10 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-e_sqrt.o)
+ .comment       0x0000000000000000       0x49 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-e_sqrt.o)
+ .text          0x0000000000000000       0xe8 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-s_fpclassify.o)
+ .data          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-s_fpclassify.o)
+ .bss           0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-s_fpclassify.o)
+ .comment       0x0000000000000000       0x49 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-s_fpclassify.o)
+ .text          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-s_lib_ver.o)
+ .data          0x0000000000000000        0x4 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-s_lib_ver.o)
+ .bss           0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-s_lib_ver.o)
+ .comment       0x0000000000000000       0x49 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-s_lib_ver.o)
+ .text          0x0000000000000000       0x58 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-s_matherr.o)
+ .data          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-s_matherr.o)
+ .bss           0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-s_matherr.o)
+ .comment       0x0000000000000000       0x49 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a(lib_a-s_matherr.o)
+ .text          0x0000000000000000       0x18 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a(lib_a-errno.o)
+ .data          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a(lib_a-errno.o)
+ .bss           0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a(lib_a-errno.o)
+ .comment       0x0000000000000000       0x49 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a(lib_a-errno.o)
+ .text          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a(lib_a-impure.o)
+ .data          0x0000000000000000      0x428 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a(lib_a-impure.o)
+ .rodata        0x0000000000000000        0x8 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a(lib_a-impure.o)
+ .comment       0x0000000000000000       0x49 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a(lib_a-memcpy-bs.o)
+ .bss           0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a(lib_a-memcpy-bs.o)
+ .data          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a(lib_a-memset-bs.o)
+ .bss           0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a(lib_a-memset-bs.o)
+ .data          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_st.o)
+ .bss           0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_st.o)
+ .data          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_ld.o)
+ .bss           0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_ld.o)
+ .data          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_ret.o)
+ .bss           0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_ret.o)
+ .text          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .data          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .bss           0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .text._fpadd_parts
+                0x0000000000000000      0x1a0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .text.__addsf3
+                0x0000000000000000       0x44 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .text.__subsf3
+                0x0000000000000000       0x4c c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .text.__mulsf3
+                0x0000000000000000      0x130 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .text.__cmpsf2
+                0x0000000000000000       0x3c c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .text.__eqsf2  0x0000000000000000       0x50 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .text.__nesf2  0x0000000000000000       0x50 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .text.__gtsf2  0x0000000000000000       0x50 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .text.__ltsf2  0x0000000000000000       0x50 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .text.__unordsf2
+                0x0000000000000000       0x44 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .text.__floatunsisf
+                0x0000000000000000       0x88 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .text.__negsf2
+                0x0000000000000000       0x30 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .text          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .data          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .bss           0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .text._fpadd_parts
+                0x0000000000000000      0x314 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .text.__adddf3
+                0x0000000000000000       0x44 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .text.__subdf3
+                0x0000000000000000       0x4c c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .text.__muldf3
+                0x0000000000000000      0x21c c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .text.__divdf3
+                0x0000000000000000      0x17c c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .text.__fpcmp_parts_d
+                0x0000000000000000       0xb0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .text.__cmpdf2
+                0x0000000000000000       0x3c c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .text.__eqdf2  0x0000000000000000       0x50 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .text.__nedf2  0x0000000000000000       0x50 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .text.__gtdf2  0x0000000000000000       0x50 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .text.__gedf2  0x0000000000000000       0x50 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .text.__ltdf2  0x0000000000000000       0x50 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .text.__ledf2  0x0000000000000000       0x50 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .text.__unorddf2
+                0x0000000000000000       0x44 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .text.__floatsidf
+                0x0000000000000000       0xa4 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .text.__floatunsidf
+                0x0000000000000000       0xcc c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .text.__fixdfsi
+                0x0000000000000000       0x84 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .text.__fixunsdfsi
+                0x0000000000000000       0x70 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .text.__negdf2
+                0x0000000000000000       0x34 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .rodata.__thenan_df
+                0x0000000000000000       0x14 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .data          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_clzsi2.o)
+ .bss           0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_clzsi2.o)
+ .text          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_lshrdi3.o)
+ .data          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_lshrdi3.o)
+ .bss           0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_lshrdi3.o)
+ .text          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_ashldi3.o)
+ .data          0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_ashldi3.o)
+ .bss           0x0000000000000000        0x0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_ashldi3.o)
+ .text          0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_flash.o)
+ .data          0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_flash.o)
+ .bss           0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_flash.o)
+ .text.qm_flash_set_config
+                0x0000000000000000       0x2c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_flash.o)
+ .text.qm_flash_word_write
+                0x0000000000000000       0x44 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_flash.o)
+ .text.qm_flash_page_write
+                0x0000000000000000       0x70 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_flash.o)
+ .text.qm_flash_page_update
+                0x0000000000000000       0xe4 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_flash.o)
+ .text.qm_flash_page_erase
+                0x0000000000000000       0x3c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_flash.o)
+ .text.qm_flash_mass_erase
+                0x0000000000000000       0x30 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_flash.o)
+ .text.qm_flash_save_context
+                0x0000000000000000       0x14 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_flash.o)
+ .text.qm_flash_restore_context
+                0x0000000000000000       0x14 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_flash.o)
+ .data.qm_flash
+                0x0000000000000000        0x8 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_flash.o)
+ .comment       0x0000000000000000       0x49 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_flash.o)
+ .text          0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_interrupt.o)
+ .data          0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_interrupt.o)
+ .bss           0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_interrupt.o)
+ .text.qm_irq_disable
+                0x0000000000000000        0x4 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_interrupt.o)
+ .text.qm_irq_enable
+                0x0000000000000000        0x4 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_interrupt.o)
+ .text.qm_irq_lock
+                0x0000000000000000        0x8 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_interrupt.o)
+ .text.qm_irq_unlock
+                0x0000000000000000        0x8 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_interrupt.o)
+ .text.qm_irq_mask
+                0x0000000000000000        0x4 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_interrupt.o)
+ .text.qm_irq_unmask
+                0x0000000000000000        0x4 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_interrupt.o)
+ .text.qm_irq_save_context
+                0x0000000000000000       0x48 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_interrupt.o)
+ .text.qm_irq_restore_context
+                0x0000000000000000       0x50 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_interrupt.o)
+ .text          0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_mailbox_se.o)
+ .data          0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_mailbox_se.o)
+ .bss           0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_mailbox_se.o)
+ .text.qm_mbox_ch_get_status
+                0x0000000000000000       0x14 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_mailbox_se.o)
+ .text          0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .data          0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .bss           0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .text.qm_ss_adc_0_isr
+                0x0000000000000000       0xf4 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .text.qm_ss_adc_0_pwr_isr
+                0x0000000000000000       0x70 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .text.qm_ss_adc_0_cal_isr
+                0x0000000000000000       0x58 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .text.qm_ss_adc_irq_set_mode
+                0x0000000000000000       0x58 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .text.qm_ss_adc_irq_calibrate
+                0x0000000000000000       0x40 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .text.qm_ss_adc_set_calibration
+                0x0000000000000000       0x88 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .text.qm_ss_adc_get_calibration
+                0x0000000000000000       0x18 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .text.qm_ss_adc_convert
+                0x0000000000000000      0x100 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .text.qm_ss_adc_save_context
+                0x0000000000000000       0x38 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .text.qm_ss_adc_restore_context
+                0x0000000000000000       0x2c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .bss.mode_callback
+                0x0000000000000000        0x4 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .bss.requested_mode
+                0x0000000000000000        0x4 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .bss.mode_callback_data
+                0x0000000000000000        0x4 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .bss.cal_callback_data
+                0x0000000000000000        0x4 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .bss.cal_callback
+                0x0000000000000000        0x4 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .text          0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(ss_clk.o)
+ .data          0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(ss_clk.o)
+ .bss           0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(ss_clk.o)
+ .text.ss_clk_gpio_disable
+                0x0000000000000000       0x20 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(ss_clk.o)
+ .text.ss_clk_spi_enable
+                0x0000000000000000       0x20 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(ss_clk.o)
+ .text.ss_clk_spi_disable
+                0x0000000000000000       0x20 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(ss_clk.o)
+ .text.ss_clk_i2c_enable
+                0x0000000000000000       0x20 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(ss_clk.o)
+ .text.ss_clk_i2c_disable
+                0x0000000000000000       0x20 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(ss_clk.o)
+ .text.ss_clk_adc_disable
+                0x0000000000000000       0x18 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(ss_clk.o)
+ .text          0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_gpio.o)
+ .data          0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_gpio.o)
+ .bss           0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_gpio.o)
+ .text.ss_gpio_isr_handler
+                0x0000000000000000       0x3c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_gpio.o)
+ .text.qm_ss_gpio_0_isr
+                0x0000000000000000       0x1c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_gpio.o)
+ .text.qm_ss_gpio_1_isr
+                0x0000000000000000       0x1c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_gpio.o)
+ .text.qm_ss_gpio_read_pin
+                0x0000000000000000       0x1c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_gpio.o)
+ .text.qm_ss_gpio_set_pin_state
+                0x0000000000000000       0x28 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_gpio.o)
+ .text.qm_ss_gpio_read_port
+                0x0000000000000000       0x14 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_gpio.o)
+ .text.qm_ss_gpio_write_port
+                0x0000000000000000       0x10 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_gpio.o)
+ .text.qm_ss_gpio_save_context
+                0x0000000000000000       0x4c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_gpio.o)
+ .text.qm_ss_gpio_restore_context
+                0x0000000000000000       0x54 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_gpio.o)
+ .text          0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_interrupt.o)
+ .data          0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_interrupt.o)
+ .bss           0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_interrupt.o)
+ .text.qm_ss_irq_disable
+                0x0000000000000000        0x8 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_interrupt.o)
+ .text.qm_ss_irq_enable
+                0x0000000000000000        0x8 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_interrupt.o)
+ .text.qm_ss_irq_mask
+                0x0000000000000000       0x10 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_interrupt.o)
+ .text          0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_pinmux.o)
+ .data          0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_pinmux.o)
+ .bss           0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_pinmux.o)
+ .text.qm_pmux_set_slew
+                0x0000000000000000       0x28 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_pinmux.o)
+ .text.qm_pmux_pullup_en
+                0x0000000000000000       0x2c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_pinmux.o)
+ .text          0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .data          0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .bss           0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.uart_client_callback
+                0x0000000000000000       0x50 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.uart_dma_callback
+                0x0000000000000000       0x5c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.qm_uart_isr_handler
+                0x0000000000000000      0x178 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.qm_uart_0_isr
+                0x0000000000000000       0x1c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.qm_uart_1_isr
+                0x0000000000000000       0x1c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.qm_uart_set_config
+                0x0000000000000000       0x50 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.qm_uart_get_status
+                0x0000000000000000       0x34 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.qm_uart_read
+                0x0000000000000000       0x28 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.qm_uart_write_non_block
+                0x0000000000000000       0x10 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.qm_uart_read_non_block
+                0x0000000000000000       0x10 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.qm_uart_write_buffer
+                0x0000000000000000       0x28 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.qm_uart_irq_write
+                0x0000000000000000       0x2c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.qm_uart_irq_read
+                0x0000000000000000       0x30 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.qm_uart_irq_write_terminate
+                0x0000000000000000       0x3c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.qm_uart_irq_read_terminate
+                0x0000000000000000       0x3c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.qm_uart_dma_channel_config
+                0x0000000000000000       0x84 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.qm_uart_dma_write
+                0x0000000000000000       0x64 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.qm_uart_dma_read
+                0x0000000000000000       0x64 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.qm_uart_dma_write_terminate
+                0x0000000000000000       0x18 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.qm_uart_dma_read_terminate
+                0x0000000000000000       0x18 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.qm_uart_save_context
+                0x0000000000000000       0x3c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text.qm_uart_restore_context
+                0x0000000000000000       0x40 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .bss.dma_context_rx
+                0x0000000000000000       0x10 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .bss.uart_write_transfer
+                0x0000000000000000        0x8 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .bss.dma_context_tx
+                0x0000000000000000       0x10 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .bss.uart_read_transfer
+                0x0000000000000000        0x8 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .bss.dma_delayed_callback_par
+                0x0000000000000000       0x18 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .bss.read_pos  0x0000000000000000        0x8 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .bss.dma_core  0x0000000000000000        0x8 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .bss.write_pos
+                0x0000000000000000        0x8 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+ .text          0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .data          0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .bss           0x0000000000000000        0x0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.dma_linked_list_init
+                0x0000000000000000       0xac ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.dma_channel_disable
+                0x0000000000000000       0xb4 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.qm_dma_isr_handler.constprop.2
+                0x0000000000000000       0xd4 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.qm_dma_0_error_isr
+                0x0000000000000000       0x7c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.qm_dma_0_isr_0
+                0x0000000000000000       0x1c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.qm_dma_0_isr_1
+                0x0000000000000000       0x1c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.qm_dma_0_isr_2
+                0x0000000000000000       0x1c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.qm_dma_0_isr_3
+                0x0000000000000000       0x1c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.qm_dma_0_isr_4
+                0x0000000000000000       0x1c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.qm_dma_0_isr_5
+                0x0000000000000000       0x1c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.qm_dma_0_isr_6
+                0x0000000000000000       0x1c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.qm_dma_0_isr_7
+                0x0000000000000000       0x1c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.qm_dma_init
+                0x0000000000000000       0x98 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.qm_dma_channel_set_config
+                0x0000000000000000      0x2a4 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.qm_dma_transfer_set_config
+                0x0000000000000000       0x2c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.qm_dma_multi_transfer_set_config
+                0x0000000000000000       0xdc ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.qm_dma_transfer_start
+                0x0000000000000000       0x60 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.qm_dma_transfer_terminate
+                0x0000000000000000       0x94 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.qm_dma_transfer_mem_to_mem
+                0x0000000000000000       0x2c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.qm_dma_save_context
+                0x0000000000000000       0x3c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .text.qm_dma_restore_context
+                0x0000000000000000       0x38 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .bss.dma_channel_config
+                0x0000000000000000       0xa0 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .data.qm_dma   0x0000000000000000        0x4 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+ .comment       0x0000000000000000       0x49 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_dma.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash0           0x0000000040000000 0x0000000000030000 r
+flash1           0x0000000040030000 0x0000000000030000 r
+x86_esram        0x00000000a800a000 0x00000000000099e0 rw
+x86_stack        0x00000000a80139e0 0x00000000000003dc rw
+x86_esram_idt    0x00000000a8013dbc 0x0000000000000220 rw
+esram_restore_info 0x00000000a8013fdc 0x0000000000000004 rw
+esram_gdt        0x00000000a8013fe0 0x0000000000000020 rw
+sensor_ivt       0x00000000a8000000 0x0000000000000110 rw
+sensor_ivt_padding 0x00000000a8000110 0x00000000000002f0 rw
+sensor_esram     0x00000000a8000400 0x0000000000009800 rw
+sensor_stack     0x00000000a8009c00 0x0000000000000400 rw
+sensor_flash     0x0000000040000000 0x000000000002f000 r
+bl_data          0x000000004002f000 0x0000000000001000 r
+x86_flash        0x0000000040030000 0x0000000000030000 r
+dccm             0x0000000080000000 0x0000000000002000 rw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x00000000a8013dbc                __idt_start = ORIGIN (x86_esram_idt)
+                0x00000000a8013fdc                __idt_end = (__idt_start + LENGTH (x86_esram_idt))
+                0x00000000a8013fdc                __x86_restore_info = ORIGIN (esram_restore_info)
+                0x00000000a8013fe0                __x86_restore_info_end = (__x86_restore_info + LENGTH (esram_restore_info))
+                0x00000000a8013fe0                __gdt_start = ORIGIN (esram_gdt)
+                0x00000000a8014000                __gdt_end = (__gdt_start + LENGTH (esram_gdt))
+                0x0000000040000000                __sensor_flash_start = ORIGIN (sensor_flash)
+                0x0000000040030000                __x86_flash_start = ORIGIN (x86_flash)
+                0x000000004002f000                __bl_data_start = ORIGIN (bl_data)
+                0x00000000a8000000                __ivt_vect_table = ORIGIN (sensor_ivt)
+                0x00000000a800a000                __stack_start = (ORIGIN (sensor_stack) + LENGTH (sensor_stack))
+
+.text           0x0000000040000000     0x1a3c
+ *(.text.entry)
+ .text.entry    0x0000000040000000       0x44 ./release/quark_se/sensor/obj/startup.s.o
+                0x0000000040000004                _reset
+ *(.text)
+ .text          0x0000000040000044       0x80 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a(lib_a-memcpy-bs.o)
+                0x0000000040000044                memcpy
+ .text          0x00000000400000c4       0x6c c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a(lib_a-memset-bs.o)
+                0x00000000400000c4                memset
+                0x0000000040000118                __strncpy_bzero
+ .text          0x0000000040000130       0x30 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_st.o)
+                0x0000000040000130                __st_r13_to_r25
+                0x0000000040000134                __st_r13_to_r24
+                0x0000000040000138                __st_r13_to_r23
+                0x000000004000013c                __st_r13_to_r22
+                0x0000000040000140                __st_r13_to_r21
+                0x0000000040000144                __st_r13_to_r20
+                0x0000000040000148                __st_r13_to_r19
+                0x000000004000014c                __st_r13_to_r18
+                0x0000000040000150                __st_r13_to_r17
+                0x0000000040000154                __st_r13_to_r16
+                0x0000000040000158                __st_r13_to_r15
+ .text          0x0000000040000160       0x30 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_ld.o)
+                0x0000000040000160                __ld_r13_to_r25
+                0x0000000040000164                __ld_r13_to_r24
+                0x0000000040000168                __ld_r13_to_r23
+                0x000000004000016c                __ld_r13_to_r22
+                0x0000000040000170                __ld_r13_to_r21
+                0x0000000040000174                __ld_r13_to_r20
+                0x0000000040000178                __ld_r13_to_r19
+                0x000000004000017c                __ld_r13_to_r18
+                0x0000000040000180                __ld_r13_to_r17
+                0x0000000040000184                __ld_r13_to_r16
+                0x0000000040000188                __ld_r13_to_r15
+ .text          0x0000000040000190       0x3c c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_ret.o)
+                0x0000000040000190                __ld_r13_to_r25_ret
+                0x0000000040000194                __ld_r13_to_r24_ret
+                0x0000000040000198                __ld_r13_to_r23_ret
+                0x000000004000019c                __ld_r13_to_r22_ret
+                0x00000000400001a0                __ld_r13_to_r21_ret
+                0x00000000400001a4                __ld_r13_to_r20_ret
+                0x00000000400001a8                __ld_r13_to_r19_ret
+                0x00000000400001ac                __ld_r13_to_r18_ret
+                0x00000000400001b0                __ld_r13_to_r17_ret
+                0x00000000400001b4                __ld_r13_to_r16_ret
+                0x00000000400001b8                __ld_r13_to_r15_ret
+                0x00000000400001bc                __ld_r13_to_r14_ret
+ .text          0x00000000400001cc       0x30 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_clzsi2.o)
+                0x00000000400001cc                __clzsi2
+ *(.text.last)
+ *(.text.*)
+ .text.mailbox_cb
+                0x00000000400001fc        0xc ./release/quark_se/sensor/obj/./main.o
+                0x00000000400001fc                mailbox_cb
+ .text.startup.main
+                0x0000000040000208       0x5c ./release/quark_se/sensor/obj/./main.o
+                0x0000000040000208                main
+ .text._start   0x0000000040000264       0x34 ./release/quark_se/sensor/obj/./app_entry.o
+                0x0000000040000264                _start
+ .text.putuint  0x0000000040000298       0x60 ./release/quark_se/sensor/obj/./newlib-syscalls.o
+ .text.pico_printf
+                0x00000000400002f8      0x10c ./release/quark_se/sensor/obj/./newlib-syscalls.o
+                0x00000000400002f8                pico_printf
+ .text.irq_dummy_routine
+                0x0000000040000404        0x4 ./release/quark_se/sensor/obj/init.o
+ .text.sensor_init
+                0x0000000040000408       0x70 ./release/quark_se/sensor/obj/init.o
+                0x0000000040000408                sensor_init
+ .text.clk_sys_get_ticks_per_us
+                0x0000000040000478        0xc ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+                0x0000000040000478                clk_sys_get_ticks_per_us
+ .text.clk_sys_udelay
+                0x0000000040000484       0x1c ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+                0x0000000040000484                clk_sys_udelay
+ .text._qm_ir_unmask_int
+                0x00000000400004a0       0x4c ./bsp/soc/quark_se/release/quark_se/sensor/obj/qm_interrupt_router.o
+                0x00000000400004a0                _qm_ir_unmask_int
+ .text._qm_ir_mask_int
+                0x00000000400004ec       0x50 ./bsp/soc/quark_se/release/quark_se/sensor/obj/qm_interrupt_router.o
+                0x00000000400004ec                _qm_ir_mask_int
+ .text.sensor_420ma_init
+                0x000000004000053c       0x1c ./release/quark_se/sensor/obj/420ma_sensor.o
+                0x000000004000053c                sensor_420ma_init
+ .text.get_420ma_sensor
+                0x0000000040000558       0x70 ./release/quark_se/sensor/obj/420ma_sensor.o
+                0x0000000040000558                get_420ma_sensor
+ .text.batt_level_adc_init
+                0x00000000400005c8       0x1c ./release/quark_se/sensor/obj/battery_level.o
+                0x00000000400005c8                batt_level_adc_init
+ .text.get_battery_level
+                0x00000000400005e4       0x58 ./release/quark_se/sensor/obj/battery_level.o
+                0x00000000400005e4                get_battery_level
+ .text.transfer_cb
+                0x000000004000063c       0x10 ./release/quark_se/sensor/obj/adc.o
+                0x000000004000063c                transfer_cb
+ .text.adc_0_continuous_isr
+                0x000000004000064c       0xb0 ./release/quark_se/sensor/obj/adc.o
+ .text.wait_for_samples
+                0x00000000400006fc       0xac ./release/quark_se/sensor/obj/adc.o
+                0x00000000400006fc                wait_for_samples
+ .text.start_irq_conversion
+                0x00000000400007a8       0x34 ./release/quark_se/sensor/obj/adc.o
+                0x00000000400007a8                start_irq_conversion
+ .text.pin_mux_setup
+                0x00000000400007dc       0x1c ./release/quark_se/sensor/obj/adc.o
+                0x00000000400007dc                pin_mux_setup
+ .text.setup_adc
+                0x00000000400007f8       0x74 ./release/quark_se/sensor/obj/adc.o
+                0x00000000400007f8                setup_adc
+ .text.adc_init
+                0x000000004000086c       0x38 ./release/quark_se/sensor/obj/adc.o
+                0x000000004000086c                adc_init
+ .text.adc_deinit
+                0x00000000400008a4       0x34 ./release/quark_se/sensor/obj/adc.o
+                0x00000000400008a4                adc_deinit
+ .text.gpio_init
+                0x00000000400008d8       0x64 ./release/quark_se/sensor/obj/gpio.o
+                0x00000000400008d8                gpio_init
+ .text.charge_en
+                0x000000004000093c       0x30 ./release/quark_se/sensor/obj/gpio.o
+                0x000000004000093c                charge_en
+ .text.send_quark_data
+                0x000000004000096c       0x6c ./release/quark_se/sensor/obj/mailbox.o
+                0x000000004000096c                send_quark_data
+ .text.__pack_f
+                0x00000000400009d8       0xf8 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+                0x00000000400009d8                __pack_f
+ .text.__unpack_f
+                0x0000000040000ad0       0x80 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+                0x0000000040000ad0                __unpack_f
+ .text.__divsf3
+                0x0000000040000b50      0x100 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+                0x0000000040000b50                __divsf3
+ .text.__fpcmp_parts_f
+                0x0000000040000c50       0x94 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+                0x0000000040000c50                __fpcmp_parts_f
+ .text.__gesf2  0x0000000040000ce4       0x50 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+                0x0000000040000ce4                __gesf2
+ .text.__lesf2  0x0000000040000d34       0x50 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+                0x0000000040000d34                __lesf2
+ .text.__floatsisf
+                0x0000000040000d84       0x80 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+                0x0000000040000d84                __floatsisf
+ .text.__fixsfsi
+                0x0000000040000e04       0x6c c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+                0x0000000040000e04                __fixsfsi
+ .text.__make_fp
+                0x0000000040000e70       0x20 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+                0x0000000040000e70                __make_fp
+ .text.__extendsfdf2
+                0x0000000040000e90       0x38 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+                0x0000000040000e90                __extendsfdf2
+ .text.__pack_d
+                0x0000000040000ec8      0x1a4 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+                0x0000000040000ec8                __pack_d
+ .text.__unpack_d
+                0x000000004000106c       0xb4 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+                0x000000004000106c                __unpack_d
+ .text.__make_dp
+                0x0000000040001120       0x24 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+                0x0000000040001120                __make_dp
+ .text.__truncdfsf2
+                0x0000000040001144       0x48 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+                0x0000000040001144                __truncdfsf2
+ .text.__lshrdi3
+                0x000000004000118c       0x2c c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_lshrdi3.o)
+                0x000000004000118c                __lshrdi3
+ .text.__ashldi3
+                0x00000000400011b8       0x28 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_ashldi3.o)
+                0x00000000400011b8                __ashldi3
+ .text._qm_irq_setup
+                0x00000000400011e0       0x28 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_interrupt.o)
+                0x00000000400011e0                _qm_irq_setup
+ .text._qm_register_isr
+                0x0000000040001208       0x18 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_interrupt.o)
+                0x0000000040001208                _qm_register_isr
+ .text.qm_mailbox_0_isr
+                0x0000000040001220       0x7c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_mailbox_se.o)
+                0x0000000040001220                qm_mailbox_0_isr
+ .text.qm_mbox_ch_set_config
+                0x000000004000129c       0xc4 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_mailbox_se.o)
+                0x000000004000129c                qm_mbox_ch_set_config
+ .text.qm_mbox_ch_write
+                0x0000000040001360       0x30 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_mailbox_se.o)
+                0x0000000040001360                qm_mbox_ch_write
+ .text.qm_mbox_ch_read
+                0x0000000040001390       0x50 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_mailbox_se.o)
+                0x0000000040001390                qm_mbox_ch_read
+ .text.disable_adc
+                0x00000000400013e0       0x14 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .text.enable_adc
+                0x00000000400013f4       0x14 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .text.dummy_conversion
+                0x0000000040001408       0xc8 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .text.setup_seq_table
+                0x00000000400014d0       0xc8 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .text.qm_ss_adc_0_error_isr
+                0x0000000040001598       0xcc ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+                0x0000000040001598                qm_ss_adc_0_error_isr
+ .text.qm_ss_adc_set_config
+                0x0000000040001664       0x34 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+                0x0000000040001664                qm_ss_adc_set_config
+ .text.qm_ss_adc_set_mode
+                0x0000000040001698       0x90 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+                0x0000000040001698                qm_ss_adc_set_mode
+ .text.qm_ss_adc_calibrate
+                0x0000000040001728       0x98 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+                0x0000000040001728                qm_ss_adc_calibrate
+ .text.qm_ss_adc_irq_convert
+                0x00000000400017c0       0xa4 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+                0x00000000400017c0                qm_ss_adc_irq_convert
+ .text.ss_clk_gpio_enable
+                0x0000000040001864       0x20 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(ss_clk.o)
+                0x0000000040001864                ss_clk_gpio_enable
+ .text.ss_clk_adc_enable
+                0x0000000040001884       0x18 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(ss_clk.o)
+                0x0000000040001884                ss_clk_adc_enable
+ .text.ss_clk_adc_set_div
+                0x000000004000189c       0x1c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(ss_clk.o)
+                0x000000004000189c                ss_clk_adc_set_div
+ .text.qm_ss_gpio_set_config
+                0x00000000400018b8       0x74 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_gpio.o)
+                0x00000000400018b8                qm_ss_gpio_set_config
+ .text.qm_ss_gpio_set_pin
+                0x000000004000192c       0x1c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_gpio.o)
+                0x000000004000192c                qm_ss_gpio_set_pin
+ .text.qm_ss_gpio_clear_pin
+                0x0000000040001948       0x24 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_gpio.o)
+                0x0000000040001948                qm_ss_gpio_clear_pin
+ .text.qm_ss_irq_unmask
+                0x000000004000196c       0x10 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_interrupt.o)
+                0x000000004000196c                qm_ss_irq_unmask
+ .text.qm_ss_int_vector_request
+                0x000000004000197c       0x18 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_interrupt.o)
+                0x000000004000197c                qm_ss_int_vector_request
+ .text.qm_ss_irq_request
+                0x0000000040001994       0x34 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_interrupt.o)
+                0x0000000040001994                qm_ss_irq_request
+ .text.qm_pmux_select
+                0x00000000400019c8       0x2c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_pinmux.o)
+                0x00000000400019c8                qm_pmux_select
+ .text.qm_pmux_input_en
+                0x00000000400019f4       0x2c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_pinmux.o)
+                0x00000000400019f4                qm_pmux_input_en
+ .text.qm_uart_write
+                0x0000000040001a20       0x1c ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+                0x0000000040001a20                qm_uart_write
+
+.rodata         0x0000000040001a3c       0x5c
+ *(.rdata*)
+ *(.rodata*)
+ .rodata.str1.4
+                0x0000000040001a3c       0x44 ./release/quark_se/sensor/obj/mailbox.o
+ .rodata.__thenan_sf
+                0x0000000040001a80       0x10 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+                0x0000000040001a80                __thenan_sf
+ .rodata.gpio_base
+                0x0000000040001a90        0x8 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_gpio.o)
+
+.data           0x00000000a8000400       0x14 load address 0x0000000040001a98
+ *(.data*)
+ .data.entry    0x00000000a8000400        0x4 ./release/quark_se/sensor/obj/startup.s.o
+                0x00000000a8000400                arc_restore_addr
+ .data.ticks_per_us
+                0x00000000a8000404        0x4 ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+ .data.ignore_spurious_interrupt
+                0x00000000a8000408        0x1 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ *fill*         0x00000000a8000409        0x3 
+ .data.qm_uart  0x00000000a800040c        0x8 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+                0x00000000a800040c                qm_uart
+
+.bss            0x00000000a8000414      0x314
+ *(.bss*)
+ .bss.cb_fired  0x00000000a8000414        0x1 ./release/quark_se/sensor/obj/./main.o
+                0x00000000a8000414                cb_fired
+ .bss.format_buf.3202
+                0x00000000a8000415       0x20 ./release/quark_se/sensor/obj/./newlib-syscalls.o
+ *fill*         0x00000000a8000435        0x1 
+ .bss.adc_buffer
+                0x00000000a8000436      0x200 ./release/quark_se/sensor/obj/adc.o
+ .bss.acq_error
+                0x00000000a8000636        0x1 ./release/quark_se/sensor/obj/adc.o
+ *fill*         0x00000000a8000637        0x1 
+ .bss.rb        0x00000000a8000638       0x14 ./release/quark_se/sensor/obj/adc.o
+ .bss.samples   0x00000000a800064c        0xa ./release/quark_se/sensor/obj/adc.o
+ *fill*         0x00000000a8000656        0x2 
+ .bss.mailbox_devs
+                0x00000000a8000658       0x80 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_mailbox_se.o)
+ .bss.count     0x00000000a80006d8        0x4 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .bss.resolution
+                0x00000000a80006dc        0x4 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .bss.sample_window
+                0x00000000a80006e0        0x1 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ *fill*         0x00000000a80006e1        0x3 
+ .bss.irq_xfer  0x00000000a80006e4        0x4 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .bss.callback_data
+                0x00000000a80006e8        0x8 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_gpio.o)
+ .bss.callback  0x00000000a80006f0        0x8 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_gpio.o)
+ *(COMMON)
+ COMMON         0x00000000a80006f8       0x30 ./release/quark_se/sensor/obj/mailbox.o
+                0x00000000a80006f8                mbox_rx
+                0x00000000a80006fc                mbox_tx
+                0x00000000a8000700                rx_data
+                0x00000000a8000714                tx_data
+                0x0000000040001a98                __data_lma = LOADADDR (.data)
+                0x00000000a8000400                __data_vma = ADDR (.data)
+                0x0000000000000014                __data_size = SIZEOF (.data)
+                0x00000000a8000414                __bss_start = ADDR (.bss)
+                0x0000000000000314                __bss_size = SIZEOF (.bss)
+                0x00000000a8000728                __heap = .
+                0x00000000a8009c00                __heap_end = ORIGIN (sensor_stack)
+
+.comment        0x0000000000000000       0x48
+ *(.comment)
+ .comment       0x0000000000000000       0x48 ./release/quark_se/sensor/obj/./main.o
+                                         0x49 (size before relaxing)
+ .comment       0x0000000000000048       0x49 ./release/quark_se/sensor/obj/./app_entry.o
+ .comment       0x0000000000000048       0x49 ./release/quark_se/sensor/obj/./newlib-syscalls.o
+ .comment       0x0000000000000048       0x49 ./release/quark_se/sensor/obj/init.o
+ .comment       0x0000000000000048       0x49 ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+ .comment       0x0000000000000048       0x49 ./bsp/soc/quark_se/release/quark_se/sensor/obj/qm_interrupt_router.o
+ .comment       0x0000000000000048       0x49 ./release/quark_se/sensor/obj/420ma_sensor.o
+ .comment       0x0000000000000048       0x49 ./release/quark_se/sensor/obj/battery_level.o
+ .comment       0x0000000000000048       0x49 ./release/quark_se/sensor/obj/adc.o
+ .comment       0x0000000000000048       0x49 ./release/quark_se/sensor/obj/gpio.o
+ .comment       0x0000000000000048       0x49 ./release/quark_se/sensor/obj/mailbox.o
+ .comment       0x0000000000000048       0x49 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .comment       0x0000000000000048       0x49 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .comment       0x0000000000000048       0x49 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_lshrdi3.o)
+ .comment       0x0000000000000048       0x49 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_ashldi3.o)
+ .comment       0x0000000000000048       0x49 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_interrupt.o)
+ .comment       0x0000000000000048       0x49 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_mailbox_se.o)
+ .comment       0x0000000000000048       0x49 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_adc.o)
+ .comment       0x0000000000000048       0x49 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(ss_clk.o)
+ .comment       0x0000000000000048       0x49 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_gpio.o)
+ .comment       0x0000000000000048       0x49 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_ss_interrupt.o)
+ .comment       0x0000000000000048       0x49 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_pinmux.o)
+ .comment       0x0000000000000048       0x49 ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a(qm_uart.o)
+LOAD ./release/quark_se/sensor/obj/./main.o
+LOAD ./release/quark_se/sensor/obj/./app_entry.o
+LOAD ./release/quark_se/sensor/obj/./newlib-syscalls.o
+LOAD ./release/quark_se/sensor/obj/init.o
+LOAD ./release/quark_se/sensor/obj/startup.s.o
+LOAD ./bsp/soc/quark_se/release/quark_se/sensor/obj/clk.o
+LOAD ./bsp/soc/quark_se/release/quark_se/sensor/obj/power_states.o
+LOAD ./bsp/soc/quark_se/release/quark_se/sensor/obj/qm_interrupt_router.o
+LOAD ./bsp/soc/quark_se/release/quark_se/sensor/obj/ss_power_states.o
+LOAD ./bsp/soc/quark_se/release/quark_se/sensor/obj/vreg.o
+LOAD ./release/quark_se/sensor/obj/420ma_sensor.o
+LOAD ./release/quark_se/sensor/obj/battery_level.o
+LOAD ./release/quark_se/sensor/obj/soil_ec_ae0001.o
+LOAD ./release/quark_se/sensor/obj/soil_moisture_ae0001.o
+LOAD ./release/quark_se/sensor/obj/soil_ph_sen0169.o
+LOAD ./release/quark_se/sensor/obj/temp_atlas_pt1000.o
+LOAD ./release/quark_se/sensor/obj/vin_level.o
+LOAD ./release/quark_se/sensor/obj/water_level_hpt604.o
+LOAD ./release/quark_se/sensor/obj/adc.o
+LOAD ./release/quark_se/sensor/obj/gpio.o
+LOAD ./release/quark_se/sensor/obj/mailbox.o
+LOAD c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libm.a
+START GROUP
+LOAD c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5/../../../../arc-elf32/lib\libc.a
+LOAD c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a
+LOAD ./bsp/build/release/quark_se/sensor/libqmsi/lib\libqmsi_quark_se_1.4.0.a
+END GROUP
+OUTPUT(./release/quark_se/sensor/obj/sensor_hub_ss_108.elf elf32-littlearc)
+
+.debug_line     0x0000000000000000      0xc94
+ .debug_line    0x0000000000000000       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_st.o)
+ .debug_line    0x000000000000006f       0x6f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_ld.o)
+ .debug_line    0x00000000000000de       0x71 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_ret.o)
+ .debug_line    0x000000000000014f      0x4a5 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .debug_line    0x00000000000005f4      0x54e c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .debug_line    0x0000000000000b42       0x70 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_clzsi2.o)
+ .debug_line    0x0000000000000bb2       0x71 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_lshrdi3.o)
+ .debug_line    0x0000000000000c23       0x71 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_ashldi3.o)
+
+.debug_info     0x0000000000000000     0x2b4b
+ .debug_info    0x0000000000000000       0x90 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_st.o)
+ .debug_info    0x0000000000000090       0x90 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_ld.o)
+ .debug_info    0x0000000000000120       0x90 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_ret.o)
+ .debug_info    0x00000000000001b0     0x1240 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .debug_info    0x00000000000013f0     0x1389 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .debug_info    0x0000000000002779       0x90 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_clzsi2.o)
+ .debug_info    0x0000000000002809      0x1a0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_lshrdi3.o)
+ .debug_info    0x00000000000029a9      0x1a2 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_ashldi3.o)
+
+.debug_abbrev   0x0000000000000000      0x93b
+ .debug_abbrev  0x0000000000000000       0x14 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_st.o)
+ .debug_abbrev  0x0000000000000014       0x14 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_ld.o)
+ .debug_abbrev  0x0000000000000028       0x14 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_ret.o)
+ .debug_abbrev  0x000000000000003c      0x372 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .debug_abbrev  0x00000000000003ae      0x388 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .debug_abbrev  0x0000000000000736       0x14 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x000000000000074a       0xf1 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_lshrdi3.o)
+ .debug_abbrev  0x000000000000083b      0x100 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_ashldi3.o)
+
+.debug_aranges  0x0000000000000000      0x258
+ .debug_aranges
+                0x0000000000000000       0x20 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_st.o)
+ .debug_aranges
+                0x0000000000000020       0x20 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_ld.o)
+ .debug_aranges
+                0x0000000000000040       0x20 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_millicodethunk_ret.o)
+ .debug_aranges
+                0x0000000000000060       0xc8 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .debug_aranges
+                0x0000000000000128       0xd0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .debug_aranges
+                0x00000000000001f8       0x20 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x0000000000000218       0x20 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_lshrdi3.o)
+ .debug_aranges
+                0x0000000000000238       0x20 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_ashldi3.o)
+
+.debug_loc      0x0000000000000000     0x2868
+ .debug_loc     0x0000000000000000     0x1185 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .debug_loc     0x0000000000001185     0x1539 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .debug_loc     0x00000000000026be       0xd9 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_lshrdi3.o)
+ .debug_loc     0x0000000000002797       0xd1 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_ashldi3.o)
+
+.debug_ranges   0x0000000000000000      0x3d0
+ .debug_ranges  0x0000000000000000      0x1a8 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .debug_ranges  0x00000000000001a8      0x208 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .debug_ranges  0x00000000000003b0       0x10 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_lshrdi3.o)
+ .debug_ranges  0x00000000000003c0       0x10 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_ashldi3.o)
+
+.debug_str      0x0000000000000000      0x574
+ .debug_str     0x0000000000000000      0x3d5 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+                                        0x422 (size before relaxing)
+ .debug_str     0x00000000000003d5      0x11f c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+                                        0x45d (size before relaxing)
+ .debug_str     0x00000000000004f4       0x76 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_lshrdi3.o)
+                                        0x201 (size before relaxing)
+ .debug_str     0x000000000000056a        0xa c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_ashldi3.o)
+                                        0x201 (size before relaxing)
+
+.debug_frame    0x0000000000000000      0x750
+ .debug_frame   0x0000000000000000      0x340 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(fp-bit.o)
+ .debug_frame   0x0000000000000340      0x3d0 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(dp-bit.o)
+ .debug_frame   0x0000000000000710       0x20 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_lshrdi3.o)
+ .debug_frame   0x0000000000000730       0x20 c:/intelswtools/issm_2016.2.094/tools/compiler/gcc-arc/4.8.5/bin/../lib/gcc/arc-elf32/4.8.5\libgcc.a(_ashldi3.o)

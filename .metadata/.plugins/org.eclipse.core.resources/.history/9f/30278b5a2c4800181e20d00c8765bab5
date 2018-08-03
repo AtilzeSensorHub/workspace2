@@ -1,0 +1,76 @@
+/*
+ Copyright (c) 2017, Atilze Digital Sdn. Bhd.
+
+ Atilze Sensor Hub
+ This is the main file for Atilze Sensor Hub.
+
+ Version   : 1.06
+ Author    : Khoo Boon Kien / Tan Han Wei
+ File Name : main.c
+
+ History:
+   1.00 BK 18-Aug-17 Initial
+   1.01 BK 02-Nov-17 Reorganise the entire structure
+   1.02 BK 13-Nov-17 Rename the sensors
+   1.03 HW 22-Nov-17 Added in battery monitoring "if statement". If below 3.2v, go to sleep.
+   1.04 HW 16-Dec-17 To adapt Rev2 PCB. Changes on temp_rh_sht10.c. Added arduino enable pin 22
+   1.05 HW 31-Dec-17 Added re-initialize gpio_init after sht10. Created e-ladang0,float switches,
+   	   	   	   	   	 measure input solar voltage, reset charging timer, pump A&B status input.
+   1.06 BK 09-Jan-18 Added 3G library.
+   1.07 BK 02-Mar-18 Added authentication for 3G HTTP request/response.
+ */
+
+#include "main.h"
+#include "clk.h"
+#include "qm_uart.h"
+#include <x86intrin.h>
+#include "sensor_hub_lib/system/radio.h"
+#include "sensor_hub_lib/system/mailbox.h"
+#include "sensor_hub_lib/system/xbee.h"
+#include "sensor_hub_lib/system/sensor.h"
+#include "sensor_hub_lib/system/gpio.h"
+#include "sensor_hub_lib/system/power.h"
+#include "sensor_hub_lib/system/debug_mode.h"
+
+//added by azwan starts
+
+//ends
+
+int main(void)
+{
+	//==============================//
+	//       Initialisations        //
+	//==============================//
+    // Initialisations
+	static qm_uart_status_t uart0_status __attribute__((unused)) = 0;
+	static qm_uart_status_t uart1_status __attribute__((unused)) = 0;
+
+	qm_uart_config_t uart0_cfg;         // UART0
+	qm_uart_config_t uart1_cfg;         // UART1
+	static qm_gpio_port_config_t cfg;   // GPIO
+	static qm_gpio_port_config_t cfg0;  // AON GPIO
+
+	sensors_init(uart1_cfg);            // Initialise UART1 (for sensor)
+	gpio_init(cfg, cfg0);               // Initialise GPIO
+	mailbox_init();                     // Initialise Mailbox
+	xbee_init(uart0_cfg);               // Initialise UART0 (for XBee)
+	
+	
+
+	// Debug mode
+	
+
+	//==============================//
+	//          Main Loop           //
+	//==============================//
+	while (1)
+	{
+
+		QM_PUTS("hello world");
+
+	}
+
+	SOC_WATCH_TRIGGER_FLUSH();
+
+	return 0;
+}
